@@ -1,0 +1,31 @@
+.body{
+    height:100%;
+    width:100%;
+    /*display:flex;*/
+}
+.navigation-container {
+    /*display:flex;*/
+    float:right;
+    height:60px;
+    border:solid 1px black;
+
+}
+.text-container {
+    float:right;
+    vertical-align: middle;
+    display:flex;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+
+}
+
+.image-container {
+    float:right;
+
+}
+
+.menu-app{
+    width:"500";
+    height:"350" ;
+}
