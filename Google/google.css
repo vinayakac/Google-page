@@ -1,0 +1,89 @@
+div {
+    border: 1px solid red
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.page-container {
+    background: #ffff;
+    font-family: arial,sans-serif;
+}
+
+.header-container {
+    height: 60px
+}
+
+.header-body {
+    float: right;
+    display: flex
+}
+
+
+
+.header-labels {
+    display: flex;
+    height: 48px;
+    width: 48px;
+    padding: 6px;
+    margin: 3px;
+    align-items: center;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+}
+.header-label{
+    width: 33.9531px;
+    height: 24px;
+    color: #000;
+    font-size:13px;
+    margin-top:10px;
+    font-weight: 300;
+    display: inline-block;
+    font-stretch: 100%;
+    font-style: normal;
+    font-family: arial,sans-serif;
+    cursor: pointer;
+    line-height: 24px;
+    text-decoration-color: rgba(0, o, 0, 0.87);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.app-icon{
+    height: 40px;
+    width: 40px;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-family: Roboto,arial,sans-serif;
+    font-size:13px;
+    font-weight: 400;
+    line-height: normal;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 4px;
+}
+.header-profile-pic {
+    justify-content: center;
+    border-radius: 100px;
+    height: 40px;
+    width: 40px;
+    background: #ffff;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-bottom:4px;
+    padding-right: 4px;
+    flex-grow: 0;
+    flex-basis: auto;
+    flex-shrink: 1;
+    font-size: 13px;
+}
