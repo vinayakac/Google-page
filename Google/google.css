@@ -1,32 +1,49 @@
-div {
-    border: 1px solid red
-}
-body{
+/* div {
+    border: 2px solid red
+} */
+body {
     padding: 0px;
     margin: 0px;
+    flex-direction: column;
 }
 
 .page-container {
     background: #ffff;
-    font-family: arial,sans-serif;
+    font-family: arial, sans-serif;
+    height: 60px;
+
 }
 
 .header-container {
-    height: 60px
+    display: flex;
+    float: right;
+    height: 48px;
+    /* min-width: 811px;
+    max-width: 100%; */
+    padding-left: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 6px;
+    align-items: center;
+
 }
 
 .header-body {
+    height: 48px;
+    /* width: 221.59px; */
     float: right;
-    display: flex
+    display: flex;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+
 }
-
-
 
 .header-labels {
     display: flex;
     height: 48px;
     width: 48px;
-    padding: 6px;
+    /* padding: 6px; */
     margin: 3px;
     align-items: center;
     font-variant-caps: normal;
@@ -34,56 +51,59 @@ body{
     font-variant-east-asian: normal;
     font-variant-ligatures: normal;
 }
-.header-label{
+
+.header-label {
     width: 33.9531px;
     height: 24px;
     color: #000;
-    font-size:13px;
-    margin-top:10px;
+    font-size: 13px;
+    margin-top: 10px;
     font-weight: 300;
     display: inline-block;
     font-stretch: 100%;
     font-style: normal;
-    font-family: arial,sans-serif;
+    font-family: arial, sans-serif;
+}
+
+.header-label-gmail {
+    height: 24px;
+    width: 33.9531px;
     cursor: pointer;
     line-height: 24px;
-    text-decoration-color: rgba(0, o, 0, 0.87);
-    text-decoration-line: none;
-    text-decoration-style: solid;
-    text-decoration-thickness: auto;
     user-select: none;
     vertical-align: middle;
     white-space: nowrap;
 }
-.app-icon{
+
+.app-icon {
     height: 40px;
     width: 40px;
     color: rgb(0, 0, 0);
     display: inline-block;
-    font-family: Roboto,arial,sans-serif;
-    font-size:13px;
+    font-family: Roboto, arial, sans-serif;
+    font-size: 13px;
     font-weight: 400;
     line-height: normal;
     user-select: none;
     vertical-align: middle;
     white-space: nowrap;
-    padding-left: 4px;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-right: 4px;
 }
+
 .header-profile-pic {
     justify-content: center;
     border-radius: 100px;
     height: 40px;
     width: 40px;
     background: #ffff;
-    padding-left: 4px;
-    padding-top: 4px;
-    padding-bottom:4px;
-    padding-right: 4px;
     flex-grow: 0;
     flex-basis: auto;
     flex-shrink: 1;
     font-size: 13px;
+}
+
+.profile-pic {
+    padding: 4px;
+    height:48px;
+    width: 48;
+
 }
