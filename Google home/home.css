@@ -1,0 +1,28 @@
+div {
+  border: 1px solid red
+}
+body{
+  padding: 0px;
+  margin: 0px;
+}
+
+.page-container {
+  background: #202124;
+  font-family: arial,sans-serif;
+}
+
+.header-container {
+  height: 60px
+}
+
+.header-body {
+  float: right;
+  display: flex
+}
+
+.app-icon {
+  height: 24px;
+  width: 24px;
+  border: 2px solid blue
+}
+
