@@ -1,109 +1,138 @@
 /* div {
-    border: 2px solid red
+    border: 1px solid green;
+    height: 60px;
 } */
+
 body {
     padding: 0px;
     margin: 0px;
-    flex-direction: column;
 }
 
 .page-container {
-    background: #ffff;
+    background: #202124;
     font-family: arial, sans-serif;
-    height: 60px;
-
 }
 
 .header-container {
+    height: 60px;
     display: flex;
-    float: right;
-    height: 48px;
-    /* min-width: 811px;
-    max-width: 100%; */
-    padding-left: 6px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-right: 6px;
-    align-items: center;
-
+    flex-direction: row-reverse;
 }
 
 .header-body {
-    height: 48px;
-    /* width: 221.59px; */
     float: right;
     display: flex;
-    margin-top: 8px;
-    margin-left: 8px;
-    margin-right: 8px;
+    padding-top: 4px;
 
 }
 
-.header-labels {
+
+.header-links-icon {
     display: flex;
-    height: 48px;
-    width: 48px;
-    /* padding: 6px; */
-    margin: 3px;
+    flex-direction: row-reverse;
+    padding: 10px;
+    padding-right: 5px;
+    margin-top: 2px;
     align-items: center;
-    font-variant-caps: normal;
-    font-variant-numeric: normal;
-    font-variant-east-asian: normal;
-    font-variant-ligatures: normal;
+    height: 24px;
+    padding-top: 10px;
 }
 
-.header-label {
-    width: 33.9531px;
+.header-links-gmail {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px;
+    padding-right: 5px;
+    margin-top: 2px;
+    align-items: center;
     height: 24px;
-    color: #000;
+    padding-top: 10px;
+}
+
+.header-links-pic {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px;
+    padding-right: 5px;
+    margin-top: 2px;
+    align-items: center;
+    height: 24px;
+    width: 44px;
+    padding-top: 10px;
+}
+
+.header-links-image {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px;
+    padding-right: 5px;
+    margin-top: 2px;
+    align-items: center;
+    height: 24px;
+    padding-top: 10px;
+}
+
+
+.header-link {
+
+    color: rgba(0, 0, 0, .87);
     font-size: 13px;
-    margin-top: 10px;
     font-weight: 300;
-    display: inline-block;
-    font-stretch: 100%;
-    font-style: normal;
-    font-family: arial, sans-serif;
+    margin-top: 2px;
+    font-family: Arial, sans-serif;
 }
 
-.header-label-gmail {
-    height: 24px;
-    width: 33.9531px;
-    cursor: pointer;
-    line-height: 24px;
-    user-select: none;
-    vertical-align: middle;
-    white-space: nowrap;
+.header-labal {
+    margin-top: 3px;
+    margin-left: 2px;
+    margin-block: 1px;
+    margin-right: 2px;
+    display: flex;
+    height: 50px;
+    width: 100px;
+    padding-right: 15px;
+    /* border: 1px solid red; */
 }
 
 .app-icon {
-    height: 40px;
-    width: 40px;
-    color: rgb(0, 0, 0);
-    display: inline-block;
-    font-family: Roboto, arial, sans-serif;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: normal;
-    user-select: none;
-    vertical-align: middle;
-    white-space: nowrap;
+    height: 24px;
+    width: 24px;
+    margin-left: -8px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 4px;
+    /* border: 2px solid blue; */
+
+
 }
 
 .header-profile-pic {
-    justify-content: center;
     border-radius: 100px;
-    height: 40px;
-    width: 40px;
-    background: #ffff;
-    flex-grow: 0;
-    flex-basis: auto;
-    flex-shrink: 1;
-    font-size: 13px;
+    height: 32px;
+    width: 32px;
+    margin-right: 20px;
+    /* background: purple; */
+    padding-right: -20.35px;
+    padding-left: 23px;
 }
 
 .profile-pic {
-    padding: 4px;
-    height:48px;
-    width: 48;
+    border-radius: 50%;
+    background-size: 32px 32px;
+    height: 32px;
+    width: 32px;
+    border: 0px;
+    position: relative;
 
+}
+
+.header-img {
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-block: 1px;
+    margin-right: 2px;
+    display: flex;
+    height: 50px;
+    width: 100px;
+    /* border: 1px solid purple; */
 }
