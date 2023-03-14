@@ -43,6 +43,7 @@
     /* min-width: 320px;;  */
   float: right;
   height: 48px;
+  padding-bottom:5px;
   /* border: solid 1px black; */
 }
 .text-container {
@@ -57,7 +58,7 @@
   color: rgb(255, 255, 255);
   height: 24px;
   text-decoration: none;
-  padding-right: 15px;
+  padding-right: 14px;
 }
 
 .text-label-container{
@@ -74,7 +75,8 @@
   align-items: center;
   align-content: space-around;
   float: right;
-  padding-left: 10px;
+  padding-left: 13px;
+  padding-right:5px;
   vertical-align: middle;
   /* height: 24px; */
   /* width: 24px; */
@@ -91,9 +93,11 @@
 .image-label-menuapp-container {
   width: 24px;
   height: 24px;
-  padding-right: 10px;
-
+  padding-right: 15.5px;
+  /* color: rgba(255, 255, 255, 0.87);
+  opacity: 1; */
 }
+
 
 /* .menuapp-label-svg-container{
   padding:8px 8px 8px 8px;
@@ -101,7 +105,7 @@
 
 .image-label-profile-container{
     justify-content: flex-end;
-    padding: 4px 4px 4px 4px;
+    padding: 4px 3.5px 4px 4px;
 
 }
 
