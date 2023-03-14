@@ -1,5 +1,5 @@
 div {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     height: 60px;
 }
 
@@ -10,69 +10,92 @@ body {
 
 .page-container {
     background: #202124;
-    
+    font-family: arial,sans-serif;
 }
 .header-container {
-    height: 40px;
+    height: 60px;
 }
 
 .header-body {
     float: right;
     display: flex;
-    font-family: arial,sans-serif;
-    height: 48px;
-    width: 239px;
-    border: 1px solid red;
-}
-.div1 {
-    height: 30px;
-    width: 109px;
-    padding: 2px;
-    margin: 3px;
-    border: 1px solid yellow;
-    
+    margin-top: 5px;
+    padding-right: 15px;
+
 }
 
 
-.div1-links {
+.header-links {
     display: flex;
+    padding: 10px;
+    padding-right: 5px;
+    margin-top: 2px;
     align-items: center;
-    height: 15px;
-    width: 54px;
-    margin: 2px;
-    padding: 2px;
-    border: 1px black;
-    
-    
+    height: 24px;
+    padding-top: 10px;
 }
 
-.div1-link {
-    color: #fff;
+
+.header-link {
+    
+    color: rgba(0,0,0,.87);
     font-size: 13px;
-    margin-top: 10px;
-    font-weight: 200;
-    height: 26px;
-    border: 1px black; 
-    
+    font-weight: 300;
+    margin-top: 2px;
+    font-family: Arial, sans-serif;
+   
+}
+.header-labal{
+    margin-top: 3px;
+    margin-left: 2px;
+    margin-block: 1px;
+    margin-right: 2px;
+    display: flex;
+    height: 48px;
+    width: 100px;
+    /* padding-right: 15px; */
+    padding-left: 15px;
+    /* border: 1px solid red; */
 }
 
-
-.div2 {
-    height: 30px;
-    width: 109px;
-    padding: 2px;
-    margin: 3px;
-    border: 1px solid purple;
-}
 .app-icon {
     height: 24px;
     width: 24px;
-    border: 2px solid blue;
+    /* padding-right: 15px; */
+    padding: 5px;
+    /* padding-left: 1px; */
+    /* padding-left: 1px; */
+    /* border: 2px solid blue; */
+   
+    
 }
 
 .header-profile-pic {
     border-radius: 100px;
     height: 32px;
     width: 32px;
+    /* background: purple; */
+    padding-right: 2px;
+    padding-left: 2px;
+    
 }
 
+.profile-pic{
+   border-radius:50% ;
+   background-size: 32px 32px;
+   height: 32px;
+   width: 32px;
+   border: 0px;
+
+}
+
+.header-img{
+   margin-top: 3px;
+    margin-left: 3px;
+    margin-block: 1px;
+    margin-right: 2px;
+    display: flex;
+    height: 48px;
+    width: 100px;
+    /* border: 1px solid purple; */
+}
