@@ -124,7 +124,7 @@ body {
   display:flex;
   flex-direction: column;
   align-items: center;
-  width:100%;
+  /* width:100%; */
   flex-wrap:wrap;
   align-content: center;
 
@@ -156,7 +156,7 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
     height:140px;
-    width: 100%;
+    width: auto;
 }
 
 .searchbox-navbar-container{
@@ -164,9 +164,9 @@ body {
     height: 120px;
     padding-top: 6px;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     align-content: center;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     
 }
@@ -276,6 +276,46 @@ body {
   color:#8ab4f8;
 
 }
+
+
+.navbar-quicksearch-container{
+  display:flex;
+  column-gap: 10px;
+  width:100%;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.textbox-googlesrc-container{
+    height:32px;
+    padding: 0px 16px;
+    margin:11px 4px;
+    border:1px #303134;
+    background-color: #303134;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    cursor:pointer;
+    text-align: center;
+}  
+
+
+.textbox-feelinglucky-container{
+    height:32px;
+    padding: 0px 16px;
+    margin:11px 4px;
+    border:1px #303134;
+    background-color: #303134;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    cursor:pointer;
+    text-align: center;
+} 
 
 
 
