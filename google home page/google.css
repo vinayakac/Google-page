@@ -28,19 +28,13 @@ body{
     width: 24px;
 }
 
+
 .header-links{
-    color: white;
     display: flex;
-    padding: 6px;
     margin: 3px;
     align-items: center;
-    font-size: 13px;
-    padding-left: 7.6px;
-    padding-right: 3px;
-    margin-right: 4px;
-    margin-left: 1px;
-}
 
+}
 .app-container{
     display: flex;
     padding: 6px;
@@ -53,13 +47,11 @@ body{
 
 .account-container{
         display: flex;
-           padding: 6px;
-           margin: 3px;
-           align-items: center;
-           padding-right: 1px;
-           padding-left: 10px;
-
-            
+        padding: 6px;
+        margin: 3px;
+        align-items: center;
+        padding-right: 1px;
+        padding-left: 10px;            
 }
 
 .profile-pic{
@@ -72,7 +64,31 @@ body{
     margin: 0px;
     position: relative;
   padding: 1px;
- 
+}
+
+.gmail-container{
+    color: white;
+    display: flex;
+    padding: 2px;
+    margin: 3px;
+    align-items: center;
+    font-size: 13px;
+    padding-left: 0px;
+    padding-right: 1.5px;
+    margin-right: 4px;
+}
+
+.image-container{
+    color: white;
+    display: flex;
+    padding: px;
+    margin: 32pxx;
+    align-items: center;
+    font-size: 13px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-right: 4px;
+
 }
 /* 
 Body container */
