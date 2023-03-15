@@ -13,6 +13,7 @@ body {
     height: 100%;
     width: 100%;
     display:flex;
+    flex-direction: column;
     /* background-color: rgba(32, 33, 36, 1); */
 
 }
@@ -117,6 +118,166 @@ body {
 .profile-label-container{
   border-radius: 50% 50% 50% 50%;
 }
+
+/*body-container*/
+.body-container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width:inherit;
+  flex-wrap:wrap;
+  align-content: center;
+
+}
+
+
+.logo-container{
+    height:92px;
+    display:flex;
+    width:inherit;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo-GoogleLogo-container{
+    margin-top: auto;
+    max-width: 100%;
+}
+
+.Google-Logo{
+  height:92px;
+  width: 272px;
+}
+
+.searchbox-container{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height:140px;
+    width: 100%;
+}
+
+.searchbox-navbar-container{
+    display:flex;
+    height: 120px;
+    padding-top: 6px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.navbar-searchbar-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width:100%;
+  align-items: stretch;
+}
+
+.search-box{
+  color:#9aa0a6;
+  display: flex;
+	align-items: center;
+	background-color: #3d3838b7;
+	border-radius: 24px;
+	border-color: 1px 6px rgba(228, 232, 243, 0.76);
+	height: 48px;
+	padding: 0 16px;
+	width: 400px;
+  justify-content: center;
+}
+
+.searchbar-container{
+    display:flex;
+    height:44px;
+    border-radius: 24px;
+    border:1px 1px 1px 1px;
+    border-color: #5f6368;
+
+
+}
+
+.searchbar-magnifier-container{
+  align-items: center;
+  display: flex;
+  display:flex;
+  align-items: center;
+  padding-right: 13px;
+  color: #9aa0a6;
+  height: 20px;
+  width: 20px;
+  margin-top: 9px ;
+  margin-bottom: 9px;
+}
+
+
+.magnifier-svgmagnifier{
+  width: 24px;
+  height: 24px;
+  /* padding-right: 15.5px; */
+}
+
+
+.searchbar-otheroptions-container{
+    display:flex;
+
+}
+
+.voicesearch{
+  width: 24px;
+  height: 24px;
+  padding-right: 15.5px;
+}
+
+.googlelens{
+  width: 24px;
+  height: 24px;
+  padding-right: 15.5px;
+}
+
+.navbar-quicksearch-container{
+  display:flex;
+  column-gap: 10px;
+  width:100%;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.language-container{
+  height:52px;
+  text-align: center;
+  width: 100%;
+}
+
+.language-googlelanguages-container{
+  margin-bottom:24px;
+  height:28px;
+  font-size: small;
+  font-family: ariel, sans-serif;
+}
+
+.googlelanguages-googlelanguage-container{
+  color:bdc1c6;
+  display: inline-block;
+  line-height: 28px;
+}
+
+.googlelanguage-languages{
+  padding-left: 3px;
+  padding-right: 3px;
+  text-decoration: none;
+  color:#8ab4f8;
+
+}
+
+
 
 /*Body-container*/
 /*
