@@ -35,6 +35,9 @@ body{
     margin: 3px;
     align-items: center;
     font-size: 13px;
+    padding-left: 3px;
+    padding-right: 6px;
+    margin-right: 3px;
 }
 
 .app-container{
@@ -48,10 +51,11 @@ body{
 
 .account-container{
         display: flex;
-           padding: 6px;
-           margin: 3px;
-           align-items: center;
-           padding-right: 3px;
+        padding: 6px;
+        margin: 3px;
+        align-items: center;
+        padding-right: 0px;
+        padding-left: 11px;
        
 }
 
@@ -66,3 +70,22 @@ body{
     position: relative;
 }
 
+/* Body container */
+.body-container-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 92px;
+    max-height: 290px;
+}
+.logo-container{
+    height: 92px;
+
+} 
+.logo{
+    height: 92px;
+    width: 272px;
+    object-position: center bottom;
+    object-fit: contain;
+    color: #bdc1c6;
+}
