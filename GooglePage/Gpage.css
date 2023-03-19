@@ -132,8 +132,10 @@ body {
 
 
 .logo-container{
-    height:92px;
+    height:150px;
     display:flex;
+    flex-wrap:wrap;
+    align-content: center;
     width:inherit;
     align-items: center;
     justify-content: center;
@@ -165,7 +167,7 @@ body {
     padding-top: 6px;
     flex-wrap: wrap;
     flex-direction: row; /*column*/
-    align-content: center;
+    align-content: space-between;
     justify-content: center;/* flex-start */
     align-items: center;
     
@@ -184,13 +186,17 @@ body {
   color:#9aa0a6;
   display: flex;
 	align-items: center;
-	background-color: rgba(32, 33, 36, 1);
+	background-color: r#202124;
 	border-radius: 24px;
+  box-shadow: none;
+  margin: 0 auto;
 	border: 1px  solid #5f6368;
 	height: 48px;
 	padding: 0 16px;
 	width: auto;
   justify-content: center;
+  max-width: 584px;
+  min-height: 44px;
 }
 
 .searchbar-container{
@@ -232,6 +238,7 @@ body {
   padding: 0px;
   outline: none;
 }
+
 .searchbar-otheroption-container{
   display:flex;
 
@@ -259,7 +266,7 @@ align-content: center;
 .googlelens{
   width: 24px;
   height: 24px;
-  padding-right: 15.5px;
+  /* padding-right: 15.5px; */
 }
 
 .navbar-quicksearch-container{
@@ -272,7 +279,7 @@ align-content: center;
 }
 
 .language-container{
-  height:52px;
+  height:161px;
   text-align: center;
   width: 100%;
 }
@@ -350,6 +357,8 @@ align-content: center;
   font-size: medium;
   color:#303134;
   border:1px solid grey;
+  padding: 15px 30px;
+  height: 17px;
 }
 
 .footer-footerp2-container{
@@ -361,6 +370,9 @@ align-content: center;
   font-size:14px;
   font-family: ariel, sans-serif;
   background-color: darkgrey;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 46px;
   /* row-gap: 100px; */
   /* width:200px; */
 }
