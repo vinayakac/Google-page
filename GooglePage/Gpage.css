@@ -156,21 +156,22 @@ body {
 .searchbox-container{
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 22px;
+    padding-bottom: 18px;
     height:120px;
     width: auto;
 }
 
 .searchbox-navbar-container{
     display:flex;
-    height: 120px;
-    padding-top: 6px;
-    flex-wrap: wrap;
-    flex-direction: row; /*column*/
-    align-content: space-between;
-    justify-content: center;/* flex-start */
+    height: 142px;
+    padding-top: 4px;
+    /* flex-wrap: wrap; */
+    flex-direction: column; /**/
+    /* align-content: space-between; */
+    justify-content: flex-start;/* flex-start */
     align-items: center;
+    row-gap: 19px;
     
 }
 
@@ -309,7 +310,7 @@ align-content: center;
 
 .navbar-quicksearch-container{
   display:flex;
-  column-gap: 10px;
+  column-gap: 3px;
   width:100%;
   align-items: center;
   flex-wrap: wrap;
@@ -318,9 +319,9 @@ align-content: center;
 
 
 .textbox-googlesrc-container{
-    height:32px;
+    height: 36px;
     padding: 0px 16px;
-    margin:11px 4px;
+    margin:10px 4px;
     border:1px #303134;
     background-color: #303134;
     border-radius: 4px;
@@ -329,13 +330,14 @@ align-content: center;
     color: rgb(255, 255, 255);
     cursor:pointer;
     text-align: center;
+    padding-right: 16.5px;
 }  
 
 
 .textbox-feelinglucky-container{
-    height:32px;
+    height:36px;
     padding: 0px 16px;
-    margin:11px 4px;
+    margin:10px 4px;
     border:1px #303134;
     background-color: #303134;
     border-radius: 4px;
@@ -344,6 +346,7 @@ align-content: center;
     color: rgb(255, 255, 255);
     cursor:pointer;
     text-align: center;
+    padding-left: 15.5px;
 } 
 
 .footer-container{
