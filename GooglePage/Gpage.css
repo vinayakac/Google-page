@@ -188,17 +188,17 @@ body {
   color:#9aa0a6;
   display: flex;
 	align-items: center;
-	background-color: r#202124;
+	/*background-color: #202124;*/
 	border-radius: 24px;
   box-shadow: none;
   margin: 0 auto;
 	border: 1px  solid #5f6368;
-	height: 48px;
+	height: 46px;
 	padding: 0 16px;
 	width: auto;
   justify-content: center;
-  max-width: 584px;
-  min-height: 44px;
+  width: 550px;
+  
 }
 
 .searchbar-container{
@@ -232,8 +232,8 @@ body {
 }
 
 .typebox{
-  height:34px;
-  width:435px;
+  height:27px;
+  width:443px;
   background-color: transparent;
   border: none;
   margin: 0%;
