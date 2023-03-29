@@ -1,0 +1,110 @@
+.page-container {
+    display: flex;
+    flex-direction: row;
+    height: 625px;
+    width: 1292px;
+    border: 1.5px solid rgb(235, 223, 223);
+}
+
+.section1 {
+    display: flex;
+    height: 100%;
+    border: 1.5px solid rgb(159, 41, 41);
+    width: 20%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.section2{
+    display: flex;
+    height: 100%;
+    border: 1.5px solid rgb(151, 255, 6);
+    width: 20%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.section3{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: 1.5px solid rgb(104, 4, 236);
+    width: 60%;
+}
+.section3-1{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    border: 1.5px solid rgb(240, 179, 27);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.section3-2{
+    display: flex;
+    flex-direction: row;
+    height: 45%;
+    width: 100%;
+    border: 1.5px solid rgb(18, 50, 9);
+}
+.section3-2-1{
+    display: flex;
+    height: 100%;
+    width: 85%;
+    border: 1.5px solid slategray;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.section3-2-2{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 15%;
+    border: 1.5px solid rgb(14, 102, 190);
+}
+.section3-2-2-1{
+    display: flex;
+    height: 33.33%;
+    width: 100%;
+    border: 1.5px solid rgb(240, 87, 17);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.section3-2-2-2{
+    display: flex;
+    height: 33.33%;
+    width: 100%;
+    border: 1.5px solid rgb(79, 219, 126);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.section3-2-2-3{
+    display: flex;
+    height: 33.33%;
+    width: 100%;
+    border: 1.5px solid rgb(228, 116, 234);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.section3-3{
+    display: flex;
+    flex-direction: row;
+    height: 45%;
+    width: 100%;
+    border: 1.5px solid rgba(229, 41, 145, 0.04);
+}
+.section3-3-1{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    border: 1.5px solid aqua;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.section3-3-2{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    border: 1.5px solid violet;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
