@@ -1,0 +1,87 @@
+body{
+    /* width: 90%;
+    height: 90%; */
+    border: 1px solid rebeccapurple;
+}
+
+div{
+    overflow-x: hidden;
+    overflow-y: auto;
+    border: 2px rgb(6, 141, 24);
+}
+.page-container{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    border-style:dashed;
+    border: 1px;
+    border-color: brown;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+    width: auto;
+    border: 2px solid rgb(36, 6, 206);
+}
+.body-container{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    border: 2px solid violet;
+}
+
+.part1{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 637px;
+    border: 2px;
+    border-style: solid;
+    border-color: aquamarine;
+}
+.part1-1{
+    display: flex;
+    width: auto;
+    height: 249px;
+    border: 2px solid yellow;
+}
+.part1-2{
+    display: flex;
+    width: auto;
+    height: 249px;
+    border: 2px solid green;
+}
+
+.part2{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 637px;
+    border: 2px;
+    border-style: solid;
+    border-color: aquamarine;
+}
+
+.part2-1{
+    display: flex;
+    width: auto;
+    height: 185px;
+    border: 2px solid rgb(116, 75, 81);
+}
+
+.part2-2{
+    display: flex;
+    width: auto;
+    height: 185px;
+    border: 2px solid rgb(37, 19, 22);
+}
+
+.part2-3{
+    display: flex;
+    width: auto;
+    height: 185px;
+    border: 2px solid rgb(235, 5, 5);
+}
