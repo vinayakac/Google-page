@@ -1,0 +1,150 @@
+.page-container {
+    display: flex;
+    flex-direction: row;
+    height: 625px;
+    width: 1277px;
+    border: 2px solid black;
+
+}
+
+.part1 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 272px;
+    margin-right: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border: 1.5px solid rgb(6, 126, 173);
+}
+
+.part2 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 272px;
+    margin-left: -9px;
+    margin-right: 1px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border: 1.5px solid rgb(39, 5, 163);
+}
+
+.part3 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 760px;
+    margin-right: 1px;
+    border: 1.5px solid red;
+}
+
+.part3-1{
+    height: 106px;
+    width: 736px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border: 1.5px solid rgb(3, 218, 3);
+
+}
+
+.part3-2{
+    height: 294px;
+    width: 736px;
+    border: 1.5px solid rgb(65, 14, 185);
+
+}
+.part3-2-1{
+    height: 294px;
+    width: 431px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border: 1.5px solid rgb(8, 49, 87);
+
+}
+
+.part3-2-2{
+    height: 294px;
+    width: 299px;
+    border: 1.5px solid rgb(5, 177, 48);
+    margin-left: 435px;
+    margin-top: -295px;
+
+}
+
+
+.part3-2-2-1{
+    height: 92px;
+    width: 304px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border: 1.5px solid rgb(95, 165, 230);
+
+}
+
+.part3-2-2-2{
+    height: 99px;
+    width: 295px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border: 1.5px solid rgb(36, 212, 60);
+    
+}
+
+
+.part3-2-2-3{
+    height: 100px;
+    width: 295px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border: 1.5px solid rgb(10, 148, 118);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.part3-3{
+    height: 217px;
+    width: 736px;
+    border: 1.5px solid rgb(4, 121, 136);
+
+}
+
+.part3-3-1{
+    height: 213px;
+    width: 352px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border: 1.5px solid rgb(5, 187, 50);
+
+}
+.part3-3-2{
+    height: 217px;
+    width: 383px;
+    margin-top: -214px;
+    margin-left: 355px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border: 1.5px solid rgb(224, 10, 21);
+
+}
+
+
+
+
+
