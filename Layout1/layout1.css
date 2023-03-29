@@ -1,0 +1,102 @@
+body{
+    display: flex;
+    border: 1px solid rebeccapurple;
+}
+
+div{
+    display: flex;
+    border: 1px salmon;
+    position: relative;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: auto;
+    width: auto;
+    border: 1px solid brown;
+}
+
+.section1{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 120px;
+    width: auto;
+    border: 1.5px solid red;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.section2{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    border: 1.5px solid violet;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 637px;
+    border: 1.5px;
+    border-style: solid;
+    border-color: aquamarine;
+}
+
+.section4{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 637px;
+    border: 1.5px;
+    border-style: solid;
+    border-color: aquamarine;
+}
+.section3-1{
+    display: flex;
+    width: auto;
+    height: 249px;
+    border: 1.5px solid yellow;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.section3-2{
+    display: flex;
+    width: auto;
+    height: 249px;
+    border: 1.5px solid green;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.section4-1{
+    display: flex;
+    width: auto;
+    height: 170px;
+    border: 1.5px solid pink;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.section4-2{
+    width: auto;
+    height: 210px;
+    border: 1.5px solid rgb(209, 55, 81);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.section4-3{
+    width: auto;
+    padding-top: 1px;
+    height: 105px;
+    border: 1.5px solid rgb(8, 58, 241);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+p{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
