@@ -1,0 +1,93 @@
+body{
+    display: flex;
+    border: 1px solid rebeccapurple;
+}
+div{
+    display: flex;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    height: 625px;
+    width: 1290px;
+    border: 1.5px solid black;
+    background-color: aqua;
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 645px;
+    border: 1.5px solid red;
+    background-color: red;
+    
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 645px;
+    border: 1.5px solid rgb(7, 105, 242);
+    background-color: rgb(7, 105, 242);
+}
+.section1-1{
+    height: 20%;
+    width: auto;
+    border: 1.5px solid green;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: green;
+}
+
+.section1-2{
+    height: 50%;
+    width: auto;
+    border: 1.5px solid rgb(239, 100, 95);
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: rgb(239, 100, 95);
+}
+.section1-3{
+    height: 30%;
+    width: auto;
+    border: 1.5px solid rgb(203, 247, 6);
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: rgb(203, 247, 6);
+}
+.section2-1{
+    height: 60%;
+    width: auto;
+    border: 1.5px solid rgb(19, 1, 21);
+    overflow-x: hidden;
+    overflow-y: auto;
+    
+    
+}
+.section2-2{
+    display: flex;
+    flex-direction: row;
+    height: 40%;
+    width: auto;
+    border: 1.5px solid rgb(238, 98, 189);
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: rgb(238, 98, 189);
+}
+.section2-2-1{
+    height: 100%;
+    width: 50%;
+    border: 1.5px solid rgb(235, 72, 13);
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: rgb(235, 72, 13);
+}
+.section2-2-2{
+    height: 100%;
+    width: 50%;
+    border: 1.5px solid rgb(234, 240, 43);
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: rgb(234, 240, 43);
+}
