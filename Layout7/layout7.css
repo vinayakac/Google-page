@@ -1,0 +1,150 @@
+body {
+    display: flex;
+    width: auto;
+    height: auto;
+    background-color: white;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 30%;
+    background-color: rgb(255, 255, 255);
+}
+
+.section1-1 {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background-color: aqua;
+    margin-right: 1%;
+}
+
+.section1-2 {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background-color: aqua;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 40%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 1%;
+}
+
+.section2-1 {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background-color: aqua;
+    margin-right: 1%;
+
+}
+
+.section2-2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.section2-2-1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 1%;
+}
+
+.section2-2-1-1 {
+    display: flex;
+    width: 33.33%;
+    height: 100%;
+    background-color: aquamarine;
+}
+
+.section2-2-1-2 {
+    display: flex;
+    width: 33.33%;
+    height: 100%;
+    background-color: aquamarine;
+    margin-left: 1%;
+}
+
+.section2-2-1-3 {
+    display: flex;
+    width: 33.33%;
+    height: 100%;
+    margin-left: 1%;
+    background-color: aquamarine;
+}
+
+.section2-2-2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+
+}
+.section2-2-2-1{
+    display: flex;
+    width: 33.33%;
+    height: 100%;
+    background-color: aquamarine;
+}
+.section2-2-2-2{
+    display: flex;
+    width: 33.33%;
+    height: 100%;
+    margin-left: 1%;
+    background-color: aquamarine;
+}
+.section2-2-2-3{
+    display: flex;
+    width: 33.33%;
+    height: 100%;
+    margin-left: 1%;
+    background-color: aquamarine;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 30%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 1%;
+}
+
+.section3-1 {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background-color: aqua;
+    margin-right: 1%;
+}
+
+.section3-2 {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background-color: aqua;
+
+}
