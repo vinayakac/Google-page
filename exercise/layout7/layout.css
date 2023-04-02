@@ -1,0 +1,114 @@
+.page-container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    border: 10px solid rgb(255, 255, 255);
+    background-color: rgb(68, 252, 252);
+}
+
+.container1{
+    flex-direction: column;
+    display: flex;
+    height: 100%;
+    width: 50%;
+    border: 10px solid rgb(255, 255, 255);
+}
+.sec1{
+    display: flex;
+    height: 33%;
+    width: 100%;
+    border: 10px solid rgb(255, 255, 255);
+}
+.sec2{
+    display: flex;
+    height: 33%;
+    width: 100%;
+    border: 10px solid rgb(255, 255, 255);
+}
+.sec3{
+    display: flex;
+    height: 33%;
+    width: 100%;
+    border: 10px solid rgb(255, 255, 255);
+}
+.container2{
+    flex-direction: column;
+    display: flex;
+    height: 100%;
+    width: 50%;
+    border: 10px solid rgb(255, 255, 255);
+}
+
+.sec2-1{
+    display: flex;
+    height: 33%;
+    width: 100%;
+    border: 10px solid rgb(255, 255, 255);
+}
+.sec2-2{
+    flex-direction: column;
+    display: flex;
+    height: 33%;
+    width: 100%;
+    border: 10px solid rgb(255, 255, 255);
+}
+.div1{
+    flex-direction: row;
+    display: flex;
+    height: 50%;
+    width: 100%;
+    border: 5px solid rgb(255, 255, 255);
+}
+.div1-1{
+    display: flex;
+    height: 100%;
+    width: 33%;
+    border: 10px solid rgb(255, 255, 255);
+}
+.div1-2{
+    display: flex;
+    height: 100%;
+    width: 33%;
+    border: 10px solid rgb(255, 252, 252);
+}
+.div1-3{
+    display: flex;
+    height: 100%;
+    width: 33%;
+    border: 10px solid rgb(255, 255, 255);
+}
+
+.div2{
+    flex-direction: row;
+    display: flex;
+    height: 50%;
+    width: 100%;
+    border: 5px solid rgb(255, 255, 255);
+}
+
+.div2-1{
+    display: flex;
+    height: 100%;
+    width: 33%;
+    border: 10px solid rgb(255, 255, 255);
+}
+
+.div2-2{
+    display: flex;
+    height: 100%;
+    width: 33%;
+    border: 10px solid rgb(255, 255, 255);
+}
+
+.div2-3{
+    display: flex;
+    height: 100%;
+    width: 33%;
+    border: 10px solid rgb(255, 255, 255);
+}
+.sec2-3{
+    display: flex;
+    height: 33%;
+    width: 100%;
+    border: 10px solid rgb(255, 255, 255);
+}
