@@ -51,7 +51,7 @@ body {
     flex-direction: column;
     margin-top: 8%;
     width: 75%;
-    height: 90%;
+    height: 82%;
     background-image: linear-gradient(to right, rgb(109, 168, 211), rgb(86, 124, 201), rgb(213, 109, 226), rgb(212, 94, 210));
 }
 
@@ -151,7 +151,7 @@ body {
     flex-direction: column;
     margin-top: 8%;
     width: 25%;
-    height: 90%;
+    height: 80%;
     background-image: linear-gradient(to right, rgb(109, 168, 211), rgb(86, 124, 201), rgb(213, 109, 226), rgb(212, 94, 210));
     margin-left: 1%;
 }
