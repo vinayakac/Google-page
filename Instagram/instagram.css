@@ -1,71 +1,151 @@
 body {
-    width: auto;
-    height: 810px;
-    font-family: sans-serif;
-    background-color: #fafafa;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    /* box-sizing: border-box; */
-    border: 5px solid red;
+    display: flex;
+    flex-direction: column;
+    width: 1290px;
+    height: 339px;
+    /* border: 1px solid red; */
+    justify-items: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.body1 {
+    display: flex;
+    height: 442.984px;
+    width: 1284px;
+    /* border: 1px solid black; */
+}
+
+.body2 {
+    display: flex;
+    height: 440.984px;
+    width: 1282px;
+    /* border: 1px solid green; */
+
+}
+
+.body3 {
+    display: flex;
+    width: 1276px;
+    height: 783.984px;
+    /* border: 1px solid gray; */
+}
+
+.login {
+    display: flex;
+    width: 1274px;
+    height: 781.984px;
+    min-height: 100vh;
+    flex-direction: column;
+
+    background: #fff;
+    box-sizing: border-box;
+    /* border: 1px solid pink; */
+
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    width: 1272px;
+    height: 634.984px;
+    background-color: rgb(var(--ig-primary-background));
+    /* border: 1px solid black; */
 }
 
 .page-container {
-    max-width: 1286px;
-    height: 700px;
-    /* margin: 0 auto; */
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 1.5rem;
-    font-size: 14px;
-    border: 1px solid red;
+    width: 1290px;
+    height: 581.994px;
+    /* border: 1px solid brown; */
+    position: relative;
+    flex-grow: 1;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-bottom: 44px;
+    background-color: transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+
 }
 
 .body-container {
-    max-width: 350px;
-    width: 100%;
     display: flex;
-    /* justify-content: center; */
-    align-items: center;
     flex-direction: column;
-    background-color: #ffff;
-    border: 1px solid #e6e6e6;
-    border-radius: 1px;
-    margin: 0 0 10px;
-    padding: 10px 0;
     flex-grow: 1;
-    border: 1px solid red;
+    max-width: 350px;
+    height: 579.994px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e6e6e6;
+    margin-top: 5px;
+    margin-left: 28.7px;
+    border-radius: 1px;
+    background-color: #fff;
 }
 
-form {
+.body-section1 {
     display: flex;
-    border: 1px solid red;
     flex-direction: column;
-    height: 282.984px;
-    width: 352px;
+    height: 379.984px;
+    width: 348px;
+    border: 1px solid #e6e6e6;
     align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
 
+.logo-container {
+    width: 175px;
+    height: 55px;
+    margin-top: 36px;
+    margin-bottom: 12px;
 }
 
 .logo {
-    margin: 22px auto 12px;
-    /* background-image: url("https://www.instagram.com/static/bundles/es6/sprite_core_b20f2a3cd7e4.png/b20f2a3cd7e4.png"); */
-    background-position: -98px 0;
-    height: 51px;
-    width: 177px;
-    overflow: hidden;
-    border: 1px solid red;
+    width: 175px;
+    height: 55px;
+}
+
+.input {
+    width: 348px;
+    height: 266.984px;
+    /* border: 1px solid red; */
+    margin-bottom: 10px;
+}
+
+.formsection {
+    background: 255, 255, 255;
+    align-items: center;
+    justify-content: center;
+}
+
+.formsection1 {
+    display: flex;
+    height: 214.984px;
+    width: 348px;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin-top: -5px;
+    /* border: 1px solid red; */
 }
 
 .field {
-    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    /* margin: 10px 0; */
+    margin-top: 8px;
+    margin-bottom: 4px;
     position: relative;
-    font-size: 14px;
-    width: 76.4%;
+    font-size: 8px;
+    width: 100%;
     text-overflow: ellipsis;
-    border: 1px solid red;
+    margin-left: 35px;
 }
+
 
 input {
     padding: 9px 0px 7px 9px;
@@ -76,7 +156,10 @@ input {
     background: #fafafa;
     border-radius: 3px;
     border: 1px solid #efefef;
+    justify-items: center;
 }
+
+/* label intial position*/
 
 label {
     position: absolute;
@@ -86,74 +169,184 @@ label {
     transform: translateY(10px);
     line-height: 6px;
     transition: all ease-out 0.1s;
-    font-size: 14px;
-    color: #999;
+    font-size: 12px;
+    color: #414040;
     padding-top: 6px;
+    justify-items: center;
 }
+
+/* hiding placeholder in all browsers */
 
 input::placeholder {
     visibility: hidden;
 }
 
+/* hiding  placeholder in mozilla */
+.login-form ::-moz-placeholder {
+    color: transparent;
+}
+
+/* label final position */
+input:not(:placeholder-shown)+label {
+    transform: translateY(0);
+    font-size: 11px;
+}
+
+/* input padding increases if placeholder is not shown */
+input:not(:placeholder-shown) {
+    padding-top: 14px;
+    padding-bottom: 2px;
+}
+
 .login-button {
     text-align: center;
-    width: 76.4%;
+    width: 78%;
     padding: 0.5rem;
     border: 1px solid transparent;
+    background-color: #67adee;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
     cursor: pointer;
-    border: 1px solid red;
+    margin-left: 35px;
+    border-radius: 7.5px;
 }
 
-.or {
+.or-container {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    width: 268px;
+    height: 14.984px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+    margin-left: 40px;
+    /* border: 1px solid red; */
+}
+
+.or-section {
+    display: flex;
+    flex-direction: row;
+    width: 268px;
+    height: 14.984px;
     align-items: center;
-    color: #999;
-    margin-top: 6px;
 }
 
-.or .line {
+.or-section1 {
+    width: 107.05px;
     height: 1px;
-    width: 40%;
-    background-color: #dbdbdb;
-    border: 1px solid red;
+    background-color: #999;
+    align-items: center;
 }
 
-.body-section1-1 {
+.or-section2 {
+    width: 17.92px;
+    height: 14.92px;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: -5px;
+    font-weight: 600;
+    font-size: .8125rem;
+    line-height: 1.1538;
+    text-decoration: #999;
+}
+
+.or-section3 {
+    width: 107.05px;
+    height: 1px;
+    background-color: #999;
+}
+
+.facebook {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    width: 268px;
+    height: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 40px;
+    margin-right: 40px;
     align-items: center;
 }
 
 .fb-login-btn {
-    margin: 1rem;
-    border: 0;
-    cursor: pointer;
-    font-size: 14px;
-    color: #385185;
-    font-weight: 600;
-    background: transparent;
-    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 286px;
+    height: 20px;
+    --ig-primary-button: 0, 149, 246;
+    border: 0px transparent;
+    background-color: #fff;
 }
 
 .fb-icon {
-    color: #385185;
-    font-size: 1rem;
-    padding-right: 1px;
-    /* border: 1px solid red; */
+    height: 16px;
+    width: 16px;
+    margin-right: 8px;
+
 }
 
-.forgot-password {
-    font-size: 11px;
-    color: #003569;
+img {
+    height: 16px;
+    width: 16px;
+    justify-content: left;
+}
+
+.fb-text {
+    width: 134.86px;
+    height: 19px;
 }
 
 .forgot {
     display: flex;
+    width: 348px;
+    height: 16px;
+    font-size: 11.5px;
+    color: #003569;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
+    margin-left: 3px;
+    margin-right: -30px;
+}
+
+.body-section2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    vertical-align: baseline;
+    width: 350px;
+    height: 63px;
+    background-color: #ffff;
+    border: 1px solid #e6e6e6;
+    border-radius: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.body-section2-1 {
+    display: flex;
+    width: 226.84px;
+    height: 18px;
+    align-items: center;
+    justify-content: center;
+}
+
+.account {
+    display: flex;
+    flex-direction: row;
+    width: 196.844px;
+    height: 18px;
+}
+
+text {
+    display: flex;
+    height: 19px;
+    width: 148.5px;
 }
 
 .signup {
@@ -161,18 +354,61 @@ input::placeholder {
     font-weight: 600;
 }
 
-.box {
-    max-width: 350px;
-    width: 100%;
+.body-section3{
     display: flex;
-    align-items: center;
     flex-direction: column;
-    background-color: #ffff;
-    border: 1px solid #e6e6e6;
-    border-radius: 1px;
-    margin: 0 0 10px;
-    padding: 10px 0;
-    flex-grow: 1;
-    border: 1px solid red;
-    line-height: 6px;
+    width: 350px;
+    height: 95px;
+    align-items: center;
+    margin-top: 12px;
+}
+.get-app{
+    display: flex;
+    width: 310px;
+    height: 11px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    direction: ltr;
+}
+
+.app{
+    display: flex;
+    vertical-align: baseline;
+    text-align: center;
+    line-height: 18px;
+    font-size: 14px;
+}
+.app-icon{
+    display: flex;
+    flex-direction: row;
+    height: 44px;
+    width: 350px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.play{
+    display: flex;
+    width: 134.281px;
+    height: 44px;
+    margin-right: 8px;
+}
+.playstore{
+    display: flex;
+    width: 134.281px;
+    height: 40px;
+}
+.store{
+    display: flex;
+    width: 134.281px;
+    height: 44px;
+    margin-right: 8px;
+}
+.microsoft{
+    display: flex;
+    width: 134.281px;
+    height: 40px;
 }
