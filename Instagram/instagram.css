@@ -78,9 +78,9 @@ body {
     height: 579.994px;
     justify-content: center;
     align-items: center;
-    border: 1px solid #e6e6e6;
-    margin-top: 5px;
-    margin-left: 28.7px;
+    /* border: 0.25px solid #e6e6e6; */
+    margin-top: 6px;
+    margin-left: 2px;
     border-radius: 1px;
     background-color: #fff;
 }
@@ -98,6 +98,7 @@ body {
 }
 
 .logo-container {
+    display: flex;
     width: 175px;
     height: 55px;
     margin-top: 36px;
@@ -105,21 +106,26 @@ body {
 }
 
 .logo {
+    display: flex;
     width: 175px;
     height: 55px;
 }
 
 .input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 348px;
     height: 266.984px;
+    margin-bottom: 15px;
     /* border: 1px solid red; */
-    margin-bottom: 10px;
 }
 
 .formsection {
+    display: flex;
+    flex-direction: column;
     background: 255, 255, 255;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
 }
 
 .formsection1 {
@@ -136,8 +142,7 @@ body {
 .field {
     display: flex;
     flex-direction: column;
-    /* margin: 10px 0; */
-    margin-top: 8px;
+    margin-top: -9px;
     margin-bottom: 4px;
     position: relative;
     font-size: 8px;
@@ -148,6 +153,7 @@ body {
 
 
 input {
+    display: flex;
     padding: 9px 0px 7px 9px;
     font-size: 12px;
     width: 16rem;
@@ -155,13 +161,25 @@ input {
     outline: none;
     background: #fafafa;
     border-radius: 3px;
-    border: 1px solid #efefef;
+    border: 1px solid #e6e6e6;
     justify-items: center;
 }
 
-/* label intial position*/
+.username {
+    display: flex;
+    margin-top: 1px;
+    margin-bottom: 5px;
+}
 
+.password {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* label intial position*/
 label {
+    display: flex;
     position: absolute;
     pointer-events: none;
     left: 10px;
@@ -176,7 +194,6 @@ label {
 }
 
 /* hiding placeholder in all browsers */
-
 input::placeholder {
     visibility: hidden;
 }
@@ -199,11 +216,13 @@ input:not(:placeholder-shown) {
 }
 
 .login-button {
+    display: flex;
     text-align: center;
+    justify-content: center;
     width: 78%;
     padding: 0.5rem;
     border: 1px solid transparent;
-    background-color: #67adee;
+    background-color: #74b6f4;
     color: #fff;
     font-weight: 600;
     font-size: 14px;
@@ -233,6 +252,7 @@ input:not(:placeholder-shown) {
 }
 
 .or-section1 {
+    display: flex;
     width: 107.05px;
     height: 1px;
     background-color: #999;
@@ -240,6 +260,7 @@ input:not(:placeholder-shown) {
 }
 
 .or-section2 {
+    display: flex;
     width: 17.92px;
     height: 14.92px;
     margin-left: 18px;
@@ -252,6 +273,7 @@ input:not(:placeholder-shown) {
 }
 
 .or-section3 {
+    display: flex;
     width: 107.05px;
     height: 1px;
     background-color: #999;
@@ -320,10 +342,11 @@ img {
     width: 350px;
     height: 63px;
     background-color: #ffff;
-    border: 1px solid #e6e6e6;
+    border: 1px solid #e7e4e4;
     border-radius: 1px;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-top: 5px;
     flex-grow: 1;
     align-items: center;
 }
@@ -341,6 +364,9 @@ img {
     flex-direction: row;
     width: 196.844px;
     height: 18px;
+    font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 text {
@@ -349,12 +375,12 @@ text {
     width: 148.5px;
 }
 
-.signup {
+.sign {
     color: #3897f0;
     font-weight: 600;
 }
 
-.body-section3{
+.body-section3 {
     display: flex;
     flex-direction: column;
     width: 350px;
@@ -362,7 +388,8 @@ text {
     align-items: center;
     margin-top: 12px;
 }
-.get-app{
+
+.get-app {
     display: flex;
     width: 310px;
     height: 11px;
@@ -375,40 +402,252 @@ text {
     direction: ltr;
 }
 
-.app{
+.app {
     display: flex;
     vertical-align: baseline;
     text-align: center;
     line-height: 18px;
     font-size: 14px;
 }
-.app-icon{
+
+.app-icon {
     display: flex;
     flex-direction: row;
     height: 44px;
     width: 350px;
-    margin-top: 10px;
+    margin-top: 3px;
     margin-bottom: 10px;
+    justify-content: center;
 }
-.play{
+
+.play {
     display: flex;
     width: 134.281px;
     height: 44px;
     margin-right: 8px;
 }
-.playstore{
+
+.playstore {
     display: flex;
     width: 134.281px;
     height: 40px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
-.store{
+
+.store {
     display: flex;
-    width: 134.281px;
+    width: 110.77px;
     height: 44px;
-    margin-right: 8px;
+    margin-top: -2px;
+    margin-right: -2px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
-.microsoft{
+
+.microsoft {
     display: flex;
-    width: 134.281px;
+    width: 110.77px;
     height: 40px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    max-width: 1291px;
+    height: 134px;
+    margin-top: 5px;
+    padding-left: 16px;
+    padding-right: 16px;
+    /* border: 1px solid red; */
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    max-width: 1260px;
+    height: 92px;
+    margin-bottom: 52px;
+    /* border: 1px solid red; */
+}
+
+.footer-section1 {
+    display: flex;
+    flex-direction: row;
+    max-width: 1260px;
+    height: 23px;
+    margin-top: 28px;
+    margin-left: 3px;
+    margin-right: 3px;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.footer-section2 {
+    display: flex;
+    flex-direction: row;
+    max-width: 1260px;
+    height: 11px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    margin-left: 3px;
+    margin-right: 3px;
+    /* border: 1px solid red; */
+    justify-content: center;
+}
+
+.footer-section1-1 {
+    display: flex;
+    flex-direction: row;
+    max-width: 1260px;
+    height: 23px;
+    /* margin-left: 150px; */
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+
+}
+
+.part1 {
+    display: flex;
+    width: 27.234px;
+    height: 11px;
+    margin-left: 8px;
+    margin-right: 8px;
+    /* border: 1px solid black; */
+}
+
+.part2 {
+    display: flex;
+    width: 32.688px;
+    height: 11px;
+    margin-left: 8px;
+    margin-right: 8px;
+    /* border: 1px solid black; */
+}
+
+.part3 {
+    display: flex;
+    width: 23.89px;
+    height: 11px;
+    margin-left: 8px;
+    margin-right: 8px;
+    /* border: 1px solid black; */
+}
+
+.part4 {
+    display: flex;
+    width: 23.47px;
+    height: 11px;
+    margin-left: 8px;
+    margin-right: 8px;
+    /* border: 1px solid black; */
+}
+
+.part5 {
+    display: flex;
+    width: 24.77px;
+    height: 11px;
+    margin-left: 8px;
+    margin-right: 8px;
+    /* border: 1px solid black; */
+}
+
+.part6 {
+    display: flex;
+    width: 17.66px;
+    height: 11px;
+    margin-left: 8px;
+    margin-right: 8px;
+    /* border: 1px solid black; */
+}
+
+.part7 {
+    display: flex;
+    width: 37.02px;
+    height: 11px;
+    margin-left: 8px;
+    margin-right: 8px;
+    /* border: 1px solid black; */
+}
+
+.part8 {
+    display: flex;
+    width: 31.11px;
+    height: 11px;
+    margin-left: 8px;
+    margin-right: 8px;
+    /* border: 1px solid black; */
+}
+
+.part9 {
+    display: flex;
+    width: 71.09px;
+    height: 11px;
+    margin-left: 8px;
+    margin-right: 8px;
+    /* border: 1px solid black; */
+}
+
+.part10 {
+    display: flex;
+    width: 50.22px;
+    height: 11px;
+    margin-left: 8px;
+    margin-right: 8px;
+    /* border: 1px solid black; */
+}
+
+.part11 {
+    display: flex;
+    width: 75.13px;
+    height: 11px;
+    margin-left: 8px;
+    margin-right: 8px;
+    /* border: 1px solid black; */
+}
+
+.part12 {
+    display: flex;
+    width: 172.16px;
+    height: 11px;
+    margin-left: 8px;
+    margin-right: 8px;
+    /* border: 1px solid black; */
+}
+
+.part13 {
+    display: flex;
+    width: 70.56px;
+    height: 11px;
+    margin-left: 8px;
+    margin-right: 8px;
+    /* border: 1px solid black; */
+}
+
+a{
+    display: flex;
+    justify-content: center; 
+    font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: #efe9e9;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: -2px;
+
+}
+.part14{
+    display: flex;
+    height: 11px;
+    width: 53.63px;
+    flex-direction: row;
+    justify-content: center;
+     border: 1px solid black;
 }
