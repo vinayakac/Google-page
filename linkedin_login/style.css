@@ -1,0 +1,79 @@
+div{
+    border: 1px solid red;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.page-container{
+    /* border: 1px solid black; */
+    height: 739.97px;
+    width: 1349px;
+    display: flex;
+    flex-direction: column;
+}
+.header-container{
+    /* border: 1px solid red; */
+    height: 64px;
+    width: 1345px;
+}
+.body-container{
+    width: 1347px;
+    display: flex;
+    justify-content: center;
+    height: 597.97px;
+}
+.footer-container{
+    height: 70px;
+    width: 1345px;
+}
+.logo{
+    height: 28px;
+    width: 112px;
+    margin-top: 32px;
+    margin-left: 56px;
+}
+/* .logo-container{
+    height: 34px;
+    width: 1293px;
+    margin-top: 30px;
+    margin-left: 56px;
+    display: flex;
+    flex-direction: column;
+} */
+.section-1{
+    height: 597.97px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+.layout-1{
+    height: 479.97px;
+    width: 302px;
+    padding: 24px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    border-radius: 8px;
+}
+.layout-2{
+    height: 32px;
+    width: 350px;
+    margin-top: 33px;
+}
+.signin-layout{
+    width: 300px;
+    height: 477.97px;
+    display: flex;
+    flex-direction: column;
+}
+.header-content{
+    height: 63.99px;
+    width: 298px;
+}
+.login_from{
+    height: 242px;
+    width: 300px;
+}
+.signin-container{
+    height: 143.98px;
+    width: 298px;
+}
