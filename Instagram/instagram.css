@@ -5,7 +5,7 @@ body {
     overflow-x: hidden;
     overflow-y: auto;
     width: 1292px;
-    height: 339px;
+    height: 347px;
     /* border: 1px solid red; */
     justify-items: center;
     align-items: center;
@@ -640,7 +640,7 @@ a {
     font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     font-size: 12px;
     font-weight: 400;
-    text-decoration: #efe9e9;
+    color: rgb(115, 115, 115);
     text-align: center;
     text-transform: capitalize;
     margin-top: -2px;
@@ -665,7 +665,7 @@ a {
     font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     font-size: 12px;
     font-weight: 400;
-    text-decoration: #efe9e9;
+    color: rgb(115, 115, 115);
     text-align: center;
 }
 
@@ -685,7 +685,7 @@ a {
     width: 155.156px;
     font-size: 12px;
     font-weight: 400;
-    text-decoration: #efe9e9;
+    color: rgb(115, 115, 115);
     text-align: center;
     font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
@@ -694,4 +694,7 @@ a {
     display: flex;
     width: 155.16px;
     height: 11px;
+    font-weight: 400;
+    font-size: 12px;
+    
 }
