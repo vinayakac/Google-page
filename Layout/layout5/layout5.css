@@ -1,0 +1,98 @@
+.section{
+    border: 1px solid black;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.section1{
+    border: 1px solid white;
+    height: 700px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.section2{
+    border: 1px solid white;
+    height: 700px;
+    width: 25%;
+    background-color: rgb(170, 169, 169);
+    overflow: scroll;
+}
+.section3{
+    border: 1px solid white;
+    height: 700px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+.section10{
+    border: 1px solid white;
+    height: 75%;
+    width: 100%;
+    background-color: rgb(170, 169, 169);
+    overflow: scroll;
+}
+.section11{
+    border: 1px solid white;
+    height: 25%;
+    width: 100%;
+    background-color: rgb(170, 169, 169);
+    overflow: scroll;
+}
+.section4{
+    border: 1px solid white;
+    height: 50%;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+}
+.section5{
+    border: 1px solid white;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.section6{
+    border: 1px solid white;
+    height: 100%;
+    width: 25%;
+    background-color: rgb(170, 169, 169);
+    overflow: scroll;
+}
+.section7{
+    border: 1px solid white;
+    height: 100%;
+    width: 75%;
+    background-color: rgb(170, 169, 169);
+    overflow: scroll;
+}
+.section8{
+    border: 1px solid white;
+    height: 100%;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+.section9{
+    border: 1px solid white;
+    height: 100%;
+    width: 85%;
+    background-color: rgb(170, 169, 169);
+    overflow: scroll;
+}
+.section12{
+    border: 1px solid white;
+    height: 50%;
+    width: 100%;
+    background-color: rgb(170, 169, 169);
+    overflow: scroll;
+}
+.section13{
+    border: 1px solid white;
+    height: 50%;
+    width: 100%;
+    background-color: rgb(170, 169, 169);
+    overflow: scroll;
+}
