@@ -14,22 +14,22 @@ body {
 
 .body1 {
     display: flex;
-    height: 442.984px;
-    width: 1284px;
+    height: 422.984px;
+    width: 1292px;
     /* border: 1px solid black; */
 }
 
 .body2 {
     display: flex;
-    height: 440.984px;
-    width: 1282px;
+    height: 422.984px;
+    width: 1292px;
     /* border: 1px solid green; */
 
 }
 
 .body3 {
     display: flex;
-    width: 1276px;
+    width: 1292px;
     height: 783.984px;
     /* border: 1px solid gray; */
 }
@@ -49,7 +49,7 @@ body {
 .form {
     display: flex;
     justify-content: center;
-    width: 1272px;
+    width: 1292px;
     height: 634.984px;
     background-color: rgb(var(--ig-primary-background));
     /* border: 1px solid black; */
@@ -59,8 +59,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 1290px;
-    height: 581.994px;
+    width: 100%;
+    height: 591.984px;
     /* border: 1px solid brown; */
     position: relative;
     flex-grow: 1;
@@ -690,11 +690,11 @@ a {
     font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
 
-.lite {
+/* .lite {
     display: flex;
     width: 155.16px;
     height: 11px;
     font-weight: 400;
     font-size: 12px;
     
-}
+} */
