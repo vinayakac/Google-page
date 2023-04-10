@@ -1,0 +1,149 @@
+/* body{
+    border: 1px solid rgb(12, 10, 10);
+} */
+
+.page-container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    border-style: dashed;
+    border: 1px;
+    border: 3px solid white;
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    width:905px;
+    height: 730px;
+    border-style: solid;
+    border: 1px solid white;
+}
+
+
+.section1-1{
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    height: 360px;
+    border-style: solid;
+    border: 3px solid white;
+}
+
+.section1-1-1{
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    height: 350px;
+    border-style: solid;
+    background-color:  rgb(190, 203, 203);
+    border: 5px solid white;
+}
+
+.section1-1-2{
+    display: flex;
+    flex-direction: row;
+    width: 595px;
+    height: 350px;
+    border-style: solid;
+    background-color: rgb(190, 203, 203);
+    border: 5px solid white;
+}
+
+.section1-2{
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    height: 360px;
+    border-style: solid;
+    border: 3px solid white;
+}
+
+.section1-2-1{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 350px;
+    border-style: solid;
+    border: 3px solid white;
+}
+
+.section1-2-1-1{
+    display: flex;
+    flex-direction: row;
+    width: 290px;
+    height: 368px;
+    border-style: solid;
+    background-color:  rgb(190, 203, 203);
+    border: 3px solid white;
+}
+
+.section1-2-1-2{
+    display: flex;
+    flex-direction: row;
+    width: 290px;
+    height: 368px;
+    border-style: solid;
+    background-color: rgb(190, 203, 203);
+    border: 3px solid white;
+}
+
+.section1-2-2{
+    display: flex;
+    flex-direction: row;
+    width: 590px;
+    height: 350px;
+    border-style: solid;
+    background-color: rgb(190, 203, 203);
+    border: 3px solid white;
+}
+
+
+.section2{
+    display: flex;
+    flex-direction: row;
+    width:750px;
+    height: 727px;
+    border-style: solid;
+    border: 2px solid white;
+}
+
+.section2-1{
+    display: flex;
+    flex-direction: column;
+    width: 295px;
+    height: 726px;
+    border-style: solid;
+    background-color:  rgb(190, 203, 203);
+    border: 1px solid white;
+}
+
+.section2-2{
+    display: flex;
+    flex-direction: column;
+    width: 295px;
+    height: 726px;
+    border: 1px solid white;
+}
+
+.section2-2-1{
+    display: flex;
+    flex-direction: row;
+    width: 295px;
+    height: 600px;
+    border-style: solid;
+    background-color: rgb(190, 203, 203);
+    border: 3px solid white;
+}
+
+.section2-2-2{
+    display: flex;
+    flex-direction: row;
+    width: 295px;
+    height: 200px;
+    border-style: solid;
+    background-color: rgb(190, 203, 203);
+    border: 3px solid white;
+}
+

@@ -1,0 +1,102 @@
+body{
+    border: 1px solid black;
+    
+}
+
+div{
+    border: 1px salmon;
+}
+
+.page-container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: auto;
+    border-style: dashed;
+    border-color: brown;
+    border: 1px;
+    border: 1px solid rgb(177, 242, 25);
+    height: 100%;
+    width: 100%;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: column;
+    width: 721px;
+    height: 744px;
+    border-style: solid;
+    border: 2px solid rgb(241, 171, 57);
+    
+}
+
+
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    width: 720px;
+    height: 250px;
+    border-style: solid;
+    border: 2px solid rgb(77, 77, 221);
+    overflow: scroll;
+} 
+
+.section1-1{
+        display: flex;
+        flex-direction: column;
+        width: 720px;
+        height: 250px;
+        border-style: solid;
+        border: 2px solid rgb(236, 91, 178);
+        overflow: scroll;
+} 
+
+.section1-2{
+    display: flex;
+    flex-direction: column;
+    width: 720px;
+    height: 244px;
+    border-style: solid;
+    border: 2px solid rgb(55, 226, 101);
+    overflow: scroll;
+} 
+
+ .section2-1{
+    display: flex;
+    flex-direction: column;
+    width: 776px;
+    height: 363px;
+    border: 2px;
+    border-style: solid;
+    border: 1px solid red;
+    overflow: scroll;
+} 
+
+.section2-2{
+        display: flex;
+        flex-direction: row;
+        width: 776px;
+        height: 381px;
+        border-style: solid;
+        border: 1px solid rgb(236, 91, 178);
+        /* overflow: scroll; */
+}  
+.section2-2-1{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 379px;
+    border-style: solid;
+    border: 2px solid rgb(77, 77, 221);
+    overflow: scroll;
+} 
+.section2-2-2{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 379px;
+    border-style: solid;
+    border: 2px solid rgb(77, 77, 221);
+    overflow: scroll;
+} 

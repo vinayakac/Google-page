@@ -1,0 +1,157 @@
+body{
+    border: 1px solid black;
+}
+
+div{
+    border: 1px salmon;
+}
+
+.page-container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: auto;
+    border-style: dashed;
+    border-color: brown;
+    border: 1px;
+    border: 1px solid rgb(16, 16, 16);
+    height: 100%;
+    width: 100%;
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 726px;
+    border-style: solid;
+    border: 2px solid rgb(6, 237, 241);
+    overflow: scroll;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 726px;
+    border-style: solid;
+    border: 2px solid rgb(9, 247, 77);
+    overflow: scroll;
+}
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 726px;
+    border-style: solid;
+    border: 2px solid rgb(24, 141, 16);
+
+}
+
+.section3-1{
+    display: flex;
+    flex-direction: column;
+    width: 799px;
+    height: 200px;
+    border-style: solid;
+    border: 2px solid rgb(218, 161, 17);
+    overflow: scroll;
+
+}
+
+.section3-2{
+    display: flex;
+    flex-direction: row;
+    width: 799px;
+    height: 262px;
+    border-style: solid;
+    border: 2px solid rgb(197, 26, 43);
+    /* overflow: scroll; */
+
+}
+
+.section3-3{
+    display: flex;
+    flex-direction: row;
+    width: 799px;
+    height: 260px;
+    border-style: solid;
+    border: 1px solid rgb(44, 176, 114);
+    
+
+}
+
+.section3-3-1{
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    height: 259px;
+    border-style: solid;
+    border: 2px solid rgb(24, 24, 231);
+    overflow: scroll;
+
+}
+
+.section3-3-2{
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    height: 259px;
+    border-style: solid;
+    border: 2px solid rgb(252, 8, 252);
+    overflow: scroll;
+
+}
+
+
+.section3-2-1{
+    display: flex;
+    flex-direction: row;
+    width:580px;
+    height: 261px;
+    border-style: solid;
+    border: 2px solid rgb(11, 21, 16);
+    overflow: scroll;
+}
+
+.section3-2-2{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 262px;
+    border-style: solid;
+    border: 1px solid rgb(48, 176, 231); 
+
+} 
+
+.section3-2-2-1{
+    display: flex;
+    flex-direction: row;
+    width: 299px;
+    height: 100px;
+    border-style: solid;
+    border: 2px solid rgb(207, 34, 34); 
+    overflow: scroll;
+} 
+
+.section3-2-2-2{
+    display: flex;
+    flex-direction: row;
+    width: 299px;
+    height: 100px;
+    border-style: solid;
+    border: 2px solid rgb(48, 232, 66); 
+    overflow: scroll;
+} 
+
+.section3-2-2-3{
+    display: flex;
+    flex-direction: row;
+    width: 299px;
+    height: 100px;
+    border-style: solid;
+    border: 2px solid rgb(42, 5, 137); 
+    overflow: scroll;
+} 
+
