@@ -1,6 +1,7 @@
 div {
     border: 1px solid rgb(255, 255, 255);
     /* display: flex; */
+    
 }
 body{
     padding: 0px;
@@ -8,19 +9,19 @@ body{
 }
 .page-container{
     display: flex;
-    flex-wrap: nowrap;
-    height: 99.8%;
-    width: 100%;
+    /* box-sizing: border-box; */
+    height: 743px;
+    width: 1534px;
     position: absolute;
     background-color: rgb(154, 154, 154);
-    
     font-family: Arial, Helvetica, sans-serif;
+    border-color: #9d9d9d;
     /* align-items: stretch; */
 }
 .login-container{
     flex-direction: column;
     display: flex;
-    height: 89%;
+    height: 650px;
     width: 38.9%;
     background-color: rgb(255, 255, 255);
     margin-top: 47px;
@@ -29,6 +30,7 @@ body{
 }
 .header-container{
     display: flex;
+   
     height: 8%;
     width: 98%;
     margin-left: 4px;
@@ -40,13 +42,15 @@ body{
     width: 45px;
     margin-top: 0px;
     margin-left: 2px;
+    position: absolute;
+    bottom: 630px;
 
 }
 .img2{
     display: flex;
-    height: 42px;
-    width: 42px;
-    margin-left: 226px;
+    height: 44px;
+    width: 44px;
+    margin-left: 270px;
     margin-top: 0px;
 }
 .body-container{
@@ -69,7 +73,7 @@ body{
     font-size: 30px;
     margin-left: 145px;
     position: absolute;
-    bottom: 570px;
+    bottom: 590px;
     }
 
 .section2{
@@ -100,7 +104,7 @@ body{
     display: flex;
     height: 20px;
     width: 20px;
-    margin-left: 65px;
+    margin-left: 70px;
     margin-top: 8px;
   }
 
@@ -109,14 +113,14 @@ body{
     height: 20px;
     width: 190px;
     margin-left: 5px;
-    margin-top: 8px;
+    margin-top: 11px;
     font-size: 14px;
     font-family:"Google Sans",arial,sans-serif;
   }
 
-  .section3{
+.section3{
     display: flex;
-    height: 20%;
+    height: 30%;
     width: 98%;
 
 }
@@ -130,11 +134,11 @@ body{
   }
   .section3-2{
     display: flex;
-    height: 62%;
-    width: 56%;
-    margin-top: 20px;
+    height: 56%;
+    width: 58%;
+    margin-top: 30px;
     border-radius: 20px;
-    margin-left: 150px;
+    margin-left: 145px;
     border-color: rgb(215, 214, 214);
   }
 
@@ -142,7 +146,7 @@ body{
     display: flex;
     height: 20px;
     width: 20px;
-    margin-left: 65px;
+    margin-left: 70px;
     margin-top: 8px;
   }
 
@@ -151,9 +155,10 @@ body{
     height: 20px;
     width: 190px;
     margin-left: 5px;
-    margin-top: 10px;
-    font-size: 14px;
+    margin-top: 14px;
+    font-size: 14.5px;
     position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
     bottom: 452px;
     }
 .section4 hr{
@@ -161,18 +166,19 @@ body{
     border: 0;
     background: #d8d8d8;
     height: 1px;
-    width: 280px;
+    width: 300px;
     margin-top: 18px;
+    margin-left: 148px;
     }
 
 .section4 span{
     display: block;
     margin: auto;
-    width: 24px;
-    font-size: 15px;
+    width: 20px;
+    font-size: 16px;
     background: #fff;
-    margin-top: -17px;
-    margin-left: 300px;
+    margin-top: -18px;
+    margin-left: 280px;
     height: 25px;
 }
 .section5{
@@ -183,11 +189,11 @@ body{
 
 .section5-1{
     display: flex;
-    height: 50px;
-    width: 280px;
-    margin-left: 160px;
-    margin-top: 10px;
-    border-radius: 2px;
+    height: 56px;
+    width: 295px;
+    margin-left: 146px;
+    margin-top: 1px;
+    border-radius: 3px;
     border-color: #d7d6d6;
    
 }
@@ -195,8 +201,8 @@ body{
     display: flex;
     height: 20px;
     width: 200px;
-    margin-top: 10px;
-    margin-left: 4px;
+    margin-top: 16px;
+    margin-left: 5px;
     font-size: 17px;
     opacity: .6;
 }
@@ -216,11 +222,11 @@ body{
 .section6-1{
     display: flex;
     height: 36px;
-    width: 290px;
+    width: 300px;
     border-radius: 20px;
-    margin-top: 10px;
+    margin-top: 0px;
     border-color: rgb(212, 211, 211);
-    margin-left: 158px;
+    margin-left: 146px;
     background-color: black;
 }
 
@@ -229,7 +235,7 @@ body{
     height: 26px;
     width: 130px;
     margin-top: 7px;
-    margin-left: 120px;
+    margin-left: 130px;
     font-size: 15.5px;
     color: #ffffff;
     border-color: black;
@@ -245,10 +251,10 @@ body{
 .section7-1{
     display: flex;
     height: 35px;
-    width: 285px;
+    width: 297px;
     border-radius: 20px;
-    margin-top: 10px;
-    margin-left: 160px;
+    margin-top: 2px;
+    margin-left: 146px;
     border-color: rgb(196, 196, 196);
 }
 .sec7-1{
@@ -256,10 +262,17 @@ body{
     height: 30px;
     width: 200px;
     margin-top: 10px;
-    margin-left: 80px;
+    margin-left: 84px;
     font-size: 14px;
     position: absolute;
-    bottom: 200px;
+    bottom: 223px;
+}
+.footer-container{
+    display: flex;
+    height:100px;
+    width: 575px;
+    margin-left: 4px;
+    margin-top: 40px;
 }
 .section8{
     display: flex;
@@ -267,9 +280,10 @@ body{
     width: 300px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    margin-top: 48px;
-    margin-left: 155px;
+    margin-top: 10px;
+    margin-left: 138px;
     opacity: .7;
+    padding-left: 12px;
    
 }
 .section8 a{
