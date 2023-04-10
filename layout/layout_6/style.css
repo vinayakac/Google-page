@@ -1,0 +1,128 @@
+.section{
+    border: 1px solid black;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.section-1{
+    border: 1px solid white;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.section-2{
+    border: 1px solid white;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.section-1_1{
+    border: 1px solid white;
+    height: 50%;
+    width: 100%;
+    background-color: rgb(80, 213, 218);
+    overflow: scroll;
+}
+.section-1_2{
+    border: 1px solid white;
+    height: 50%;
+    width: 100%;
+    background-color: rgb(80, 213, 218);
+    overflow: scroll;
+}
+.section-1_3{
+    border: 1px solid white;
+    height: 50%;
+    width: 100%;
+    background-color: rgb(80, 213, 218);
+    overflow: scroll;
+}
+.section-2_1{
+    border: 1px solid white;
+    height: 50%;
+    width: 100%;
+    background-color: rgb(80, 213, 218);
+    overflow: scroll;
+}
+.section-2_2{
+    border: 1px solid white;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+.section-2_3{
+    border: 1px solid white;
+    height: 50%;
+    width: 100%;
+    background-color: rgb(80, 213, 218);
+    overflow: scroll;
+}
+.section-2_21{
+    border: 1px solid white;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.section-2_22{
+    border: 1px solid white;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}.section-2_23{
+    border: 1px solid white;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.section-2_211{
+    border: 1px solid white;
+    height: 50%;
+    width: 100%;
+    background-color: aquamarine;
+    overflow: scroll;
+}
+.section-2_212{
+    border: 1px solid white;
+    height: 50%;
+    width: 100%;
+    background-color: aquamarine;
+    overflow: scroll;
+}
+.section-2_221{
+    border: 1px solid white;
+    height: 50%;
+    width: 100%;
+    background-color: aquamarine;
+    overflow: scroll;
+}
+
+.section-2_222{
+    border: 1px solid white;
+    height: 50%;
+    width: 100%;
+    background-color: aquamarine;
+    overflow: scroll;
+}
+.section-2_231{
+    border: 1px solid white;
+    height: 50%;
+    width: 100%;
+    background-color: aquamarine;
+    overflow: scroll;
+}
+.section-2_232{
+    border: 1px solid white;
+    height: 50%;
+    width: 100%;
+    background-color: aquamarine;
+    overflow: scroll;
+}
