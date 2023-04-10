@@ -6,7 +6,6 @@ body {
     overflow-y: auto;
     width: 1292px;
     height: 347px;
-    /* border: 1px solid red; */
     justify-items: center;
     align-items: center;
     box-sizing: border-box;
@@ -16,7 +15,6 @@ body {
     display: flex;
     height: 422.984px;
     width: 1292px;
-    /* border: 1px solid black; */
 }
 
 .body2 {
@@ -30,7 +28,7 @@ body {
 .body3 {
     display: flex;
     width: 1292px;
-    height: 783.984px;
+    height: 769.984px;
     /* border: 1px solid gray; */
 }
 
@@ -77,12 +75,12 @@ body {
     flex-direction: column;
     flex-grow: 1;
     max-width: 350px;
-    height: 579.994px;
+    height: 579.984px;
     justify-content: center;
     align-items: center;
-    /* border: 0.25px solid #e6e6e6; */
-    margin-top: 6px;
-    margin-left: 2px;
+    margin-top: 4px;
+    padding-left: 2px;
+    /* margin-left: -1px; */
     border-radius: 1px;
     background-color: #fff;
 }
