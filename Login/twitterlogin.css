@@ -14,15 +14,15 @@ body{
     width: 1534px;
     position: absolute;
     background-color: rgb(154, 154, 154);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:"Google Sans",arial,sans-serif;
     border-color: #9d9d9d;
     /* align-items: stretch; */
 }
 .login-container{
     flex-direction: column;
     display: flex;
-    height: 650px;
-    width: 38.9%;
+    height: 648px;
+    width: 598.5px;
     background-color: rgb(255, 255, 255);
     margin-top: 47px;
     margin-left: 467px;
@@ -30,73 +30,88 @@ body{
 }
 .header-container{
     display: flex;
-   
-    height: 8%;
-    width: 98%;
+    height: 50px;
+    width: 580px;
     margin-left: 4px;
     margin-top: 4px;
+
 }
 .img1{
     display: flex;
-    height: 45px;
-    width: 45px;
-    margin-top: 0px;
-    margin-left: 2px;
+    height: 12px;
+    width: 12x;
+    margin-top: 2px;
+    margin-left: 14px;
     position: absolute;
-    bottom: 630px;
+    bottom: 663px;
 
 }
 .img2{
     display: flex;
-    height: 44px;
-    width: 44px;
-    margin-left: 270px;
+    height: 45px;
+    width: 45px;
+    margin-left: 273px;
     margin-top: 0px;
+    position: absolute;
+    bottom: 646px;
 }
+
+/* .image{
+    display: flex;
+    height: 80px;
+    width: 100px;
+    margin-left: 272px;
+    margin-top: 0px;
+} */
 .body-container{
     flex-direction: column;
     display: flex;
-    height: 70%;
-    width: 98%;
+    height: 450px;
+    width: 587px;
     margin-left: 2px;
+    border-color: rgb(255, 255, 255);
 }
 .section1{
     display: flex;
-    height: 13%;
-    width: 98%;
+    height: 70px;
+    width: 586px;
 
 }
 .section1-1{
     padding: 0px;
     margin: 0px;
     display: flex;
-    font-size: 30px;
+    font-size: 31px;
     margin-left: 145px;
     position: absolute;
-    bottom: 590px;
+    /* font-family: inherit; */
+    bottom: 586px;
     }
 
 .section2{
     display: flex;
-    height: 15%;
-    width: 98%;
+    height: 70px;
+    width: 587px;
+    /* position: absolute; */
 
 }
 .section2-1{
     display: flex;
-    height: 80%;
-    width: 90%;
-    margin-top: 17px;
+    height: 50px;
+    width: 580px;
+    margin-top: 4px;
+    position: absolute;
     /* border-radius: 20px; */
     /* margin-left: 90px; */
   }
   .section2-2{
     display: flex;
-    height: 72%;
-    width: 58%;
-    margin-top: 22px;
+    height: 38.5px;
+    width: 299px;
+    margin-top: 7px;
     border-radius: 20px;
     margin-left: 145px;
+    position: absolute;
     border-color: rgb(215, 214, 214);
   }
 
@@ -104,7 +119,7 @@ body{
     display: flex;
     height: 20px;
     width: 20px;
-    margin-left: 70px;
+    margin-left: 69px;
     margin-top: 8px;
   }
 
@@ -115,76 +130,86 @@ body{
     margin-left: 5px;
     margin-top: 11px;
     font-size: 14px;
+    word-spacing: 1px;
+    letter-spacing: 0.2px;
     font-family:"Google Sans",arial,sans-serif;
   }
 
 .section3{
     display: flex;
-    height: 30%;
-    width: 98%;
+    height: 70px;
+    width: 587px;
 
 }
 .section3-1{
     display: flex;
-    height: 87%;
-    width: 90%;
+    height: 50px;
+    width: 600px;
     margin-top: 5px;
     /* border-radius: 20px; */
     /* margin-left: 90px; */
   }
   .section3-2{
     display: flex;
-    height: 56%;
-    width: 58%;
-    margin-top: 30px;
+    height: 38.5px;
+    width: 298px;
+    margin-top: -2px;
     border-radius: 20px;
     margin-left: 145px;
+    position: absolute;
     border-color: rgb(215, 214, 214);
   }
 
   .sec3-1{
     display: flex;
-    height: 20px;
-    width: 20px;
-    margin-left: 70px;
-    margin-top: 8px;
+    height: 19px;
+    width: 19.2px;
+    margin-left: 72px;
+    margin-top: 8.9px;
   }
 
   .sec3-2{
     display: flex;
     height: 20px;
-    width: 190px;
-    margin-left: 5px;
+    width: 150px;
+    margin-left: 3px;
     margin-top: 14px;
     font-size: 14.5px;
     position: absolute;
+    letter-spacing: 0.2px;
     font-family: Arial, Helvetica, sans-serif;
-    bottom: 452px;
+    bottom: 5.5px;
     }
+
 .section4 hr{
     display: flex;
     border: 0;
     background: #d8d8d8;
     height: 1px;
     width: 300px;
-    margin-top: 18px;
+    margin-top: -5.5px;
     margin-left: 148px;
+    /* position: absolute; */
+    /* bottom: 415px; */
     }
 
 .section4 span{
     display: block;
     margin: auto;
-    width: 20px;
+    width: 24px;
+    text-align: center;
     font-size: 16px;
     background: #fff;
     margin-top: -18px;
     margin-left: 280px;
+    letter-spacing: 1px;
     height: 25px;
+    position: absolute;
 }
 .section5{
     display: flex;
-    height: 17%;
-    width: 98%;
+    height: 70px;
+    width: 587;
     }
 
 .section5-1{
@@ -192,7 +217,7 @@ body{
     height: 56px;
     width: 295px;
     margin-left: 146px;
-    margin-top: 1px;
+    margin-top: 11px;
     border-radius: 3px;
     border-color: #d7d6d6;
    
@@ -200,10 +225,10 @@ body{
 .sec5-1{
     display: flex;
     height: 20px;
-    width: 200px;
-    margin-top: 16px;
-    margin-left: 5px;
-    font-size: 17px;
+    width: 300px;
+    margin-top: 18px;
+    margin-left: 6px;
+    font-size: 17.2px;
     opacity: .6;
 }
 /* .section5-1 input{
@@ -216,15 +241,17 @@ body{
 } */
 .section6{
     display: flex;
-    height: 19%;
-    width: 98%;
+    height: 70px;
+    width: 587px;
 }
 .section6-1{
     display: flex;
     height: 36px;
     width: 300px;
     border-radius: 20px;
-    margin-top: 0px;
+    margin-top: 2px;
+    /* position: absolute; */
+    /* bottom: 285px; */
     border-color: rgb(212, 211, 211);
     margin-left: 146px;
     background-color: black;
@@ -244,7 +271,7 @@ body{
 
 .section7{
     display: flex;
-    height: 14%;
+    height: 70px;
     width: 500px;
 
 }
@@ -253,26 +280,27 @@ body{
     height: 35px;
     width: 297px;
     border-radius: 20px;
-    margin-top: 2px;
+    margin-top: 13px;
     margin-left: 146px;
-    border-color: rgb(196, 196, 196);
+    border-color: rgb(205, 205, 205);
 }
 .sec7-1{
     display: flex;
-    height: 30px;
+    height: 15px;
     width: 200px;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-left: 84px;
     font-size: 14px;
     position: absolute;
-    bottom: 223px;
+    bottom: 236px;
 }
 .footer-container{
     display: flex;
-    height:100px;
-    width: 575px;
+    height:130px;
+    width: 579px;
     margin-left: 4px;
-    margin-top: 40px;
+    /* margin-top: 40px; */
+    border-color: #ffffff;
 }
 .section8{
     display: flex;
@@ -280,9 +308,9 @@ body{
     width: 300px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    margin-top: 10px;
-    margin-left: 138px;
-    opacity: .7;
+    margin-top: 13px;
+    margin-left: 133px;
+    opacity: .6;
     padding-left: 12px;
    
 }
