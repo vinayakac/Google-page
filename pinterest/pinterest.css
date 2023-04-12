@@ -242,6 +242,7 @@
     margin-top: -25px;
     background-color: rgb(44 103 221);
     border: 2px solid rgb(245 240 240);
+    /* font-family: "Google Sans", arial, sans-serif; */
 
 }
 
@@ -280,6 +281,7 @@
     margin-top: 7px;
     background-color: rgb(252, 249, 249);
     border: 1px solid #dadce0;
+    font-family: "Google Sans", arial, sans-serif;
 
 }
 
@@ -297,14 +299,14 @@
 
 .g-t {
     height: 17px;
-    width: 217px;
+    width: 216px;
     margin-left: 72px;
     margin-top: -16px;
     font-size: 14px;
     letter-spacing: 0.25px;
     font-weight: 500;
     color: #474a4b;
-    font-family: "Google Sans",arial,sans-serif;
+    font-family: "Google Sans", arial, sans-serif;
     
     
 }
