@@ -135,7 +135,7 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: -9px;
-    margin-bottom: 4px;
+    margin-bottom: 4.5px;
     position: relative;
     font-size: 8px;
     max-width: 266px;
@@ -148,7 +148,7 @@ body {
 .field1 {
     display: flex;
     flex-direction: column;
-    /* margin-top: 2px; */
+    margin-top: 2.5px;
     margin-bottom: 8px;
     position: relative;
     font-size: 8px;
@@ -157,6 +157,12 @@ body {
     text-overflow: ellipsis;
     margin-left: 40px;
     /* border: 1px  #ede9e9; */
+}
+.formsection1-1{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    flex-direction: column;
 }
 
 
@@ -177,16 +183,21 @@ input {
 
 .username {
     display: flex;
-    margin-top: 1px;
+    margin-top: 3px;
     margin-bottom: 5px;
     align-items: center;
     justify-content: center;
+    text-decoration: #414040;
+    letter-spacing: 1px;
 }
 
 .password {
     display: flex;
-    margin-top: 5px;
+    margin-top: 3px;
     margin-bottom: 5px;
+    text-decoration: #414040;
+    letter-spacing: 1px;
+
 }
 
 /* label intial position*/
@@ -200,9 +211,12 @@ label {
     line-height: 6px;
     transition: all ease-out 0.1s;
     font-size: 12px;
-    color: #414040;
-    padding-top: 6px;
+    color: rgb(115, 115, 115);
+    padding-top: 7px;
     justify-items: center;
+    margin-top: 1px;
+    margin-left: -1px;
+    margin-bottom: -1px;
 }
 
 /* hiding placeholder in all browsers */
@@ -231,17 +245,21 @@ input:not(:placeholder-shown) {
     display: flex;
     text-align: center;
     justify-content: center;
-    width: 75%;
+    align-items: center;
+    width: 77%;
+    height: 15%;
     padding: 0.5rem;
     border: 1px solid transparent;
-    background-color: #74b6f4;
+    background-color:  rgb(97, 187, 246);
     color: #fff;
     font-weight: 600;
     font-size: 14px;
     cursor: pointer;
-    margin-top: 5px;
+    margin-top: 6px;
     margin-left: 40px;
+    margin-bottom: 5px;
     border-radius: 7.5px;
+    font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
 
 .or-container {
@@ -249,7 +267,7 @@ input:not(:placeholder-shown) {
     flex-direction: row;
     width: 268px;
     height: 14.984px;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 10px;
     margin-right: 40px;
     margin-left: 40px;
@@ -267,7 +285,7 @@ input:not(:placeholder-shown) {
     display: flex;
     width: 107.05px;
     height: 1px;
-    background-color: #999;
+    background-color: #c2c2c2;
     align-items: center;
     color: rgb(137, 137, 137);
 }
@@ -282,8 +300,8 @@ input:not(:placeholder-shown) {
     font-weight: 600;
     font-size: .8125rem;
     line-height: 1.1538;
-    text-decoration: #999;
-    color: rgb(137, 137, 137);
+    text-decoration: #676767;
+    color: rgb(165, 165, 165);
 }
 
 .or-section3 {
@@ -312,27 +330,35 @@ input:not(:placeholder-shown) {
     justify-content: center;
     width: 286px;
     height: 20px;
-    --ig-primary-button: 0, 149, 246;
+    color:#031e39;
     border: 0px transparent;
     background-color: #fff;
+    font-weight: 400;
+    font-size: small;
 }
 
 .fb-icon {
-    height: 20px;
-    width: 20px;
-    margin-right: 8px;
+    height: 18px;
+    width: 18px;
+    margin-right: 5px;
+    margin-top: 6px;
 
 }
 
 img {
-    height: 20px;
-    width: 20px;
+    height: 18px;
+    width: 18px;
     justify-content: left;
 }
 
 .fb-text {
     width: 134.86px;
+    text-decoration: #385185;
     height: 19px;
+    letter-spacing: 0.4px;
+    margin-top: 10px;
+    --font-weight-system-semibold: 600;
+    font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
 
 .forgot {
