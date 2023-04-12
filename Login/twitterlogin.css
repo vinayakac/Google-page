@@ -84,6 +84,8 @@ body{
     font-size: 31px;
     margin-left: 145px;
     position: absolute;
+    letter-spacing: 0.2px;
+    word-spacing: 0.2px;
     /* font-family: inherit; */
     bottom: 586px;
     }
@@ -186,7 +188,7 @@ body{
     border: 0;
     background: #d8d8d8;
     height: 1px;
-    width: 300px;
+    width: 290px;
     margin-top: -5.5px;
     margin-left: 148px;
     /* position: absolute; */
@@ -215,7 +217,7 @@ body{
 .section5-1{
     display: flex;
     height: 56px;
-    width: 295px;
+    width: 298.5px;
     margin-left: 146px;
     margin-top: 11px;
     border-radius: 3px;
@@ -249,11 +251,11 @@ body{
     height: 36px;
     width: 300px;
     border-radius: 20px;
-    margin-top: 2px;
+    margin-top: 2.5px;
     /* position: absolute; */
     /* bottom: 285px; */
     border-color: rgb(212, 211, 211);
-    margin-left: 146px;
+    margin-left: 145px;
     background-color: black;
 }
 
@@ -261,8 +263,8 @@ body{
     display: flex;
     height: 26px;
     width: 130px;
-    margin-top: 7px;
-    margin-left: 130px;
+    margin-top: 8px;
+    margin-left: 132px;
     font-size: 15.5px;
     color: #ffffff;
     border-color: black;
@@ -277,10 +279,10 @@ body{
 }
 .section7-1{
     display: flex;
-    height: 35px;
-    width: 297px;
+    height: 34px;
+    width: 299px;
     border-radius: 20px;
-    margin-top: 13px;
+    margin-top: 12px;
     margin-left: 146px;
     border-color: rgb(205, 205, 205);
 }
