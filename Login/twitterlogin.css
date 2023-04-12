@@ -14,8 +14,10 @@ body{
     width: 1534px;
     position: absolute;
     background-color: rgb(154, 154, 154);
-    font-family:"Google Sans",arial,sans-serif;
+    /* font-family:"Google Sans",arial,sans-serif; */
+    /* font-family: "TwitterChirp",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; */
     border-color: #9d9d9d;
+    /* font-family: Helvetica, sans-serif; */
     /* align-items: stretch; */
 }
 .login-container{
@@ -84,10 +86,11 @@ body{
     font-size: 31px;
     margin-left: 145px;
     position: absolute;
-    letter-spacing: 0.2px;
-    word-spacing: 0.2px;
-    /* font-family: inherit; */
-    bottom: 586px;
+    /* letter-spacing: 0.2px; */
+    /* word-spacing: 0.2px; */
+    font-family: "TwitterChirp",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    margin-top: -11px;
+    /* font-family: Helvetica, sans-serif; */
     }
 
 .section2{
@@ -134,7 +137,8 @@ body{
     font-size: 14px;
     word-spacing: 1px;
     letter-spacing: 0.2px;
-    font-family:"Google Sans",arial,sans-serif;
+    font-family: "Google Sans",arial,sans-serif;
+    font-weight: 500;
   }
 
 .section3{
@@ -176,9 +180,9 @@ body{
     width: 150px;
     margin-left: 3px;
     margin-top: 14px;
-    font-size: 14.5px;
+    font-size: 14px;
     position: absolute;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.4px;
     font-family: Arial, Helvetica, sans-serif;
     bottom: 5.5px;
     }
@@ -189,7 +193,7 @@ body{
     background: #d8d8d8;
     height: 1px;
     width: 290px;
-    margin-top: -5.5px;
+    margin-top: -5.6px;
     margin-left: 148px;
     /* position: absolute; */
     /* bottom: 415px; */
@@ -198,15 +202,16 @@ body{
 .section4 span{
     display: block;
     margin: auto;
-    width: 24px;
+    width: 28px;
     text-align: center;
     font-size: 16px;
     background: #fff;
     margin-top: -18px;
-    margin-left: 280px;
+    margin-left: 278px;
     letter-spacing: 1px;
     height: 25px;
     position: absolute;
+    font-family:"Google Sans",arial,sans-serif;
 }
 .section5{
     display: flex;
@@ -222,16 +227,17 @@ body{
     margin-top: 11px;
     border-radius: 3px;
     border-color: #d7d6d6;
-   
+    font-family: Helvetica, sans-serif;
 }
 .sec5-1{
     display: flex;
-    height: 20px;
+    height: 18px;
     width: 300px;
-    margin-top: 18px;
+    margin-top: 18.5px;
     margin-left: 6px;
     font-size: 17.2px;
     opacity: .6;
+    
 }
 /* .section5-1 input{
     margin-top: 1px;
@@ -263,11 +269,12 @@ body{
     display: flex;
     height: 26px;
     width: 130px;
-    margin-top: 8px;
+    margin-top: 8.5px;
     margin-left: 132px;
     font-size: 15.5px;
     color: #ffffff;
     border-color: black;
+    font-family: Helvetica, sans-serif;
 
 }
 
@@ -290,11 +297,13 @@ body{
     display: flex;
     height: 15px;
     width: 200px;
-    margin-top: 15px;
-    margin-left: 84px;
-    font-size: 14px;
+    /* margin-top: 10px; */
+    margin-left: 83px;
+    font-size: 14.5px;
     position: absolute;
-    bottom: 236px;
+    bottom: 236.5px;
+    letter-spacing: 0.3px;
+    font-family: Helvetica, sans-serif;
 }
 .footer-container{
     display: flex;
