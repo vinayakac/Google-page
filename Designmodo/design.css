@@ -37,10 +37,10 @@
     display: flex; 
     flex-direction: column;
     padding: 5px;
-    width: 396px;
+    width: 386px;
     height: 500px;
     margin-top: 30px;
-    margin-left: 32px;
+    margin-left: 29px;
     border-style: solid;
     text-align: center;
     background-color: white;
@@ -54,10 +54,16 @@
     text-align: start;
     margin-left: 0px;
     margin-top: 0px;
-    width: 395px;
+    width: 375px;
     height: 100px;
     border-style: solid;
     border: 2px solid #fff;
+}
+
+.star{
+    height: 20px;
+    width: 10px;
+    color: #F44336;
 }
 
 .section1-1-1-1{
@@ -66,10 +72,10 @@
     text-align: left;
     border-radius: 5px;
     margin-left: 0px;
-    margin-top: 15px;
-    /* margin-bottom: 15px; */
-    width: 390px;
-    height: 45px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    width: 373px;
+    height: 48px;
     border-style: solid;
     background: #fff;
     border: 2px solid #e0e5eb
@@ -82,7 +88,7 @@
     font-family: "Inter",-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
     margin-left: 0px;
     margin-top: 3px;
-    width: 395px;
+    width: 375px;
     height: 100px;
     border-style: solid;
     border: 2px solid #fff;
@@ -93,10 +99,10 @@
     text-align: left;
     border-radius: 5px;
     margin-left: 0px;
-    margin-top: 15px;
-    /* margin-bottom: 15px; */
-    width: 390px;
-    height: 45px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    width: 373px;
+    height: 48px;
     border-style: solid;
     background: #fff;
     border: 2px solid #e0e5eb
@@ -107,7 +113,8 @@
     flex-direction: column;
     text-align: left;
     margin-left: 0px;
-    width: 395px;
+    margin-top: 8px;
+    width: 375px;
     height: 30px;
     border-style: solid;
     border: 2px solid #fff;
@@ -117,8 +124,9 @@
     display: flex; 
     flex-direction: column;
     text-align: left;
+    margin-top: 8px;
     margin-left: 0px;
-    width: 395px;
+    width: 375px;
     height: 50px;
     border-style: solid;
     border: 2px solid #fff;
@@ -130,7 +138,7 @@
     text-align: left;
     margin-left: 0px;
     margin-bottom: 20px;
-    width: 395px;
+    width: 375px;
     height: 80px;
     border-style: solid;
     border: 2px solid #fff;
@@ -152,6 +160,7 @@
     font-family: "Inter",Helvetica,Arial,sans-serif;
     letter-spacing: normal;
     margin-bottom: 10px;
+    border: 1px solid white;
 }
 
 .button2{
@@ -199,17 +208,51 @@
 }
 
 .checkbox{
-    font-size: 17px;
+    font-size: 15px;
+    color: rgba(38,38,38,0.66);
+    color: #262626;
     font-family: "Inter",Helvetica,Arial,sans-serif;
     letter-spacing: -0.02em;
 }
 
+.box{
+    height: 14px;
+    width: 15px;
+    background: #fff;
+    border: 2px solid #e0e5eb
+}
+
+.text{
+    text-align: left;
+    font-family: "Inter",-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+    margin-left: 0px;
+    border-radius: 5px;
+    margin-top: 0px;
+    width: 374px;
+    height: 110px;
+    border: 1px solid #e0e5eb;
+    background-color: white;
+}
+
 .primary{
-    font-size: 17px;
-    margin-left: 25px;
+    font-size: 15px;
+    margin-left: 33px;
     font-family: "Inter",Helvetica,Arial,sans-serif;
     letter-spacing: -0.02em;
+    color: #186bff;
 }
+
+.email{
+    color: rgba(38,38,38,0.66);
+    color: #262626;
+}
+
+.password{
+    color: rgba(38,38,38,0.66);
+    color: #262626;
+}
+
+
 
 
 
