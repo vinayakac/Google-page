@@ -1,0 +1,32 @@
+.separator {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #999;
+    margin-top: -2px;
+    font-size: smaller;
+    margin-left: 5px;
+    margin-right: 3px;
+  }
+  p{
+    font-size: 11px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: #1c1c1c;
+  }
+  
+  .separator .line {
+    height: 1px;
+    width: 30%;
+    background-color: #dbdbdb;
+    margin-left: 45px;
+
+  }
+
+  .separator .line1 {
+    height: 1px;
+    width: 30%;
+    background-color: #dbdbdb;
+    /* margin-left: 20px; */
+    margin-right: 45px;
+  }
