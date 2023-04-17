@@ -1,0 +1,23 @@
+.page-container {
+    background-color: rgb(139, 135, 135);
+    overflow-y: scroll;
+    inset: 0px;
+    position: fixed;
+    /* position: absolute; */
+    /* display: flex; */
+
+}
+.login-container {
+    display: flex;
+    /* position:fixed; */
+    align-items: center;
+    justify-content: center;
+    height: 660px;
+    width: 484px;
+    margin-left: 405px;
+    border-radius: 32px;
+    margin-top: 0px;
+
+    background-color: rgb(250, 252, 252);
+    /* border: 1px solid red; */
+}
