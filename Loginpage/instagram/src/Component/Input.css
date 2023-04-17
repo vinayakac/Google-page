@@ -8,7 +8,7 @@ input{
     padding-bottom: 8px;
     padding-right: 10px;
     height: 38px;
-    width: 267px;
+    width: 268px;
     border: 0;
     outline: none;
     letter-spacing: normal;
@@ -26,7 +26,7 @@ input{
     margin-bottom: 1px;
     position: relative;
     font-size: 8px;
-    max-width: 300px;
+    max-width: 302px;
     height: 43px;
     text-overflow: ellipsis;
     margin-left: 34px;
@@ -44,7 +44,7 @@ input{
     margin-bottom: 8px;
     position: relative;
     font-size: 8px;
-    max-width: 300px;
+    max-width: 302px;
     height: 43px;
     text-overflow: ellipsis;
     margin-left: 34px;
@@ -81,7 +81,7 @@ input:not(:placeholder-shown) {
    text-align: center;
    align-items: center;
    justify-content: center;
-   width: 267px;
+   width: 268px;
    height: 32px;
    border: 1px solid transparent;
    background-color: rgb(95, 183, 250);

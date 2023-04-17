@@ -1,0 +1,38 @@
+.box-3 {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 95px;
+}
+.box-3-1{
+    display: flex;
+    width: 311px;
+    height: 11px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.store {
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    height: 95px;
+}
+
+.microsoft-logo {
+    width: 136px;
+    height: 20px;
+    margin-left: 5px;
+
+}
+
+.play-logo {
+    width: 120px;
+    height: 20px;
+    margin-right: 5px;
+
+}

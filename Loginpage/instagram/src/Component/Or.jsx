@@ -5,7 +5,7 @@ export default function Or() {
     return (
         <div className="separator">
             <div className="line"></div>
-            <p>OR</p>
+            <div className='or'><p>OR</p></div>
             <div className="line1"></div>
         </div>
     )
