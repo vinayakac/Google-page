@@ -1,5 +1,5 @@
 import React from 'react';
-//  import './Body.css';
+import './Body.css';
 
 export default function Body(){
     return(
@@ -33,8 +33,8 @@ export default function Body(){
 
         <div className="login-part">
             <div className="Facebook-part">
-                {/* <div className="f-i"><img className="imeg">
-                        src="https://static.xx.fbcdn.net/rsrc.php/v3/y3/r/U7MAWJlE6hZ.png"</img></div> */}
+                <div className="f-i"><img className="imeg"
+                        src="https://static.xx.fbcdn.net/rsrc.php/v3/y3/r/U7MAWJlE6hZ.png" alt='#'></img></div>
                 <div className="f-text">Continue with Facebook</div>
             </div>
             <div className="Google-part">

@@ -3,16 +3,20 @@
 
     display: flex;
     flex-direction: column;
-    height: 96px;
-    width: 447px;
-    margin-top: -552px;
+    height: 107px;
+    width: 453px;
+    position: absolute;
+    margin-right: 1px;
+    margin-top: -532px;
+    
+    
     /* border: 2px solid red; */
 }
 
 .X-symbol {
-    margin-left: 401px;
+    margin-left: 412px;
     height: 39px;
-    margin-top: 9px;
+    margin-top: 4.9px;
     width: 40px;
 }
 
@@ -24,11 +28,11 @@
 }
 
 .logo {
-    margin-top: -26.4px;
-    margin-left: 193px;
-    height: 57px;
-    width: 46px;
-    /* border: 1px solid red; */
+    margin-top: -30px;
+    /* margin-left: 193px; */
+    margin-left: 204px;
+    height: 92px;
+    width: 57px;
 
 
 }
@@ -43,8 +47,9 @@
 .heading {
     height: 43px;
     width: 325px;
-    margin-left: 73px;
-    margin-top: 11px;
+    /* margin-left: 73px; */
+    margin-left: 83.8px;
+    margin-top: 6.2px;
     color: rgb(51, 51, 51);
     font-size: 32px;
     font-weight: 600;

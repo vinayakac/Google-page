@@ -3,9 +3,9 @@
     height: 430px;
     width: 438px;
     flex-direction: column;
-    margin-top: -1734px;
-    margin-left: 265px;
-    background-color: red;
+    margin-left: -899px;
+    margin-top: 52px;
+
     /* border: 1px solid red; */
 }
 
@@ -83,7 +83,7 @@
 .p-icon {
     height: 22px;
     width: 22px;
-    margin-top: -17px;
+    margin-top: -22px;
     margin-left: 242px;
 }
 
@@ -179,7 +179,7 @@
     height: 24px;
     width: 199px;
     margin-left: 53px;
-    margin-top: -28px;
+    margin-top: -27.2px;
     color: white;
     font-size: 16.5px;
     font-weight: bold;
