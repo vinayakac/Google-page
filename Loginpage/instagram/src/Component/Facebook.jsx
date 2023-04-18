@@ -8,7 +8,7 @@ export default function Facebook() {
                 <img src={facebooklogoImage} alt="#" className='facebook-logo' />
             </div>
             <div className="fb-button">
-                <p>Log in with Facebook</p>
+                <p className='log'>Log in with Facebook</p>
             </div>
         </div>
     )

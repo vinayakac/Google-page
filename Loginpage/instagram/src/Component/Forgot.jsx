@@ -4,7 +4,7 @@ import "./Forgot.css"
 export default function Forgot() {
   return (
     <div>
-      <p><span className='pass'>Forgot password?</span></p>
+      <p className='word'><span className='pass'>Forgot password?</span></p>
     </div>
   )
 }

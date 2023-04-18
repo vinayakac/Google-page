@@ -6,7 +6,8 @@ import OR from './Or.jsx'
 import Have from './Have.jsx'
 import Fcebook from '../Component/Facebook.jsx'
 import Forgot from '../Component/Forgot.jsx'
-// import App from '../Component/Get.jsx'
+import App from '../Component/Get.jsx'
+// import Footer from '../Component/Footer.jsx'
 
 
 
@@ -34,8 +35,11 @@ export default function Body() {
         <Have></Have>
       </div>
       <div>
-        {/* <App></App> */}
+        <App></App>
       </div>
+      {/* <div>
+        <Footer></Footer>
+      </div> */}
     </div>
   )
 }

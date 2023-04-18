@@ -1,38 +1,45 @@
 .box-3 {
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 350px;
     height: 95px;
-}
-.box-3-1{
-    display: flex;
-    width: 311px;
-    height: 11px;
+    margin-left: -13px;
     margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
+    /* border: 1px solid black; */
 }
 
-.store {
+
+.the{
+    align-items: center;
+    margin-left: -2px;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+.store{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     width: 350px;
-    height: 95px;
+    height: 60px;
+    margin-top: 6px;
+    margin-left: -2px;
 }
-
 .microsoft-logo {
-    width: 136px;
-    height: 20px;
+    width: 111px;
+    height: 40px;
     margin-left: 5px;
 
 }
 
 .play-logo {
-    width: 120px;
-    height: 20px;
-    margin-right: 5px;
+    width: 135px;
+    height: 40px;
+    margin-right: 3px;
 
 }

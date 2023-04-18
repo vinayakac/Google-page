@@ -1,14 +1,13 @@
 import React from 'react'
 import playstoreImage from '../assests/play.png'
 import appstoreImage from '../assests/microsoft.png'
+import "./Get.css"
 
 
 export default function Get() {
   return (
     <div className='box-3'>
-        <div className='box-3-1'>
-            <p>Get the app</p>
-        </div>
+        <p className='the'>Get the app.</p>
         <div className='store'>
             <div>
             <img src={playstoreImage} alt="#" className='play-logo'/>
