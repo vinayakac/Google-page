@@ -1,14 +1,15 @@
 import React from 'react'
-import facebooklogoImage from '../assests/R.png'
+import facebookLogoImage from '../assests/R.png'
 
 export default function Facebook() {
     return (
-        <div className='fb'>
+        <div className='fb1'>
             <div>
-                <img src={facebooklogoImage} alt="#" className='facebook-logo' />
+                {facebookLogoImage}
+                <img src={facebookLogoImage} alt="#" className='facebook-logo11' />
             </div>
-            <div className="fb-button">
-                <p className='log'>Log in with Facebook</p>
+            <div className="fb-button1">
+                <p className='login1'>Log in with Facebook</p>
             </div>
         </div>
     )

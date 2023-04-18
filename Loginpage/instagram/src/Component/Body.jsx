@@ -7,7 +7,7 @@ import Have from './Have.jsx'
 import Fcebook from '../Component/Facebook.jsx'
 import Forgot from '../Component/Forgot.jsx'
 import App from '../Component/Get.jsx'
-// import Footer from '../Component/Footer.jsx'
+
 
 
 
@@ -37,9 +37,7 @@ export default function Body() {
       <div>
         <App></App>
       </div>
-      {/* <div>
-        <Footer></Footer>
-      </div> */}
+      
     </div>
   )
 }
