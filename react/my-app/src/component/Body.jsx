@@ -14,12 +14,7 @@ export default function Input() {
 		<div class="btn">
 			<input type="submit" value="Sign in" class="sign_btn"></input>
 		</div>
-		{/* <div class="text">
-			<p>New to GitHub? </p>
-		</div> */}
 		
-		
-
 		</div>
     )
 }

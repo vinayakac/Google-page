@@ -5,7 +5,6 @@ import "./git.css"
 import Logo from "./Header.jsx"
 import App from "./Text.jsx"
 import Input from './Body.jsx'
-// import Part from './Part2.jsx'
 import User from './User.jsx'
 import Part2 from './Part2.jsx'
 
