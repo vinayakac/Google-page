@@ -1,9 +1,9 @@
-export default function text() {
+import "./Text.css"
+
+export default function App() {
     return(
-        <div class="body">
-            <div class="text">
-		        <p>New to GitHub? <a href="#">Create an account.</a></p>
-	        </div>
-            </div>
-    )
+        <div class="title">
+		    <p>Sign in to GitHub</p>
+	    </div>
+    );
 }

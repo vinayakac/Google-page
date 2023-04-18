@@ -1,34 +1,3 @@
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	list-style: none;
-	text-decoration: none;
-	outline: none;
-	/* font-family: 'Open Sans', sans-serif; */
-	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
-	
-  /* border: 2px solid red; */
-}
-
-body{
-	font-size: 14px;
-	background-color: #f9f9f9;
-}
-
-a{
-    color: #0366d6;
-}
-
-.page-container{
-	max-width: 310px;
-	width: 100%;
-	height: auto;
-	margin: 30px auto;
-  /* border: 2px solid red; */
-  margin-bottom: 0 auto 25px;
-}
-
 .page-container .header .gitlogo{
 	display: flex;
 	width: 48px;
@@ -39,15 +8,4 @@ a{
 	/* margin-bottom: 50px; */
   /* border: 2px solid green; */
   margin-top: 32px;
-}
-
-.page-container .title{
-	margin-bottom: 5px;
-	margin-top: 28px;
-	font-size: 22.8px;
-	font-weight: var(--base-text-weight-light, 300);
-	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
-	text-align: center;
-	color: #333;
-  /* border: 2px solid black; */
 }
