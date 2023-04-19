@@ -1,8 +1,10 @@
+*{
+    margin: 0;
+}
+
 .page-container{
     display: flex;
     flex-direction: column;
-    height: 100%;
-    width: 100%;
     background-color: #fff;
     background: rgba(10,33,65,0.04);
     border: 3px solid #fff;
@@ -11,19 +13,19 @@
 .body-container{
     display: flex;
     margin-top: 109px;
-    height: 617px;
-    width: auto;
+    height: 684.8px;
+    width: 1519.2px;
     background-color:#fff;
     background: rgba(10,33,65,0.00);
-    /* border: 2px solid rgb(244, 237, 237); */
+    /* border: 2px solid rgb(26, 11, 11); */
 }
 
 .section1{
     display: flex; 
-    margin-top: 12px;
-    margin-left: 507px;
-    width: 459px;
-    height: 542px;
+    margin-top: 19px;
+    margin-left: 520px;
+    width: 457px;
+    height: 541.2px;
     padding: 10px;
     border-radius: 6px;
     border-style: solid;
@@ -37,11 +39,12 @@
     display: flex; 
     flex-direction: column;
     padding: 5px;
-    width: 386px;
+    width: 421px;
     height: 500px;
-    margin-top: 30px;
-    margin-left: 29px;
+    margin-top: 14px;
+    margin-left: 13px;
     border-style: solid;
+    letter-spacing: -0.02em;
     text-align: center;
     background-color: white;
     border: 2px solid #fff;
@@ -50,12 +53,13 @@
 .section1-1-1{
     display: flex; 
     flex-direction: column;
+    margin-top: -5.3;
+    margin-bottom: 5px;
+    margin-left: 15px;
     font-family: "Inter",-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
     text-align: start;
-    margin-left: 0px;
-    margin-top: 0px;
-    width: 375px;
-    height: 100px;
+    width: 377px;
+    height: 101px;
     border-style: solid;
     border: 2px solid #fff;
 }
@@ -72,24 +76,22 @@
     text-align: left;
     border-radius: 5px;
     margin-left: 0px;
-    margin-top: 12px;
+    margin-top: 3px;
     margin-bottom: 10px;
-    width: 373px;
-    height: 48px;
-    border-style: solid;
-    background: #fff;
-    border: 2px solid #e0e5eb
+    width: 340px;
+    height: 46.9px;
 }
 
 .section1-1-2{
-    display:flex; 
+    display: flex; 
     flex-direction: column;
-    text-align: left;
+    margin-top: 1px;
+    margin-bottom: 5px;
+    margin-left: 15px;
     font-family: "Inter",-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
-    margin-left: 0px;
-    margin-top: 3px;
-    width: 375px;
-    height: 100px;
+    text-align: start;
+    width: 377px;
+    height: 101px;
     border-style: solid;
     border: 2px solid #fff;
 }
@@ -99,23 +101,21 @@
     text-align: left;
     border-radius: 5px;
     margin-left: 0px;
-    margin-top: 12px;
+    margin-top: 3px;
     margin-bottom: 10px;
-    width: 373px;
-    height: 48px;
-    border-style: solid;
-    background: #fff;
-    border: 2px solid #e0e5eb
+    width: 340px;
+    height: 50px;
 }
 
 .section1-1-3{
     display: flex; 
     flex-direction: column;
     text-align: left;
-    margin-left: 0px;
-    margin-top: 8px;
-    width: 375px;
-    height: 30px;
+    margin-left: 10px;
+    margin-top: 6px;
+    margin-bottom: 4px;
+    width: 380px;
+    height: 44.1px;
     border-style: solid;
     border: 2px solid #fff;
 }
@@ -124,10 +124,10 @@
     display: flex; 
     flex-direction: column;
     text-align: left;
-    margin-top: 8px;
-    margin-left: 0px;
-    width: 375px;
-    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 380px;
+    height: 44.1px;
     border-style: solid;
     border: 2px solid #fff;
 }
@@ -135,11 +135,12 @@
 .section1-1-5{
     display: flex; 
     flex-direction: row;
-    text-align: left;
-    margin-left: 0px;
-    margin-bottom: 20px;
-    width: 375px;
-    height: 80px;
+    text-align: center;
+    margin-top: 6px;
+    margin-left: 10px;
+    margin-bottom: 19px;
+    width: 377px;
+    height: 101px;
     border-style: solid;
     border: 2px solid #fff;
 }
@@ -147,36 +148,34 @@
 
 .button1{
     display: inline-block;
-    margin-top: 20px;
-    margin-left: 0px;
+    margin-top: 15px;
+    margin-left: 2px;
     border-radius: 5px;
     height: 40px;
-    width: 280px;
+    width: 340px;
     background: #27AE60;
     text-align: center;
     color: #fff;
     padding: 13px 20px;
     font-size: 16px;
     font-family: "Inter",Helvetica,Arial,sans-serif;
-    letter-spacing: normal;
     margin-bottom: 10px;
     border: 1px solid white;
 }
 
 .button2{
     display: inline-block;
-    margin-top: 20px;
-    margin-left: 15px;
+    margin-top: 15px;
+    margin-left: 5px;
     border-radius: 5px;
     height: 15px;
-    width: 280px;
+    width: 340px;
     background: #2F80ED;
     text-align: center;
     color: #fff;
     padding: 13px 20px;
     font-size: 16px;
     font-family: "Inter",Helvetica,Arial,sans-serif;
-    letter-spacing: normal;
     margin-bottom: 10px;
 }
 
@@ -184,23 +183,25 @@
         display: flex; 
         flex-direction: column;
         text-align: center;
-        margin-left: 45px;
+        margin-top: 0px;
+        margin-left: 19px;
         margin-bottom: 25px;
+        font-weight: 22px;
         font-family: "Inter",Helvetica,Arial,sans-serif;
         width: 300px;
         height: 22px;
         border-style: solid;
-        color: #186bff;
+        color: #337dfd;
         border: 2px solid white;
 }
 
-.login{
+.login-1{
     display: flex;
-    font-size: 25px;
-    margin-top: 1px;
+    font-size: 24px;
+    margin-top: 19px;
     margin-bottom: 15px;
     width: 250px;
-    margin-left: 70px;
+    margin-left: 86px;
     letter-spacing: -0.02em;
     text-align: center;
     border: 2px solid #fff;
@@ -208,6 +209,14 @@
 }
 
 .checkbox{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    overflow: hidden;
+    color: #262626;
+    background: #fff;
+    transform: translate3d(0, 0, 0);
     font-size: 15px;
     color: rgba(38,38,38,0.66);
     color: #262626;
@@ -223,36 +232,47 @@
 }
 
 .text{
-    text-align: left;
+    position: relative;
+    width: 100%;
+    background: #fff;
+    font-size: 17px;
+    padding: 14px 18px;
+    color: #242424;
     font-family: "Inter",-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
-    margin-left: 0px;
     border-radius: 5px;
-    margin-top: 0px;
-    width: 374px;
-    height: 110px;
+    outline: none;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     border: 1px solid #e0e5eb;
-    background-color: white;
+    transition: 0.15s;
 }
 
 .primary{
     font-size: 15px;
-    margin-left: 33px;
+    margin-left: 46px;
     font-family: "Inter",Helvetica,Arial,sans-serif;
-    letter-spacing: -0.02em;
-    color: #186bff;
+    color: #2F80ED;
 }
 
 .email{
-    color: rgba(38,38,38,0.66);
-    color: #262626;
+    font-size: 16px;
+    letter-spacing: -0.004em;
+    margin-bottom: 10px;
+    color: rgba(38,38,38,0.8);
 }
 
 .password{
-    color: rgba(38,38,38,0.66);
-    color: #262626;
+    font-size: 16px;
+    letter-spacing: -0.004em;
+    margin-bottom: 10px;
+    color: rgba(38,38,38,0.8);
 }
 
-
+.checked{
+    background-color: #186bff;
+}
 
 
 
