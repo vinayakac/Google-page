@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    background: #f0f2f5
+}
+.page-container{
+    height: 876.74px;
+    width: 1519.2px;
+    display: flex;
+    justify-content: center;
+
+}
+.layout{
+    height: 536px;
+    width: 980px;
+    margin: 20px 0;
+    position: relative;
+    top: 52px;
+    display: flex;
+    
+}
+.component-1{
+    height: 266.08px;
+    width: 548px;
+    padding-right: 32px;
+    /* background-color: plum; */
+    margin-top: 20px;
+}
+.logo-container{
+    height: 54.08px;
+    width: 548px;
+    /* background-color: aqua; */
+    padding: 112px 0 16px;
+}
+.logo{
+    height: 106px;
+    margin-top: -28px;
+    margin-right: -28px;
+    margin-left: -28px;
+    margin-left: -28px;
+}
+.logo_text{
+    height: 84px;
+    width: 500px;
+    font-size: 28px;
+    font-weight: normal;
+    padding: 0 0 20px;
+    color: #1c1e21;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+.component-2{
+    height: 496px;
+    width: 396px;
+    vertical-align: top;
+    margin-top: 20px;
+}
+.login-container{
+    height: 314.83px;
+    width: 396px;
+    background-color:white;
+    padding-top: 10px;
+    padding-bottom: 24px;
+    margin-top: 40px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    
+}
+.email{
+    height: 22px;
+    width: 330px;
+    display: inline-block;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    margin-top: 6px;
+    margin-left: 16px;   
+    background: #fff;
+    
+}
+.password{
+    height: 22px;
+    width: 330px;
+    display: inline-block;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    margin-top: 12px;
+    margin-left: 16px;
+    background: #fff;
+    
+}
+.login-button{
+    height: 48px;
+    width: 364px;
+    background-color: #1877f2;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 0 16px;
+    margin-top: 16px;
+    margin-left: 16px;
+    color: #fff;
+    font-weight: bold;
+    border-color: transparent;
+}
+.forgot-password{
+    height: 18.75px;
+    width: 396px;
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    background-color: #fff;
+    margin-top: 17px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+.line{
+    height: 0.8px;
+    width: 364px;
+    color: #1c1e21;
+    align-items: center;
+    display: flex;
+    margin-top: 19px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 12px;
+    text-align: center;
+    border-bottom: 1px solid #dadde1;
+}
+.create-button{
+    height: 48px;
+    width: 192.6px;
+    padding-top: 6px;
+    padding-right: 6px;
+    padding-left: 6px;
+    padding-bottom: 5px;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 17px;
+    background-color: #42b72a;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 102px;
+    border: transparent;
+    margin-right: 3px;
+    margin-top: 13px;
+
+
+}
+.create-page{
+    height: 18.75px;
+    width: 396px;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    margin-top: 28px;
+    color: black;
+    text-align: center;
+}
+.page{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+    color: black;
+}
