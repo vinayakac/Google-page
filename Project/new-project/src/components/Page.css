@@ -1,0 +1,7 @@
+.Page-container{
+    flex-direction: column;
+    display: flex;
+    height: 700px;
+    width: 1500px;
+    /* border: 1px solid rgb(0, 0, 0); */
+}
