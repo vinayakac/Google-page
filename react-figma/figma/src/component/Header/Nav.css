@@ -1,0 +1,23 @@
+.meals_text{
+    font-family: sans-serif;
+    margin-left: 25px;
+    color: rgb(111, 111, 111);
+    text-decoration-line: underline;
+}
+.snacks_text{
+    font-family: sans-serif;
+    margin-left: 43px;
+    color: rgb(142, 141, 141);
+    
+}
+.beverages_text{
+    font-family: sans-serif;
+    margin-left: 48px;
+    margin-right:40px;
+    color: rgb(142, 141, 141);
+}
+.a_text{
+    font-family: sans-serif;
+    /* margin-left: 5px; */
+    color: rgb(142, 141, 141);
+}
