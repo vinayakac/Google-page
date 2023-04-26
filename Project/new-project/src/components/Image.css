@@ -1,0 +1,26 @@
+.Header-container{
+    display: flex;
+    height: 250px;
+    width: 1500px;
+    /* border: 1px solid rgb(0, 0, 0); */
+    
+}
+
+.image{
+    display: flex;
+    width: 1500px;
+    height: 250px;
+    margin-left: 0px;
+}
+
+.logo{
+    width: 1519px;
+    height: 200px;
+    background-color: rgb(87, 85, 85);
+}
+
+.vector{
+    width: 200px;
+    height: 100px;
+    margin-right: 100px;
+}

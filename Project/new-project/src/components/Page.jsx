@@ -1,19 +1,21 @@
 import React from "react";
 import './Page.css';
-import Header from "./Header";
-import Body from "./Body";
-import Footer from "./Footer";
+import Image from "./Image";
+import Project from "./Project";
+import Testimonials from "./Testimonials";
 
 export default function Page(){
     return(
         <div className="Page-container">
             <div>
-                <Header></Header>
+                <Image></Image>
             </div>
 
-            <div><Body></Body></div>
+            <div><Project></Project></div>
 
-            
+            <div>
+                <Testimonials></Testimonials>
+            </div>
         </div>
     )
 }
