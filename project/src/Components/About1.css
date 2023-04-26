@@ -2,6 +2,7 @@
 .part2 {
     height: 293px;
     display: flex;
+    margin-top: -47px;
     flex-direction: row;
 
     /* border: 1px solid red; */
@@ -35,10 +36,10 @@
     color: #212325;
     font-weight: 600;
     font-size: 30px;
-    margin-left: -262px;
+    margin-left: -327px;
 
 }
-span{
+.sp{
     color: orange;
 }
 .t-3{
