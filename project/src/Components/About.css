@@ -1,26 +1,28 @@
 .About-container {
-    /* margin-top: 83px; */
-    /* font-size: 38px;
-    font-weight: 500;
-    font-family: arial;
-    margin-top: -18px; */
+   
     /* border: 2px solid red;  */
 
 
-    width: 150px;
+    width: 160px;
     height: 42px;
     font-weight: 600;
-    font-size: 33px;
+    font-size: 34px;
     font-family: arial;
     margin-left: 574px;
+    color: #000000d6;
     
+}
+.about{
+    margin-top: -17px;
 }
 
 .part1 {
     height: 476px;
+    width: 1209px;
     display: flex;
     flex-direction: row;
-    margin-left: 14px;
+    margin-left: 31px;
+    margin-top: 44px;
     /* border: 1px solid red; */
 }
 
@@ -33,12 +35,11 @@
 }
 
 .icon1 {
-    /* border: 2px solid red;   */
-    /* margin-left: 79px; */
+    margin-left: -75px;
     margin-top: -79px;
-    width: 675px;
+    width: 733px;
+    height: 522px;
 
-    height: 552px;
 }
 
 
@@ -51,19 +52,21 @@
 }
 
 .picture1 {
-    width: 392px;
-    height: 477px;
-    margin-left: 83px;
-    margin-top: 7px;
+    width: 374px;
+    height: 446px;
+    margin-left: 101px;
+    margin-top: 9px;
 }
 
 .t1 {
 
-    color: #212325;
+       color: #212325;
     font-weight: 600;
-    font-size: 30px;
-    margin-left: -262px;
-
+    font-size: 33px;
+    margin-left: -226px;
+    margin-top: 0px;
+    /* word-spacing: 1px; */
+    letter-spacing: 1px;
     
 }
 .we{
@@ -75,8 +78,9 @@
     margin-left: 29px;
     color: #686d72;
     text-align: justify;
-    word-spacing: -1.2px;
+    word-spacing: -2.5px;
     line-height: 1.7;
+    margin-top: 25px;
     /* border: 2px solid red; */
 }
 .t3{
@@ -108,13 +112,14 @@
 }
 
 .box{
-    height: 43px;
-    width: 135px;
+    height: 40px;
+    
     /* align-items: center; */
-    margin-left: -1114px;
-    margin-top: 327px;
-    background-color: orange;
+    margin-left: -1100px;
+    margin-top: 364px;
+    background: #F5A023;
     border-radius: 4px;
+    width: 150px;
 }
 .info{
     font-size: 13px;

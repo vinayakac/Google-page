@@ -7,15 +7,16 @@
 .part3{
     height: 269px;
     width: 565px;
-    margin-left: 12px;
+    margin-left: 46px;
+    margin-top: -14px;
     /* border: 2px solid red; */
 }
 .text-3-1{
     color: #212325;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 33px;
     height: 36px;
-    width: 234px;
+    width: 256px;
     /* border: 2px solid red; */
     margin-left: 11px;
     
@@ -95,12 +96,16 @@ p{
 }
 .p4-1{
     /* border: 2px solid red; */
-    height: 53px;
-    width: 124px;
+    height: 39px;
+    width: 66px;
+    margin-left: 25px;
+    /* border-right: 1px solid orange; */
+    border-right: 1px solid #f5a02347;
 }
 .p4-2{
     height: 27px;
     width: 96px;
+    margin-left: 12px;
     /* border: 2px solid rgb(4, 197, 91); */
 }
 .p4-2-1{
@@ -110,7 +115,7 @@ p{
     color: #686d72;
     height: 27px;
     width: 391px;
-    margin-left: -3px;
+    margin-left: 12px;
     margin-top: -1px;
 }
 .p4-2-2{
