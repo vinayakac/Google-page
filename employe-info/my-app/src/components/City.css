@@ -1,0 +1,36 @@
+.city-container{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    width: 370px;
+    margin-top: 5px;
+    border: 1px solid white;
+}
+
+.content-9{
+    height: 31px;
+    font-size: 13px;
+    margin-top: 22px;
+    margin-left: 10px;
+    letter-spacing: -0.004em;
+    margin-bottom: 10px;
+    width: 149px;
+    border-color: #11112222;
+    border-radius: 5px;
+    padding-left: 8px;
+    
+}
+
+.content-10{
+    height: 31px;
+    font-size: 13px;
+    margin-top: 22px;
+    margin-left: 24px;
+    letter-spacing: -0.004em;
+    margin-bottom: 10px;
+    width: 149px;
+    border-color: #11112222;
+    border-radius: 5px;
+    padding-left: 8px;
+    
+}

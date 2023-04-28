@@ -1,0 +1,62 @@
+.employee-container{
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    width: 370px;
+    margin-top: 10px;
+    border: 1px solid white;
+}
+
+.Employee{
+    margin-left: 12px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.DOB{
+    margin-left: 201px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 62px;
+    margin-top: -69px;
+}
+
+
+.content-3{
+    height: 31px;
+    font-size: 13px;
+    margin-top: 7px;
+    margin-left: 10px;
+    letter-spacing: -0.004em;
+    margin-bottom: 10px;
+    width: 155px;
+    border-color: #11112222;
+    border-radius: 5px;
+    
+}
+
+/* .content-4{
+    height: 31px;
+    font-size: 13px;
+    margin-top: -58px;
+    margin-left: 198px;
+    letter-spacing: -0.004em;
+    margin-bottom: 10px;
+    width: 155px;
+    border-color: #11112222;
+    border-radius: 5px;
+    
+} */
+
+.Date{
+    margin-left: 198px;
+    margin-top: -55px;
+    height: 31px;
+    margin-bottom: 10px;
+    border-color: #11112222;
+    border-radius: 5px;
+    width: 149px;
+    padding-left: 8px;
+}
+
+

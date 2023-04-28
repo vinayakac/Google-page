@@ -1,0 +1,45 @@
+.name-container{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    width: 370px;
+    margin-top: 5px;
+    border: 1px solid white;
+}
+
+.Name{
+    margin-left: 12px;
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+.content-1{
+    height: 31px;
+    font-size: 13px;
+    margin-top: 22px;
+    margin-left: -38px;
+    letter-spacing: -0.004em;
+    margin-bottom: 10px;
+    width: 149px;
+    border-color: #11112222;
+    border-radius: 5px;
+    padding-left: 8px;
+    
+}
+
+.content-2{
+    height: 31px;
+    font-size: 13px;
+    margin-top: 21px;
+    margin-left: 26px;
+    letter-spacing: -0.004em;
+    margin-bottom: 10px;
+    width: 149px;
+    border-color: #11112222;
+    border-radius: 5px;
+    padding-left: 8px;
+    
+}
+
+
+

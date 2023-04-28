@@ -1,0 +1,22 @@
+.address2{
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    width: 370px;
+    margin-top: 10px;
+    border: 1px solid white;
+}
+
+.content-8{
+    height: 31px;
+    font-size: 13px;
+    margin-top: 18px;
+    margin-left: 10px;
+    letter-spacing: -0.004em;
+    margin-bottom: 10px;
+    width: 336px;
+    border-color: #11112222;
+    border-radius: 5px;
+    padding-left: 8px;
+    
+}

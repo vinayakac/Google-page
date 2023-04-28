@@ -1,0 +1,27 @@
+.code-container{
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    width: 370px;
+    margin-top: 10px;
+    border: 1px solid white;
+}
+
+.Code{
+    margin-left: 12px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.content-11{
+    height: 31px;
+    font-size: 13px;
+    margin-top: 7px;
+    margin-left: 10px;
+    letter-spacing: -0.004em;
+    margin-bottom: 10px;
+    width: 345px;
+    border-color: #11112222;
+    border-radius: 5px;
+    
+}
