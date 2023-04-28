@@ -1,7 +1,8 @@
 .Test{
-    height: 400px;
+    height: 550px;
     width: 1500px;
     margin-top: 400px;
+    
    
 }
 .Text{
@@ -10,63 +11,267 @@
     font-size: 22px;
 }
 
-
 .Test1{
-    display: flex;
-    height: 300px;
-    width: 500px;
-    margin-top: 60px;
-    margin-left: 10px;
-    
+    height: 400px;
+    width: 550px;
+    margin-top: 30px;
 }
 
-.jhon{
+.box{
     height: 300px;
-    width: 500px;
+    width: 450px;
+    margin-top: 40px;
+    margin-left: 40px;
+    /* border: 1px solid #000000; */
+    border-radius: 5px;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgb(249, 232, 232));
+    box-shadow: 1px 1px rgb(254, 176, 117);
+
+}
+
+.photo{
+    height: 100px;
+    width: 300px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.circle{
+    height: 95px;
+    width: 100px;
+    margin-left: 92px;
+    margin-top: 20px;
+}
+.men{
+margin-top: -94px;
+margin-left: 27px;
 }
 .man{
-    height: 280px;
-    width: 430px;
-    margin-left: 40px;
+    height: 90px;
+    width: 90px;
+    margin-left: 70px;
+   
+}
+.colum{
+    height: 50px;
+    width: 450px;
+}
+
+.c1{
+    height: 40px;
+    width: 50px;
+    margin-left: 20px;
+}
+.c2{
+    height: 40px;
+    width: 50px;
+    margin-left: 310px;
+}
+
+.font{
+    height: 70px;
+    width: 450px;
     margin-top: 0px;
+}
+.T1{
+    margin-left: 35px;
+}
+
+.T2{
+    margin-left: 50px;
+}
+
+.T3{
+    margin-left: 200px;
+}
+.name{
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 290px; 
+}
+.name1{
+    color:  rgb(254, 176, 117);
+    font-weight: bold;
+}
+.name2{
+    font-weight: bold;
 }
 
 .Test2{
-    display: flex;
-    height: 300px;
-    width: 500px;
-    margin-top: -300px;
-    margin-left: 490px;
+    height: 400px;
+    width: 550px;
+    margin-top: -440px;
+    margin-left: 500px;
 }
-.jhon2{
+
+.box1{
     height: 300px;
-    width: 500px;
-    
+    width: 450px;
+    margin-top: 40px;
+    margin-left: 40px;
+    /* border: 1px solid #000000; */
+    border-radius: 5px;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgb(249, 232, 232));
+    box-shadow: 1px 1px rgb(254, 176, 117);
 
 }
-.man2{
-    height: 280px;
-    width: 430px;
-    margin-left: 40px;
+
+.photo1{
+    height: 100px;
+    width: 300px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.circle1{
+    height: 95px;
+    width: 100px;
+    margin-left: 92px;
+    margin-top: 20px;
+}
+.men1{
+margin-top: -94px;
+margin-left: 27px;
+}
+.man1{
+    height: 90px;
+    width: 90px;
+    margin-left: 70px;
+   
+}
+.colum1{
+    height: 50px;
+    width: 450px;
+}
+
+.c3{
+    height: 40px;
+    width: 50px;
+    margin-left: 20px;
+}
+.c4{
+    height: 40px;
+    width: 50px;
+    margin-left: 310px;
+}
+
+.font1{
+    height: 70px;
+    width: 450px;
     margin-top: 0px;
+}
+.T4{
+    margin-left: 35px;
+}
+
+.T5{
+    margin-left: 50px;
+}
+
+.T6{
+    margin-left: 200px;
+}
+
+.name-1{
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 290px; 
+}
+.name1-1{
+    color:  rgb(254, 176, 117);
+    font-weight: bold;
+}
+.name2-1{
+    font-weight: bold;
 }
 
 .Test3{
-    display: flex;
-    height: 300px;
-    width: 530px;
-    margin-top: -300px;
-    margin-left: 980px;
+    height: 400px;
+    width: 450px;
+    margin-top: -440px;
+    margin-left: 1000px;
 }
-.jhon3{
+
+.box2{
     height: 300px;
-    width: 500px;
-    
+    width: 450px;
+    margin-top: 40px;
+    margin-left: 40px;
+    /* border: 1px solid #000000; */
+    border-radius: 5px;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgb(249, 232, 232));
+    box-shadow: 1px 1px rgb(254, 176, 117);
 
 }
-.man3{
-    height: 280px;
-    width: 430px;
-    margin-left: 40px;
+
+.photo2{
+    height: 100px;
+    width: 300px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.circle2{
+    height: 95px;
+    width: 100px;
+    margin-left: 92px;
+    margin-top: 20px;
+}
+.men2{
+margin-top: -94px;
+margin-left: 27px;
+}
+.man2{
+    height: 90px;
+    width: 90px;
+    margin-left: 70px;
+   
+}
+.colum2{
+    height: 50px;
+    width: 450px;
+}
+
+.c5{
+    height: 40px;
+    width: 50px;
+    margin-left: 20px;
+}
+.c6{
+    height: 40px;
+    width: 50px;
+    margin-left: 310px;
+}
+
+.font2{
+    height: 70px;
+    width: 450px;
     margin-top: 0px;
+}
+.T7{
+    margin-left: 35px;
+}
+
+.T8{
+    margin-left: 50px;
+}
+
+.T9{
+    margin-left: 200px;
+}
+
+.name-2{
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 290px; 
+}
+.name3{
+    color:  rgb(254, 176, 117);
+    font-weight: bold;
+}
+.name4{
+    font-weight: bold;
 }

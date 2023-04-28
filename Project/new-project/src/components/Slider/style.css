@@ -1,0 +1,36 @@
+
+/* body {
+    /* background-color: green; */
+/* }
+  
+.tag {
+    text-align: center;
+}
+  
+.slick-slide img {
+    margin: auto;
+    width: 50%;
+    height: 100px;
+} */
+
+/*.imgslider{
+    height: 1300px;
+} */
+
+body {
+    /* background: #c8c6c4; */
+    background: #3498db;
+  }
+  
+  .Slider {
+    font-family: sans-serif;
+    padding: 10px 30px;
+  }
+  
+  .Slider > div {
+    background-color: #5c2e91;
+    background-color: #fff;
+    color: #fff;
+    color: #3498db;
+    text-align: center;
+  }

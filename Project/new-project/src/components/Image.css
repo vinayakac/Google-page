@@ -14,13 +14,140 @@
 }
 
 .logo{
-    width: 1519px;
-    height: 200px;
-    background-color: rgb(87, 85, 85);
+    width: 1536px;
+    height: 270px;
+    background-color: rgb(41, 41, 41);
 }
 
-.vector{
+.image2{
+    display: flex;
     width: 200px;
-    height: 100px;
-    margin-right: 100px;
+    height: 50px;
+    margin-left: 400px;
+    margin-top: -100px;
 }
+.vector{
+    width: 60px;
+    height: 60px;
+    margin-top: -100px;
+}
+
+.Property{
+    margin-left: -50px;
+    margin-top: -25px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.pro1{
+    margin-top: 8px;
+    color: rgb(255, 255, 255);
+    margin-left: -65px;
+    font-size: 16px;
+    
+}
+
+.vl {
+    border-left: 1px solid rgb(255, 255, 255);
+    height: 50px;
+    margin-top: -90px;
+    margin-left: 40px;
+  }
+
+
+  
+.image3{
+    display: flex;
+    width: 200px;
+    height: 50px;
+    margin-left: 600px;
+    margin-top: -50px;
+}
+.vector1{
+    width: 40px;
+    height: 55px;
+    margin-top: -100px;
+}
+
+.Property1{
+    margin-left: -30px;
+    margin-top: -25px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.pro2{
+    margin-top: 8px;
+    color: rgb(255, 255, 255);
+    margin-left: -65px;
+    font-size: 16px;
+    
+}
+
+.vl1 {
+    border-left: 1px solid rgb(255, 255, 255);
+    height: 50px;
+    margin-top: -90px;
+    margin-left: 40px;
+  }
+
+
+  .image4{
+    display: flex;
+    width: 200px;
+    height: 50px;
+    margin-left: 800px;
+    margin-top: -50px;
+}
+.vector2{
+    width: 40px;
+    height: 55px;
+    margin-top: -100px;
+}
+
+.Property2{
+    margin-left: -30px;
+    margin-top: -25px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.pro3{
+    margin-top: 8px;
+    color: rgb(255, 255, 255);
+    margin-left: -65px;
+    font-size: 16px;
+    
+}
+
+.vl2 {
+    border-left: 1px solid rgb(255, 255, 255);
+    height: 50px;
+    margin-top: -90px;
+    margin-left: 40px;
+  }
+
+.image5{
+    display: flex;
+    width: 200px;
+    height: 50px;
+    margin-left: 1000px;
+    margin-top: -50px;
+}
+.vector3{
+    width: 40px;
+    height: 55px;
+    margin-top: -100px;
+}
+
+.Property3{
+    margin-left: -30px;
+    margin-top: -25px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.pro4{
+    margin-top: 8px;
+    color: rgb(255, 255, 255);
+    margin-left: -65px;
+    font-size: 16px;
+    
+}
+
