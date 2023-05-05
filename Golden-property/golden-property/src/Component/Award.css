@@ -1,0 +1,97 @@
+.award {
+    display: flex;
+    flex-direction: column;
+}
+
+.award-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 2px;
+    width: 1440px;
+    height: 110px;
+}
+
+.award-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 39px;
+    font-weight: 500;
+    padding-top: 10px;
+    /* padding-left: 566.5px; */
+    font-family: 'Roboto';
+    color: #212325;
+    width: 307px;
+    height: 47px;
+    line-height: 47px;
+}
+
+.award-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 294px;
+    height: 21px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #212325;
+    opacity: 0.7;
+}
+
+.award-image {
+    display: flex;
+    flex-direction: row;
+    width: 1140px;
+    height: fit-content;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.stick-left {
+    width: 404.41px;
+    height: 452.17px;
+}
+
+.award-image2 {
+    /* position: absolute; */
+    width: 315.78px;
+    height: 254px;
+    /* left: 562.11px; */
+    justify-content: center;
+    align-items: center;
+    margin-left: 161.33px;
+    margin-right: 161.33px;
+}
+.award-image3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 155.83px;
+    height: 94.05px;
+    margin-top: -215px;
+    margin-left: 35px;
+}
+
+.award-picture1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 72px;
+    width: 155.83px;
+    height: 94.05px;
+}
+
+.award-flower1{
+    width: 315.78px;
+    height: 254px;
+}
+
+.stick-right {
+    width: 404.41px;
+    height: 452.17px;
+}
