@@ -1,0 +1,70 @@
+.page-container {
+    border: 1px solid red;
+    height: 803px;
+    width: 1440px;
+    margin-left: 47px;
+    margin-top: -9px;
+}
+.page-layout{
+    height: 97.33px;
+    width: 1440px;
+    /* background-color: yellow; */
+}
+.header{
+    height: 97.33px;
+    width: 1440px;
+    /* border: 1px solid blue; */
+
+}
+.body{
+    height: 635px;
+    width: 100%;
+    /* border: 1px solid black; */
+
+}
+.icon_1{
+    position: absolute;
+    height: 30.67px;
+    width: 54.67px;
+    margin-top: 8.67px;
+    margin-left: 60.33px;
+    /* border: 1px solid red; */
+}
+.ic-1{
+    height: 30.67px;
+    width: 54.67;
+}
+.txt-1{
+    position: relative;
+    height: 12.67px;
+    width: 90px;
+    margin-top: 3px;
+    margin-left: -10px;
+}
+.line{
+    position: absolute;
+    height: 54px;
+    margin-top: 6px;
+    margin-left: 150px;
+    width: 0px;
+    border: 1px solid rgb(111, 110, 110);
+}
+.icon_2{
+    height: 36px;
+    width: 32.67px;
+    margin-top: 8.67px;
+    margin-left: 176.67px;
+    /* border: 1px solid red; */
+}
+.ic-2{
+    height: 36px;
+    width: 32.67;
+}
+.txt-2{
+    display: flex;
+    height: 18.67px;
+    width: 84px;
+    margin-top: 2px;
+    margin-left: -10px;
+    
+}

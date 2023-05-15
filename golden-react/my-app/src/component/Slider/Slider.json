@@ -1,0 +1,14 @@
+[
+    {
+      "id": 1,
+      "image": "./images/image-1.png"
+    },
+    {
+      "id": 2,
+      "image": "https://demo.goldenproperty.canaratechlabs.com/static/media/banner2.a077664ee9773f2d10f6.png"
+    },
+    {
+        "id": 3,
+        "image": "https://demo.goldenproperty.canaratechlabs.com/static/media/banner1.4ef9a384f45452413a7b.png"
+      }
+  ]

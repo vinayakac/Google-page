@@ -1,0 +1,54 @@
+/* .image-1{
+    display: flex;
+    position: relative;
+    height: 634px;
+    width: 80%;
+    margin-left: 295px;
+    border: 1px solid blue;
+} */
+/* .image-2{
+    height: 634px;
+    width: 30%;
+    margin-top: -635px;
+    border: 1px solid purple;
+} */
+
+/* .image1{
+    display: flex;
+    position: relative;
+    height: 634px;
+    width: 100%;
+    margin-left: -1;
+}
+.image2{
+    height: 634px;
+    width: 30%;
+    margin-top: -610px;
+} */
+.ic3{
+    height: 633px;
+
+    width: 1480px;
+    margin-left: -3px;
+    border: 1px solid red;
+    margin-top: 0px;
+}
+.pict1{
+    width: 1275px;
+    height: 633px;
+    margin-left: 206px;
+
+}
+
+.ic4{
+    border: 2px solid blue;
+    height: 633px;
+    width: 428px;
+    margin-top: -635px;
+
+}
+.pict2{
+    margin-top: -9px;
+    width: 902px;
+    height: 641px;
+}
