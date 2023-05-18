@@ -1,153 +1,309 @@
-.Header-container{
+@media only screen and (min-width: 1024px) and (max-width: 1950px) {
+    .Header-container {
+        display: flex;
+        height: 250px;
+        width: 1500px;
+        /* border: 1px solid rgb(0, 0, 0); */
+
+    }
+
+    .Header-container .image {
+        display: flex;
+        width: 1500px;
+        height: 250px;
+        margin-left: 0px;
+    }
+
+    .Header-container .logo {
+        width: 1540px;
+        height: 270px;
+        background-color: rgb(41, 41, 41);
+    }
+
+    .Header-container .image2 {
+        display: flex;
+        width: 200px;
+        height: 50px;
+        margin-left: 400px;
+        margin-top: -100px;
+    }
+
+    .Header-container .vector {
+        width: 60px;
+        height: 60px;
+        margin-top: -100px;
+    }
+
+    .Header-container .Property {
+        margin-left: -50px;
+        margin-top: -25px;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+    }
+
+    .Header-container .pro1 {
+        margin-top: 8px;
+        color: rgb(255, 255, 255);
+        margin-left: -65px;
+        font-size: 16px;
+
+    }
+
+    .Header-container .vl {
+        border-left: 1px solid rgb(255, 255, 255);
+        height: 50px;
+        margin-top: -90px;
+        margin-left: 40px;
+    }
+
+
+
+    .Header-container .image3 {
+        display: flex;
+        width: 200px;
+        height: 50px;
+        margin-left: 600px;
+        margin-top: -50px;
+    }
+
+    .Header-container .vector1 {
+        width: 40px;
+        height: 55px;
+        margin-top: -100px;
+    }
+
+    .Header-container .Property1 {
+        margin-left: -30px;
+        margin-top: -25px;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+    }
+
+    .Header-container .pro2 {
+        margin-top: 8px;
+        color: rgb(255, 255, 255);
+        margin-left: -65px;
+        font-size: 16px;
+
+    }
+
+    .Header-container .vl1 {
+        border-left: 1px solid rgb(255, 255, 255);
+        height: 50px;
+        margin-top: -90px;
+        margin-left: 40px;
+    }
+
+
+    .Header-container .image4 {
+        display: flex;
+        width: 200px;
+        height: 50px;
+        margin-left: 800px;
+        margin-top: -50px;
+    }
+
+    .Header-container .vector2 {
+        width: 40px;
+        height: 55px;
+        margin-top: -100px;
+    }
+
+    .Header-container .Property2 {
+        margin-left: -30px;
+        margin-top: -25px;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+    }
+
+    .Header-container .pro3 {
+        margin-top: 8px;
+        color: rgb(255, 255, 255);
+        margin-left: -65px;
+        font-size: 16px;
+
+    }
+
+    .Header-container .vl2 {
+        border-left: 1px solid rgb(255, 255, 255);
+        height: 50px;
+        margin-top: -90px;
+        margin-left: 40px;
+    }
+
+    .Header-container .image5 {
+        display: flex;
+        width: 200px;
+        height: 50px;
+        margin-left: 1000px;
+        margin-top: -50px;
+    }
+
+    .Header-container .vector3 {
+        width: 40px;
+        height: 55px;
+        margin-top: -100px;
+    }
+
+    .Header-container .Property3 {
+        margin-left: -30px;
+        margin-top: -25px;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+    }
+
+    .Header-container .pro4 {
+        margin-top: 8px;
+        color: rgb(255, 255, 255);
+        margin-left: -65px;
+        font-size: 16px;
+
+    }
+}
+
+
+@media only screen and (min-width: 425px) and (max-width: 950px) {
+   .Header-container{
     display: flex;
-    height: 250px;
-    width: 1500px;
-    /* border: 1px solid rgb(0, 0, 0); */
-    
-}
+   }
 
-.image{
+   .image{
     display: flex;
-    width: 1500px;
-    height: 250px;
-    margin-left: 0px;
-}
+    flex-wrap: wrap;
+    /* margin: 0px; */
+    height: 404px;
+    width: 410px;
+   }
 
-.logo{
-    width: 1536px;
-    height: 270px;
-    background-color: rgb(41, 41, 41);
-}
+    .image1{
+        width: 100%;
+    }
 
-.image2{
-    display: flex;
-    width: 200px;
-    height: 50px;
-    margin-left: 400px;
-    margin-top: -100px;
-}
-.vector{
-    width: 60px;
-    height: 60px;
-    margin-top: -100px;
-}
+    .Header-container .logo{
+        width: 410px;
+        height: 404px;
+        background-color: rgb(41, 41, 41);
+    }
 
-.Property{
-    margin-left: -50px;
-    margin-top: -25px;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-}
-.pro1{
-    margin-top: 8px;
-    color: rgb(255, 255, 255);
-    margin-left: -65px;
-    font-size: 16px;
-    
-}
+    .icons-set{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .sub-section-1{
+        display:flex;
+        margin-top: -340px;
+        column-gap: 30px;
+    justify-content: center;
 
-.vl {
-    border-left: 1px solid rgb(255, 255, 255);
-    height: 50px;
-    margin-top: -90px;
-    margin-left: 40px;
-  }
+    }
 
+    .image2{
 
-  
-.image3{
-    display: flex;
-    width: 200px;
-    height: 50px;
-    margin-left: 600px;
-    margin-top: -50px;
-}
-.vector1{
-    width: 40px;
-    height: 55px;
-    margin-top: -100px;
-}
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+    }
 
-.Property1{
-    margin-left: -30px;
-    margin-top: -25px;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-}
-.pro2{
-    margin-top: 8px;
-    color: rgb(255, 255, 255);
-    margin-left: -65px;
-    font-size: 16px;
-    
-}
+    .image3{
 
-.vl1 {
-    border-left: 1px solid rgb(255, 255, 255);
-    height: 50px;
-    margin-top: -90px;
-    margin-left: 40px;
-  }
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+    }
 
+    .image4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
 
-  .image4{
-    display: flex;
-    width: 200px;
-    height: 50px;
-    margin-left: 800px;
-    margin-top: -50px;
-}
-.vector2{
-    width: 40px;
-    height: 55px;
-    margin-top: -100px;
-}
+    }
 
-.Property2{
-    margin-left: -30px;
-    margin-top: -25px;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-}
-.pro3{
-    margin-top: 8px;
-    color: rgb(255, 255, 255);
-    margin-left: -65px;
-    font-size: 16px;
-    
-}
+    .image5{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
 
-.vl2 {
-    border-left: 1px solid rgb(255, 255, 255);
-    height: 50px;
-    margin-top: -90px;
-    margin-left: 40px;
-  }
+    }
 
-.image5{
-    display: flex;
-    width: 200px;
-    height: 50px;
-    margin-left: 1000px;
-    margin-top: -50px;
-}
-.vector3{
-    width: 40px;
-    height: 55px;
-    margin-top: -100px;
-}
+    .sub-section-2{
+        display: flex;
+        column-gap: 30px;
+    justify-content: center;
+    margin-top: 50px;
+    }
 
-.Property3{
-    margin-left: -30px;
-    margin-top: -25px;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-}
-.pro4{
-    margin-top: 8px;
-    color: rgb(255, 255, 255);
-    margin-left: -65px;
-    font-size: 16px;
-    
-}
+    .vector{
+        height: 40px;
+        width: 40px;
+    }
+    .Property {
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+    }
+    .pro1{
+        color: rgb(255, 255, 255);
+        font-size: 14px;
+    }
 
+    .Header-container .responsive-line1 {
+        border-right: 1px solid rgb(255, 255, 255);
+        height: 50px;
+        /* margin-top: -90px;
+        margin-left: 40px;*/} 
+
+    .Property1{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+    }
+
+    .vector1{
+        height: 40px;
+        width: 40px;
+    }
+    .pro2{
+        color: rgb(255, 255, 255);
+        font-size: 14px;
+    }
+
+    .Property2{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+    }
+
+    .vector2{
+        width: 35px;
+    height: 35px;
+    }
+
+    .pro3{
+        color: rgb(255, 255, 255);
+        font-size: 14px;
+    }
+
+    .Header-container .responsive-line2 {
+        border-right: 1px solid rgb(255, 255, 255);
+        height: 50px;
+        /* margin-top: -90px;
+        margin-left: 40px; */
+    }
+    .Property3{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+    }
+
+    .vector3{
+        height: 41px;
+        width: 41px;
+    }
+
+    .pro4{
+        color: rgb(255, 255, 255);
+        font-size: 14px;
+    }
+
+}

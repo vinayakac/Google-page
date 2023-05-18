@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "image":"./buildingimg1.png",
+    "title": "Rashi Gateway",
+    "subtitle":"Located adjacent the bangalore-Pune highway in Nelamangal...",
+    "price":"67.35 L-1.6 Cr",
+    "button":"More Info"
+  },
+  {
+    "id": 2,
+    "image": "/img2.png",
+    "title": "Rashi Gateway",
+    "subtitle":"Located adjacent the bangalore-Pune highway in Nelamangal...",
+    "price":"67.35 L-1.6 Cr",
+    "button":"More Info"
+  },
+  {
+    "id": 3,
+    "image": "./img3.png",
+    "title": "Rashi Gateway",
+    "subtitle":"Located adjacent the bangalore-Pune highway in Nelamangal...",
+    "price":"67.35 L-1.6 Cr",
+    "button":"More Info"
+  },
+  {
+    "id": 4,
+    "image": "./img4.png",
+    "title": "Rashi Gateway",
+    "subtitle":"Located adjacent the bangalore-Pune highway in Nelamangal...",
+    "price":"67.35 L-1.6 Cr",
+    "button":"More Info"
+  },
+
+  {
+    "id": 1,
+    "image":"./buildingimg1.png",
+    "title": "Rashi Gateway",
+    "subtitle":"Located adjacent the bangalore-Pune highway in Nelamangal...",
+    "price":"67.35 L-1.6 Cr",
+    "button":"More Info"
+  },
+  {
+    "id": 2,
+    "image": "/img2.png",
+    "title": "Rashi Gateway",
+    "subtitle":"Located adjacent the bangalore-Pune highway in Nelamangal...",
+    "price":"67.35 L-1.6 Cr",
+    "button":"More Info"
+  },
+  {
+    "id": 3,
+    "image": "./img3.png",
+    "title": "Rashi Gateway",
+    "subtitle":"Located adjacent the bangalore-Pune highway in Nelamangal...",
+    "price":"67.35 L-1.6 Cr",
+    "button":"More Info"
+  },
+  {
+    "id": 4,
+    "image": "./img4.png",
+    "title": "Rashi Gateway",
+    "subtitle":"Located adjacent the bangalore-Pune highway in Nelamangal...",
+    "price":"67.35 L-1.6 Cr",
+    "button":"More Info"
+  }
+]

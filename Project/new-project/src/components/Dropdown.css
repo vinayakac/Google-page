@@ -1,0 +1,14 @@
+@media only screen and (min-width: 1024px) and (max-width: 1950px) {
+    .down-arrow {
+        height: 0;
+        width: 0;
+    }
+
+    .dropdown-btn {
+        height: 0;
+        width: 0;
+        font-size: 0;
+
+    }
+}
+

@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "react-split-pane": "^0.1.92"
+    "react-split-pane": "^0.1.92",
+    "swiper": "^9.2.4"
   }
 }
