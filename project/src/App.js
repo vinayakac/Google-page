@@ -4,6 +4,7 @@ import Whyus from './Components/Note.jsx'
 import About from './Components/About.jsx'
 import Next from './Components/About1.jsx';
 import Last from './Components/About2'
+import Footer from './Components/Footer/Footer'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Next />
       <Last />
+      <Footer/>
      
       
      

@@ -6,7 +6,7 @@ export default function Next() {
         <div className='next'>
             <div className='part2'>
                 
-                <img className='i1' src={require('./images/b1.png')} alt=""></img>
+                <div className='ii'><img className='i1' src={require('./images/b1.png')} alt=""></img></div>
                 <div className='ic1'><img className='pict1' src={require('./images/b2.png')} alt=""></img></div>
                 <div className='ic2'><img className='pict2' src={require('./images/k1.png')} alt=""></img></div> 
                 <div className='ic3'><img className='pict3' src={require('./images/k2.png')} alt=""></img></div> 
