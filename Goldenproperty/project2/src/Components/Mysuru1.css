@@ -1,0 +1,48 @@
+.w-m{
+   
+    height: 46px;
+    width: 414px;
+    margin-left: 466px;
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: -145px;
+}
+.head-1{
+    color: #171717;
+    opacity: 0.7;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 9px;
+}
+.ic-1{
+    width: 1290px;
+    height: 571px;
+    margin-top: 33px;
+}
+
+.body2{
+    height: 189px;
+    width: 97px;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid red;
+}
+.body2-1{
+    border: 2px solid red;
+    height: 98px;
+    width: 78px;
+
+}
+.body2-2{
+    border: 2px solid red;
+    height: 98px;
+    width: 78px;
+
+}
+.body2-3{
+    border: 2px solid red;
+    height: 98px;
+    width: 78px;
+
+}
