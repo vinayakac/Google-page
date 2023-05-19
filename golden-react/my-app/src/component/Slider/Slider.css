@@ -1,5 +1,30 @@
 .slider {
     height: 698px;
-    width: 1440px;
-    background: pink;
+    width: 1533px;
+    /* background: pink; */
+    /* border: 1px solid blue; */
 }
+.image-container {
+    height: 697px;
+    width: 1440px;
+    /* background: lawngreen; */
+}
+/* .page-container {
+    border: 1px solid rgb(13, 6, 6);
+    height: 797px;
+    width: 1533px;
+    
+} */
+img.slide-image {
+    height: 691px;
+    width: 1533px;
+    margin-top: 52px;
+}
+/* button.slick-arrow.slick-next {
+        height: 55px;
+         background: #b1a7a7;
+        z-index: 1;
+        width: 55px;
+        right: -12px;
+        border-radius: 30px;
+    } */

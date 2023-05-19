@@ -1,6 +1,7 @@
 import React from 'react';
 import "./icon1.css"
 import Nav from './nav.js'
+
 // import Body1 from './body.js'
 
 
