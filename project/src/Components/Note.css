@@ -456,19 +456,18 @@
         flex-wrap: wrap;
         row-gap: 20px;
         /* margin-left: -255px; */
-        margin-left: -86px;
-        /* margin-left: -32px; */
+        margin-left: -247px;
 
     }
 
     .heading {
         color: #212325;
-        font-size: 48px;
+        font-size: 28px;
         font-weight: 500;
         /* line-height: 81px; */
         margin-bottom: 70px;
         padding-top: 80px;
-        margin-left: 178px;
+        margin-left: 248px;
 
 
 
@@ -503,30 +502,32 @@
     }
 
     .icon-1 {
-        height: 88px;
-        width: 95px;
+        height: 57px;
+        width: 64px;
+        margin-left: 42px;
     }
 
     .text1 {
         color: #000;
-        font-size: 28px;
+        font-size: 17px;
 
         font-weight: 500;
         letter-spacing: .05em;
         line-height: 141.7%;
+        margin-left: 48px;
     }
 
     .text2 {
         font-weight: 400;
-        font-size: 20px;
+        font-size: 15px;
         line-height: 141.7%;
-        width: 513px;
+        width: 346px;
         text-align: center;
         /* border: 2px solid red; */
         letter-spacing: 0.05em;
         color: rgba(0, 0, 0, 0.4);
         margin-top: -13px;
-        margin-left: -18px;
+        margin-left: 53px;
     }
 
 
@@ -538,7 +539,7 @@
         padding: 0px;
         gap: 17.47px;
         margin-left: 12px;
-        margin-top: 142px;
+        margin-top: 18px;
 
         width: 351px;
         height: 136.87px;
@@ -547,22 +548,25 @@
     }
 
     .icon-2 {
-        height: 88px;
-        width: 95px;
+        height: 57px;
+        width: 64px;
+        margin-left: 43px;
+        margin-top: 17px;
     }
 
     .text3 {
         color: #000;
-        font-size: 28px;
+        font-size: 17px;
 
         font-weight: 500;
         letter-spacing: .05em;
         line-height: 141.7%;
+        margin-left: 50px;
     }
 
     .text4 {
         font-weight: 400;
-        font-size: 20px;
+        font-size: 15px;
         line-height: 141.7%;
         width: 524px;
         text-align: center;
@@ -570,6 +574,8 @@
         letter-spacing: 0.05em;
         color: rgba(0, 0, 0, 0.4);
         margin-top: -13px;
+        margin-left: 42px;
+
     }
 
     .satisfaction {
@@ -581,27 +587,29 @@
         width: 351px;
         height: 136.87px;
         margin-left: 16px;
-        margin-top: 137px;
+        margin-top: 32px;
 
     }
 
     .icon-3 {
-        height: 88px;
-        width: 95px;
+        height: 57px;
+        width: 64px;
+        margin-left: 43px;
     }
 
     .text5 {
         color: #000;
-        font-size: 28px;
+        font-size: 17px;
 
         font-weight: 500;
         letter-spacing: .05em;
         line-height: 141.7%;
+        margin-left: 42px;
     }
 
     .text6 {
         font-weight: 400;
-        font-size: 20px;
+        font-size: 15px;
         line-height: 141.7%;
         width: 603px;
         text-align: center;
@@ -609,5 +617,6 @@
         letter-spacing: 0.05em;
         color: rgba(0, 0, 0, 0.4);
         margin-top: -13px;
+        margin-left: 37px;
     }
 }
