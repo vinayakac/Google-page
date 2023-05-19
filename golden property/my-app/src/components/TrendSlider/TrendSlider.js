@@ -4,6 +4,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './Trending.css'
 import Slides_data from './Slides.json'
+import Nested from './Nested';
 
 
 const NestedSlider = () => {
@@ -30,16 +31,17 @@ const NestedSlider = () => {
         <span className='trending_text_subheading'>The Noteworthy Real Estate in India</span>
       </div>
       <Slider {...settings}>
-                {Slides_data.map((slide) => (
-                    <div key={slide.id}>
+                {Slides_data.map((data, i) => (
+                    <div key={data.id}>
                         <div className='trending_image_container'>
-                            <img src={slide.images} alt=" " />    
+                            {/* <img src={data.images} alt=" " />     */}
+                            <Nested images={data.images}/>
                         </div>
 
                         <div className="trending_text_container">
                             <div className="trending_text_container-1">
-                                <span className="trending_detail_heading"> {slide.title}</span>
-                                <span className="trending_detail_subheading">{slide.description}</span>
+                                <span className="trending_detail_heading"> {data.title}</span>
+                                <span className="trending_detail_subheading">{data.description}</span>
                             </div>
                         </div>
                     </div>

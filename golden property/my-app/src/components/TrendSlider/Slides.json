@@ -1,11 +1,10 @@
 [
     {
       "title": "Farm Land Daksha Chandana",
-      "images": [{
-        "image1": "https://teja12.kuikr.com/is/a/c/655x525/gallery_images/original/546077f29c1b4.gif",
-        "image2": "https://teja12.kuikr.com/is/a/c/655x525/gallery_images/original/546077f29c1b4.gif",
-        "image3": "https://teja12.kuikr.com/is/a/c/655x525/gallery_images/original/546077f29c1b4.gif"
-      }
+      "images": [ "https://teja12.kuikr.com/is/a/c/655x525/gallery_images/original/546077f29c1b4.gif",
+        "https://teja12.kuikr.com/is/a/c/655x525/gallery_images/original/546077f29c1b4.gif",
+      "https://teja12.kuikr.com/is/a/c/655x525/gallery_images/original/546077f29c1b4.gif"
+      
         ],
       "description": "Those days are now passé when purchasing a home used to be a very arduous task ..."
     },
@@ -26,12 +25,12 @@
     },
     {
       "title": "Farm Land Daksha Chandana",
-      "images": "https://iamhouseowner.com/wp-content/uploads/2021/03/Open-Plot-Image.png",
+      "images": ["https://iamhouseowner.com/wp-content/uploads/2021/03/Open-Plot-Image.png"],
       "description": "Those days are now passé when purchasing a home used to be a very arduous task ..."
     },
     {
       "title": "Farm Land Daksha Chandana",
-      "images": "https://mediacdn.99acres.com/media1/17061/2/341222288M-1643179590820.jpg",
+      "images": ["https://mediacdn.99acres.com/media1/17061/2/341222288M-1643179590820.jpg"],
       "description": "Those days are now passé when purchasing a home used to be a very arduous task ..."
     },
     {
@@ -41,12 +40,12 @@
     },
     {
       "title": "Farm Land Daksha Chandana",
-      "images": "https://iamhouseowner.com/wp-content/uploads/2021/03/Open-Plot-Image.png",
+      "images":["https://iamhouseowner.com/wp-content/uploads/2021/03/Open-Plot-Image.png"],
       "description": "Those days are now passé when purchasing a home used to be a very arduous task ..."
     },
     {
       "title": "Farm Land Daksha Chandana",
-      "images": "https://mediacdn.99acres.com/media1/17061/2/341222288M-1643179590820.jpg",
+      "images": ["https://mediacdn.99acres.com/media1/17061/2/341222288M-1643179590820.jpg"],
       "description": "Those days are now passé when purchasing a home used to be a very arduous task ..."
     }
     
