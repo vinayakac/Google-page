@@ -10,5 +10,43 @@
         font-size: 0;
 
     }
+
+   
 }
+
+@media only screen and (min-width: 425px) and (max-width: 950px) {
+    .down-arrow {
+        display: flex;
+        height: 8px;
+        width: 13px;
+        margin-left: 192px;
+        margin-top: -15px;
+    }
+
+    .dropdown-btn {
+        height: 50px;
+        width: 200px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #ffbc00;
+        margin-left: 100px;
+
+    }
+
+    .dropdown-content{
+    display: flex;
+    }
+
+  
+
+    hr{
+        /* margin-left: 20px; */
+        border: 2px solid #ffbc00;
+        width: 200px;
+        margin-top: 20px;
+    }
+
+    }
+
+
 

@@ -1,3 +1,4 @@
+@media only screen and (min-width: 1024px) and (max-width: 1950px) {
 .test{
     height: 0px;
     width: 200px;
@@ -52,17 +53,18 @@
     width: 40px;
     margin-left: 20px;
 }
+.c1{
+    height: 30px;
+    width: 40px;
+    margin-left: 20px;
+}
 .colum2{
     height: 30px;
     width: 40px;
     margin-left: 350px;
     margin-top: -32px;
 }
-.c1{
-    height: 30px;
-    width: 40px;
-    margin-left: 20px;
-}
+
 .c2{
     height: 30px;
     width: 40px;
@@ -115,4 +117,139 @@
 }
 .slick-dots li button::before{
     font-size: 13px;
+}
+}
+
+@media only screen and (min-width: 420px) and (max-width: 950px) {
+
+    .test{
+        height: 0px;
+        width: 200px;
+        margin-left: 140px;
+        margin-top: 140px;
+        font-size: 15px;
+    }
+    
+    .final-part{
+        display: flex;
+    }
+
+    
+.box{
+    height: 250px;
+    width: 370px;
+    margin-top: 40px;
+    margin-left: 50px;
+    /* border: 1px solid #000000; */
+    border-radius: 5px;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgb(255, 239, 239));
+    box-shadow: 1px 1px rgb(254, 176, 117);
+    
+}
+
+.circle{
+    height: 30px;
+    width: 30px;
+    margin-left: 60px;
+    margin-top:20px;
+}
+
+.circle1{
+    height: 69px;
+    width: 72px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.men{
+    margin-top: -90px;
+    margin-left: 27px;
+}
+.man{
+    height: 67px;
+    width: 66px;
+    margin-left: 116px;
+    margin-top: 63px;
+   
+}
+
+.colum{
+    height: 30px;
+    width: 40px;
+    margin-left: 20px;
+}
+.c1{
+    height: 30px;
+    width: 40px;
+    margin-left: 20px;
+}
+.colum2{
+    height: 30px;
+    width: 40px;
+    margin-left: 350px;
+    margin-top: -32px;
+}
+
+.c2{
+    height: 30px;
+    width: 40px;
+    margin-left: -75px;
+    margin-top: -32px;
+}
+
+.text1{
+    margin-left: 35px;
+    font-style: italic;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.text2{
+    margin-left: 35px;
+    font-style: italic;
+    margin-left: 60px;
+    font-size: 14px;
+}
+.text3{
+    margin-left: 35px;
+    font-style: italic;
+    margin-left: 161px;
+    font-size: 14px;
+}
+.text4{
+    margin-left: 35px;
+    font-style: italic;
+    color: rgb(6, 6, 6);
+    font-size: 14px;
+}
+.text5{
+    margin-left: 35px;
+    font-style: italic;
+    font-size: 14px;
+}
+.name{
+    height: 30px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 314px; 
+}
+.name1{
+    color:  rgb(254, 176, 117);
+    font-weight: bold;
+    margin-left: -57px;
+}
+
+.name2{
+    font-weight: bold;
+}
+
+.slick-dots li button{
+    margin-top: 145px;
+    
+}
+
+.slick-dots li button::before{
+    font-size: 12px;
+    letter-spacing: -2px;
+}
 }

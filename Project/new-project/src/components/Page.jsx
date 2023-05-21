@@ -13,15 +13,10 @@ export default function Page(){
                 <Image></Image>
             </div>
 
-            {/* <Project></Project> */}
+           
             <div><Project></Project></div>
 
-            {/* <div>
-                <Testimonials></Testimonials>
-                </div>
-                <div>
-                <Test></Test>
-            </div> */}
+          
         </div>
     )
 }

@@ -9,10 +9,15 @@ function Dropdown({selected, setSelected}){
             setIsActive(!isActive)}>
                 {selected}
                 <img src='./orange-down-arrow.webp' alt='#' className="down-arrow" />
+                
+                    <hr></hr>
+                    
+                
                 <span className="fas fa-caret-down"></span>
                 </div>
                 {isActive &&(
                 <div className="dropdown-content">
+                    
                 {options.map((option) =>(
                     <div
                     onClick={(e) =>{

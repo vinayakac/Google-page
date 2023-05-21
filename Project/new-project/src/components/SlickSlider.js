@@ -11,6 +11,7 @@ const SlickSliding = () => {
     const settings = {
         dots: true,
         infinite: true,
+        arrows: false,
         slidesToShow: 3,
         slidesToScroll: 2,
         responsive: [
@@ -18,8 +19,9 @@ const SlickSliding = () => {
                 breakpoint: 768,
                 settings: {
                     slidesToShow: 2,
-                    slidesToScroll: 1,
+                    slidesToScroll: 2,
                     infinite: true,
+                    arrows: false,
                     dots: true,
                 },
             },
@@ -27,8 +29,9 @@ const SlickSliding = () => {
                 breakpoint: 480,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1,
+                    slidesToScroll: 2,
                     infinite: true,
+                    arrows: false,
                     dots: true,
                 },
             },

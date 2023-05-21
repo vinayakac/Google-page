@@ -174,3 +174,52 @@
 }
 
 
+@media only screen and (min-width: 425px) and (max-width: 950px) {
+  
+    .section1 {
+        display: flex;
+        height: 50px;
+        width: 200px;
+        margin-left: 156px;
+        margin-top: 19px;
+        font-weight: bold;
+        font-size: 27px;
+    }
+
+
+
+    .sec2-1 {
+        height: 0px;
+        width: 0px;
+        
+    }
+
+    .build {
+        height: 0px;
+        width: 0px;
+        font-size: 0;
+    }
+
+    .build1 {
+        display: flex;
+        height: 60px;
+    }
+
+    .sec3-1 {
+        height: 0;
+        width: 0;
+    }
+
+    .sec3-2 {
+        font-size: 0;
+    }
+
+    .sec4-1 {
+        height: 0;
+        width: 0;
+    }
+
+    .sec4-2 {
+        font-size: 0;
+    }
+}
