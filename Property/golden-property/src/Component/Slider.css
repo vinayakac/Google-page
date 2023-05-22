@@ -1,0 +1,147 @@
+.slick-slider.slick-initialized {
+    height: 600px;
+    width: 692px;
+    margin-top: -1px;
+}
+
+button.slick-arrow.slick-next {
+    background: black;
+    height: 60px;
+    width: 60px;
+    border-radius: 246%;
+    /* margin-right: 950px; */
+}
+
+button.slick-arrow.slick-prev {
+    background: black;
+    height: 60px;
+    width: 60px;
+    border-radius: 246%;
+    /* margin-left: 223px; */
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-family: 'slick';
+    font-size: 46px;
+    line-height: 1;
+    opacity: .75;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    border: gray;
+}
+
+.slick-prev {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 110%;
+    display: block;
+    width: 20px;
+    left: 30px;
+    height: 20px;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 110%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    right: 30px;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.awards-title {
+    background: #f8fff9;
+    height: 110px;
+    display: flex;
+
+    flex-direction: column;
+}
+
+.award-subdetails {
+    border: 2px solid red;
+    margin-top: 12px;
+    height: 130px;
+    width: 321px;
+    font-size: 14px;
+    z-index: 1;
+}
+
+
+
+/* .awards-subheading {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.awards-heading {
+    font-size: 40px;
+    font-weight: 500;
+} */
+
+.award-img {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 350px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: -50px;
+}
+
+.award-image2 {
+    width: 316px;
+    height: 254px;
+    left: 562.11px;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 161.33px;
+    margin-right: 161.33px; */
+}
+
+.award-image3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 155px;
+    height: 94px;
+    margin-top: -215px;
+    margin-left: 35px;
+}
+
+.award-picture1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 72px;
+    width: 155.83px;
+    height: 94.05px;
+}
+
+.award-flower1 {
+    width: 315.78px;
+    height: 254px;
+}
+
+h3 {
+    font-size: 40px;
+    margin-top: 53px;
+}
