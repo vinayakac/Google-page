@@ -1,0 +1,19 @@
+.footer, .footer-container {
+    background-color: #06340d;
+}
+
+.footer-content-container {
+    display: flex;
+}
+.footer-logo-container {
+    margin-left: 82px;
+    margin-top: 70px;
+}
+
+.footer-devider {
+    margin-top: 35px;
+}
+
+.footer-socialmedia-link-container-hide {
+    display: none;
+}
