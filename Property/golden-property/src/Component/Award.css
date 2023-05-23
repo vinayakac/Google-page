@@ -1,4 +1,4 @@
-.award {
+/* .award {
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
@@ -7,7 +7,7 @@
     height: 821px;
     background-color: #f8fff9;
 
-}
+} */
 
 .award-title {
     display: flex;

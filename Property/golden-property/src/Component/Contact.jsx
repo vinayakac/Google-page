@@ -93,11 +93,11 @@ export default function Contact() {
                         </div>
                         <div className='contact-info-form-input-container'>
                             <div class="contact-info-form-title">Phone Number</div>
-                            <div>
-                                <div class="contact-info-form-input PhoneInput">
-                                    <PhoneInputGfg />
-                                </div>
+                            <div className='phone'>
+                                <PhoneInputGfg></PhoneInputGfg>
+                                
                             </div>
+
                         </div>
                         <div className='contact-info-form-input-container'>
                             <div class="contact-info-form-title">Email</div>

@@ -16,12 +16,6 @@ const Award = () => {
       </div>
       <div className="award-image">
         <img src={stick} alt="Stick" className="stick-left" />
-        {/* <div className="award-image2">
-          <img src={Flower} alt="Flower" className="award-flower1" />
-          <div className="award-image3">
-            <img src={Picture1} alt="#" className="award-picture1" />
-          </div>
-        </div> */}
         <div className='slide'>
           <Slider></Slider>
         </div>
