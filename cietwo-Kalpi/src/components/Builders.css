@@ -1,0 +1,13 @@
+.About-page{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+.footer{
+    background-color: #f4f7fe;
+}
+
+
+/* Repsonsive on about us */

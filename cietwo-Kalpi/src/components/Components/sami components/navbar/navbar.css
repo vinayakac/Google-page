@@ -1,0 +1,127 @@
+@media only screen and (min-width: 1024px) and (max-width: 1600px){
+
+.navbar-container{
+    height: 88px;
+    width: 1366px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+.navbar-content-1{
+    height: 88px;
+    width: 675.5px;
+    background-color:black;
+}
+.logo{
+    height: 69px;
+    width: 90px;
+    position: relative;
+    right: 227px;
+    margin-top: 9px;
+}
+.navbar-content-2{
+    height: 88px;
+    width: 675.5px;
+    background-color:black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.home-section{
+    height: 19px;
+    width: 46px;
+    padding: 10px;
+    position: relative;
+    margin-top: 8px;
+    right: 15px;
+}
+.about-section{
+    height: 16px;
+    width: 45px;
+    padding: 10px;
+    position: relative;
+    margin-top: 10px;
+    left: 14px;
+
+}
+.projects-section{
+    height: 36px;
+    width: 89px;
+    padding: 10px;
+    position: relative;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-right: 9px;
+    left: 1px;
+}
+.contact-section{
+    height: 36px;
+    width: 83px;
+    padding: 10px;
+    position: relative;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+.home-text{
+    font-family: Calibri;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #f5a023;
+    text-align: start;
+}
+.about-text{
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.projects-text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;  
+    color: #FFFFFF;
+}
+.contact-text{    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;   
+    color: #FFFFFF;
+}
+
+}
+
+
+/* Responsive */
+
+@media only screen and (min-width: 420px) and (max-width: 950px){
+
+    .navbar-container{
+        display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px;
+gap: 10px;
+
+position: absolute;
+height: 96px;
+left: 0px;
+right: -0.41px;
+top: 0px;
+
+/* Sec */
+
+background: #090909;
+    }
+
+    .navbar-content-1{
+        height: 56px;
+    }
+    .logo{
+        width: 73px;
+height: 56px;
+
+
+    }
+}

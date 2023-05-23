@@ -1,0 +1,213 @@
+@media only screen and (min-width: 1024px) and (max-width: 1950px){
+
+    .About-container {
+        /* margin-top: 83px; */
+        /* font-size: 38px;
+        font-weight: 500;
+        font-family: arial;
+        margin-top: -18px; */
+        /* border: 2px solid red;  */
+    
+    
+        width: 150px;
+        height: 42px;
+        font-weight: 600;
+        font-size: 33px;
+        font-family: arial;
+        margin-left: 574px;
+        
+    }
+    
+    .part1 {
+        height: 476px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 14px;
+        /* border: 1px solid red; */
+    }
+    
+    .text-1 {
+        /* border: 2px solid red; */
+        height: 453px;
+        width: 605px;
+        margin-top: 53px;
+    
+    }
+    
+    .icon1 {
+        /* border: 2px solid red;   */
+        /* margin-left: 79px; */
+        margin-top: -79px;
+        width: 675px;
+    
+        height: 552px;
+    }
+    
+    
+    .ic {
+        /* border: 2px solid red; */
+    
+        margin-left: -606px;
+    
+        margin-top: -12px;
+    }
+    
+    .picture1 {
+        width: 392px;
+        height: 477px;
+        margin-left: 83px;
+        margin-top: 7px;
+    }
+    
+    .t1 {
+    
+        color: #212325;
+        font-weight: 600;
+        font-size: 30px;
+        margin-left: -262px;
+    
+        
+    }
+    .we{
+        color: orange;
+    }
+    .t2{
+        width: 534px;
+        height: 132px;
+        margin-left: 29px;
+        color: #686d72;
+        text-align: justify;
+        word-spacing: -1.2px;
+        line-height: 1.7;
+        /* border: 2px solid red; */
+    }
+    .t3{
+        width: 540px;
+        height: 132px;
+        margin-left: 29px;
+        color: #686d72;
+        text-align: justify;
+        margin-top: -23px;
+        line-height: 1.7;
+    
+        word-spacing: -1.2px;
+        /* border: 2px solid red; */
+    }
+    .p{
+    
+        color: #686d72;
+        font-weight: 400;
+        font-size: 16px;
+        /* width: 556px;
+        height: 132px; */
+    }
+    .p {
+    
+        color: #686d72;
+        font-weight: 400;
+        font-size: 16px;
+        margin-top: -36px;
+    }
+    
+    .box{
+        height: 43px;
+        width: 135px;
+        /* align-items: center; */
+        margin-left: -1114px;
+        margin-top: 327px;
+        background-color: orange;
+        border-radius: 4px;
+    }
+    .info{
+        font-size: 13px;
+        font-weight: 500;
+        /* margin-left: 1px; */
+        margin-top: 12px;
+    }
+    }
+    
+    /* Responsive part */
+    
+    @media only screen and (min-width: 420px) and (max-width: 950px){
+    
+        .about{
+    
+        }
+    
+        .About-container{
+            display: flex;
+            font-weight: 500;
+            font-size: 28px;
+            line-height: 33px;
+            justify-content: center;
+    
+        }
+    
+        .part1{
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .text-1{
+            width: 410px;
+    height: 186px;
+    
+        }
+    
+        .t1{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 172.2%;
+            /* identical to box height, or 31px */
+    
+            letter-spacing: 0.045em;
+    
+            /* Sec */
+    
+            color: #090909;
+    
+        }
+    
+        .t2{
+    
+            font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* or 157% */
+    
+    text-align: center;
+    
+    /* primary */
+    
+    color: #212325;
+    
+    opacity: 0.8;
+    
+        }
+    
+        .t3{
+            font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* or 157% */
+    
+    text-align: center;
+    
+    /* primary */
+    
+    color: #212325;
+    
+    opacity: 0.8;
+    
+        }
+        
+    }
+    
+    .icon1{
+        position: absolute;
+    left: 118.3%;
+    right: -136.45%;
+    top: 32.53%;
+    bottom: 62.56%;
+    opacity: 0.7;
+    }

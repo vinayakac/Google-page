@@ -1,0 +1,233 @@
+@media only screen and (min-width: 1024px) and (max-width: 1950px){
+
+    .why-container {
+        height: 410px;
+        margin-top: 88px;
+        /* border: 2px solid red; */
+    }
+    
+    .heading {
+    
+        width: 150px;
+        height: 42px;
+        font-weight: 600;
+        font-size: 33px;
+        font-family: arial;
+        /* border: 1px solid red; */
+        margin-left: 582px;
+    }
+    
+    .body {
+        display: flex;
+        flex-direction: row;
+        height: 283px;
+        margin-top: 48px;
+        /* border: 2px solid black; */
+    }
+    
+    .project {
+        height: 177px;
+        width: 249px;
+        margin-top: 28px;
+        margin-left: 205px;
+        /* border: 2px solid green; */
+    
+    }
+    
+    .consultans {
+        height: 177px;
+        width: 249px;
+        margin-top: 28px;
+        margin-left: 36px;
+        /* border: 2px solid green; */
+    
+    }
+    
+    .satisfaction {
+        height: 177px;
+        width: 249px;
+        margin-top: 28px;
+        margin-left: 36px;
+        /* border: 2px solid green; */
+    
+    }
+    
+    .icon-1 {
+        width: 53.5px;
+        height: 55.34px;
+    }
+    
+    .icon-2 {
+        width: 53.5px;
+        height: 55.34px;
+    }.icon-3 {
+        width: 53.5px;
+        height: 55.34px;
+    }
+    
+    .text1{
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .text2{
+        color: rgba(0, 0, 0, 0.4);
+        font-size: 14px;
+    }
+    .text3{
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .text4{
+        color: rgba(0, 0, 0, 0.4);
+        font-size: 14px;
+    }
+    .text5{
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .text6{
+        color: rgba(0, 0, 0, 0.4);
+        font-size: 14px;
+    }
+    }
+    
+    
+    /* Responsive */
+    
+    @media only screen and (min-width: 420px) and (max-width: 950px){
+        .why-container{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            row-gap: 20px;
+        }
+    
+        .heading{
+            font-size: 33px;
+            font-weight: 600;
+    
+    
+        }
+    
+        .body{
+            row-gap: 17px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+    
+    
+        }
+    
+        .project{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0px;
+            gap: 17.47px;
+    
+            width: 351px;
+            height: 136.87px;
+    
+    
+        }
+    
+        .icon-1{
+            height: 50px;
+            width: 50px;
+        }
+    
+        .text1{
+            font-weight: 500;
+            font-size: 16px;
+            letter-spacing: 0.05em;
+        }
+    
+        .text2{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 141.7%;
+            /* or 20px */
+    
+            text-align: center;
+            letter-spacing: 0.05em;
+    
+            color: rgba(0, 0, 0, 0.4);
+        }
+    
+    
+        .consultans{
+    
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0px;
+            gap: 17.47px;
+    
+            width: 351px;
+            height: 136.87px;
+    
+    
+        }
+    
+        .icon-2{
+            height: 50px;
+            width: 50px;
+        }
+    
+        .text3{
+            font-weight: 500;
+            font-size: 16px;
+            letter-spacing: 0.05em;
+        }
+    
+        .text4{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 141.7%;
+            /* or 20px */
+    
+            text-align: center;
+            letter-spacing: 0.05em;
+    
+            color: rgba(0, 0, 0, 0.4);
+        }
+    
+        .satisfaction{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0px;
+            gap: 17.47px;
+    
+            width: 351px;
+            height: 136.87px;
+    
+        }
+    
+        .icon-3{
+            height: 50px;
+            width: 50px;
+        }
+    
+        .text5{
+            font-weight: 500;
+            font-size: 16px;
+            letter-spacing: 0.05em;
+        }
+    
+        .text6{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 141.7%;
+            /* or 20px */
+    
+            text-align: center;
+            letter-spacing: 0.05em;
+    
+            color: rgba(0, 0, 0, 0.4);
+        }
+    
+    
+        
+    }

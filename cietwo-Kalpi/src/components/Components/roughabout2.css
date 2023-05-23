@@ -1,0 +1,203 @@
+@media only screen and (min-width: 1024px) and (max-width: 1950px){
+
+    .part {
+        height: 293px;
+        display: flex;
+        flex-direction: row;
+        /* border: 1px solid red; */
+    }  
+    .part3{
+        height: 269px;
+        width: 565px;
+        margin-left: 12px;
+        /* border: 2px solid red; */
+    }
+    .text-3-1{
+        color: #212325;
+        font-weight: 600;
+        font-size: 30px;
+        height: 36px;
+        width: 234px;
+        /* border: 2px solid red; */
+        margin-left: 11px;
+        
+        margin-top: 42px;
+    }
+    .text{
+        color: orange;
+    }
+    .t{
+        width: 534px;
+        height: 132px;
+        /* margin-left: 29px; */
+        color: #686d72;
+        text-align: justify;
+        word-spacing: -1.2px;
+        line-height: 1.7;
+        margin-top: 30px;
+        margin-left: 12px;
+    }
+    .tt{
+        width: 534px;
+        height: 132px;
+        /* margin-left: 29px; */
+        color: #686d72;
+        text-align: justify;
+        word-spacing: -1.2px;
+        line-height: 1.7;
+        margin-top: -45px;
+        margin-left: 12px;
+    }
+    p{
+    
+        color: #686d72;
+        font-weight: 400;
+        font-size: 16px;
+        /* width: 556px;
+        height: 132px; */
+    }
+    .part4{
+        /* border: 2px solid red; */
+        
+        height: 275px;
+        width: 658px;
+        margin-left: 12px;
+        display: flex;
+        margin-top: 40px;
+        flex-direction: column;
+    }
+    .part4-1{
+        height: 59px;
+        width: 649px;
+        display: flex;
+        flex-direction: row;
+        /* border: 2px solid red; */
+    }
+    .part4-2{
+        height: 59px;
+        width: 649px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 12px;
+        /* border: 2px solid red; */
+    }.part4-3{
+        height: 59px;
+        width: 649px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 12px;
+        /* border: 2px solid red; */
+    }.part4-4{
+        height: 59px;
+        width: 649px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 12px;
+        /* border: 2px solid red; */
+    }
+    .p4-1{
+        /* border: 2px solid red; */
+        height: 53px;
+        width: 124px;
+    }
+    .p4-2{
+        height: 27px;
+        width: 96px;
+        /* border: 2px solid rgb(4, 197, 91); */
+    }
+    .p4-2-1{
+        /* border: 2px solid red; */
+        
+        
+        color: #686d72;
+        height: 27px;
+        width: 391px;
+        margin-left: -3px;
+        margin-top: -1px;
+    }
+    .p4-2-2{
+        height: 29px;
+        width: 166px;
+        /* border: 2px solid red; */
+    }
+    .p4-3-1{
+        /* border: 2px solid red; */
+        height: 53px;
+        width: 124px;
+    }
+    .p4-3-2{
+        height: 29px;
+        width: 79px;
+        /* border: 2px solid red; */
+    }
+    .p4-4-1{
+        /* border: 2px solid red; */
+        height: 53px;
+        width: 124px;
+    }
+    .p4-4-2{
+        height: 24px;
+        width: 127px;
+        margin-left: -16px;
+        /* border: 2px solid red; */
+        
+    }
+    
+    .p9{
+        height: 40px;
+        width: 40px;
+    }
+    .p8{
+        height: 40px;
+        width: 40px;
+    }
+    .p7{
+        height: 40px;
+        width: 40px;
+    }
+    .p6{
+        height: 40px;
+        width: 40px;
+    }
+    
+    .p4-2-11{
+        height: 54px;
+        width: 121px;
+        /* border: 2px solid red; */
+    }
+    .li-1{
+        height: 51px;
+        /* border: 2px solid red; */
+    }
+    .p4-2-2-1{
+        /* border: 2px solid red; */
+        
+        color: #686d72;
+        height: 27px;
+        width: 468px;
+        margin-left: -2px;
+        /* margin-top: -34px; */
+    }
+    .p4-3-2-1{
+       
+        /* border: 2px solid red; */
+        
+        color: #686d72;
+        height: 27px;
+        width: 391px;
+        margin-left: -3px;
+        /* margin-top: -32px; */
+    }
+    .p4-4-3{
+        /* border: 2px solid red; */
+        
+        
+        color: #686d72;
+        height: 27px;
+        width: 471px;
+        margin-left: -3px;
+        /* margin-top: -33px; */
+    
+    }
+    
+    }
