@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     width: 54%;
-    margin-left: 642px;
+    margin-left: 708px;
     margin-top: -10px;
     /* border: 1px solid red; */
 }
@@ -19,6 +19,7 @@
 .txt3{
     height: 19px;
     width: 45px;
+    margin-left: -22px;
     font-size: 16px;
    
 }
@@ -33,6 +34,7 @@
 .txt4{
     height: 19px;
     width: 45px;
+    margin-left: -3px;
     
 }
 .text_5{
@@ -46,6 +48,7 @@
 .txt5{
     height: 19px;
     width: 45px;
+    margin-left: 13px;
    
 }
 .text_6{
@@ -59,6 +62,7 @@
 .txt6{
     height: 19px;
     width: 45px;
+    margin-left: 29px;
    
 }
 .text_7{
@@ -72,6 +76,7 @@
 .txt7{
     height: 19px;
     width: 45px;
+    margin-left: 54px;
   
 }
 .text_8{
@@ -85,48 +90,49 @@
 .txt8{
     height: 19px;
     width: 45px;
+    margin-left: 61px;
     
 }
 
 .ar-1{
     height: 6px;
     width: 10px;
-    margin-top: 9px;
+    margin-top: 15px;
     margin-left: 1px;
     /* border: 1px solid red; */
 }
 .ar-2{
     height: 6px;
     width: 10px;
-    margin-top: 9px;
+    margin-top: 15px;
     margin-left: 1px;
     /* border: 1px solid red; */
 }
 .ar-3{
     height: 6px;
     width: 10px;
-    margin-top: 9px;
+    margin-top: 15px;
     margin-left: 5px;
     /* border: 1px solid red; */
 }
 .ar-4{
     height: 6px;
     width: 10px;
-    margin-top: 9px;
+    margin-top: 15px;
     margin-left: 1px;
     /* border: 1px solid red; */
 }
 .ar-5{
     height: 6px;
     width: 10px;
-    margin-top: 9px;
+    margin-top: 15px;
     margin-left: 7px;
     /* border: 1px solid red; */
 }
 .ar-6{
     height: 6px;
     width: 10px;
-    margin-top: 9px;
+    margin-top: 15px;
     margin-left: 11px;
     /* border: 1px solid red; */
 }

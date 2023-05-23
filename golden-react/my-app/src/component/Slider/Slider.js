@@ -39,6 +39,8 @@ const Example = () => {
         <div className="slider">
             <Slider {...settings}>
                 {Slides_data.map((slide) => (
+
+                    
                     <div key={slide.id}>
                         <div className='image-container'>
                             <img className="slide-image" src={slide.image} alt=" " />

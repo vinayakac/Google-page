@@ -1,0 +1,240 @@
+@media only screen and (min-width: 1024px) and (max-width: 1950px) {
+    .slides {
+        height: 651px;
+        width: 1533px;
+        /* border: 1px solid rgb(5, 3, 3); */
+        
+        /* margin-top: 66px; */
+        /* margin-left: 37px;
+        margin-right: -5px; */
+    }
+    
+    .slick-next:before {
+        position: relative;
+        right: 4px;
+        content: '→';
+    }
+    .slick-prev:before {
+        content: '←';
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+    button.slick-arrow.slick-next {
+    height: 55px;
+    background: #b1a7a7;
+    z-index: 1;
+    margin-top: 67px;
+    width: 55px;
+    right: 5px;
+    border-radius: 30px;
+    }
+    button.slick-arrow.slick-prev {
+        height: 55px;
+        background: #b1a7a7;
+        z-index: 1;
+        width: 55px;
+        margin-top: 65px;
+        left: 1px;
+        border-radius: 30px;
+    }
+    .slick-prev {
+        left: -25px;
+    }
+    .slick-prev:before, .slick-next:before {
+        font-family: 'slick';
+        font-size: 62px;
+        background: transparent;
+        line-height: 1;
+        opacity: .75;
+        color: white;
+        -webkit-font-smoothing: antialiased;
+    }
+    
+    
+    .service_container {
+        height: 210px;
+        width: 312px;
+        justify-content: center;
+        margin-left: 33px;
+        display: flex;
+        border-radius: 14px;
+        flex-direction: column;
+        align-items: center;
+        background: #fff;
+        margin-top: 152px;
+        border: 1px solid rgb(237 227 227);
+        box-shadow: 0px -2px 2px rgba(208, 218, 244, 0.25), 0px 1px 3px #D0DAF4;
+    }
+    img {
+        height: 88px;
+        width: 88px;
+        bottom: 5px;
+        position: relative;
+    }
+    span.service-details-heading {
+        font-size: 21px;
+        font-weight: 500;
+        right: 2px;
+        position: relative;
+        margin-top: 11px;
+    }
+    span.service-details-subheading {
+        font-size: 16px;
+        margin-top: 6px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.4);
+    }
+    .slick-slider.slick-initialized {
+        bottom: 45px;
+    }
+    h2 {
+        margin-right: 17px;
+        margin-top: -506px;
+        position: relative;
+        font-size: 40px;
+        font-weight: 500;
+        margin-left: 694px;
+        bottom: 99px;
+    }
+    h3{
+        position: relative;
+        font-size: 20px;
+        font-weight: 200;
+        margin-left: 675px;
+        margin-top: -81px;
+        
+    }
+    .slick-next:before {
+        font-family: 'slick';
+        font-size: 62px;
+        line-height: 1;
+        opacity: 0.75;
+        color: white;
+        -webkit-font-smoothing: antialiased;
+    }
+}
+    @media only screen and (min-width: 420px) and (max-width: 950px) {
+        .slides {
+            height: 651px;
+            width: 1533px;
+            border: 1px solid rgb(5, 3, 3);
+            
+        }
+        
+        
+        .slick-next:before {
+            position: relative;
+            right: 4px;
+            content: '→';
+        }
+        .slick-prev:before {
+            content: '←';
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-around;
+        }
+        button.slick-arrow.slick-next {
+            height: 55px;
+            background: #b1a7a7;
+            z-index: 1;
+            width: 55px;
+            right: -12px;
+            border-radius: 30px;
+            margin-top: 150px;
+            margin-right: 166px;
+        }
+        button.slick-arrow.slick-prev {
+            height: 55px;
+            background: rgb(216 216 216);
+            z-index: 1;
+            width: 55px;
+            border-radius: 30px;
+            margin-top: 150px;
+            margin-left: 131px;
+        }
+        .slick-prev {
+            left: -25px;
+        }
+        .slick-prev:before, .slick-next:before {
+            font-family: 'slick';
+            font-size: 62px;
+            background: transparent;
+            line-height: 1;
+            opacity: .75;
+            color: white;
+            -webkit-font-smoothing: antialiased;
+        }
+        
+        
+        .service_container {
+            height: 210px;
+            width: 343px;
+            justify-content: center;
+            display: flex;
+            border-radius: 14px;
+            flex-direction: column;
+            align-items: center;
+            background: #fff;
+            border: 1px solid rgb(237 227 227);
+            box-shadow: 0px -2px 2px rgba(208, 218, 244, 0.25), 0px 1px 3px #D0DAF4;
+        }
+        img {
+            height: 88px;
+            width: 88px;
+            bottom: 5px;
+            position: relative;
+        }
+        span.service-details-heading {
+            font-size: 21px;
+            font-weight: 500;
+            right: 2px;
+            position: relative;
+            margin-top: 11px;
+        }
+        span.service-details-subheading {
+            font-size: 16px;
+            margin-top: 6px;
+            font-weight: 400;
+            color: rgba(0, 0, 0, 0.4);
+        }
+        .slick-slider.slick-initialized {
+            bottom: 45px;
+        }
+        h2 {
+            margin-right: 17px;
+            margin-top: -506px;
+            position: relative;
+            font-size: 40px;
+            font-weight: 500;
+            margin-left: 694px;
+            bottom: 99px;
+        }
+        h3{
+            position: relative;
+            font-size: 20px;
+            font-weight: 200;
+            margin-left: 675px;
+            margin-top: -81px;
+            
+        }
+       
+     .slick-next:before {
+            font-family: 'slick';
+            font-size: 62px;
+            line-height: 1;
+            opacity: 0.75;
+            color: white;
+            -webkit-font-smoothing: antialiased;
+        }
+        body {
+            background-image: url("../../../../public/images/am-img.png");
+            height: 400px;
+            width: 1533px;
+            border: 1px solid blue;
+          }
+    }
+    .back{
+        height: 680px;
+        width: 1530px;
+    }
