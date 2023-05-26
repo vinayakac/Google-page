@@ -1,0 +1,65 @@
+@media screen and (max-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+
+    .Navigation{
+
+        display: flex;
+       column-gap: 50px;
+       
+       }
+       
+       .Navigtion-side-menu{
+           /* background-color: cornflowerblue; */
+           color: beige
+           ;
+       }
+       
+       .Navigation-profile-button{
+           background-color: blueviolet;
+           color: aliceblue;
+       }
+       
+       /* .Side_Menu-button{
+       
+       }
+       
+       .Side_Menu-button .hover{
+       
+       }
+       
+       .Profile-button{
+       
+       } */
+  }
+  
+.Navigation{
+
+ display: flex;
+column-gap: 50px;
+
+}
+
+.Navigtion-side-menu{
+    background-color: cornflowerblue;
+    color: beige
+    ;
+}
+
+.Navigation-profile-button{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+/* .Side_Menu-button{
+
+}
+
+.Side_Menu-button .hover{
+
+}
+
+.Profile-button{
+
+} */
