@@ -1,0 +1,26 @@
+@media screen and (max-width: 480px) {
+    .settings-Section{
+        background-color: peachpuff;
+    }
+
+
+    .Settings-Section-Top-Layout{
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        row-gap: 10px;
+    }
+
+    .Settings-Section-Top-Layout-Exit{
+        display: flex;
+    }
+
+    .Settings-Section-Top-Layout-Subsection{
+        display: flex;
+        justify-content: space-between;
+        column-gap: 10px;
+        align-items: center;
+
+    }
+}
