@@ -1,11 +1,12 @@
 import { useState } from 'react';
-import { Button, Menu } from 'antd';
-import {
+import { Avatar, Button, Menu } from 'antd';
+import { 
   MenuOutlined ,
-  PieChartOutlined,
-  DesktopOutlined,
-  ContainerOutlined,
-  MailOutlined,
+  UserOutlined,
+  
+  HomeOutlined,
+  HistoryOutlined,
+  BellOutlined,
   AppstoreOutlined,
 } from '@ant-design/icons';
 
@@ -19,16 +20,25 @@ function getItem(label, key, icon, children, type) {
   };
 }
 
+// <Avatar
+// style={{
+//   backgroundColor: '#87d068',
+// }}
+// icon={<UserOutlined />}
+// />
+
 const items = [
-  getItem('Option 1', '1', <PieChartOutlined />),
-  getItem('Option 2', '2', <DesktopOutlined />),
-  getItem('Option 3', '3', <ContainerOutlined />),
-  getItem('Navigation One', 'sub1', <MailOutlined />, [
-    getItem('Option 5', '5'),
-    getItem('Option 6', '6'),
-    getItem('Option 7', '7'),
-    getItem('Option 8', '8'),
-  ]),
+  getItem('User1', 'UwU', <Avatar  style={{backgroundColor: '#87d068',}}
+  icon={<UserOutlined />}/>),
+  getItem('Home', '2', <HomeOutlined />),
+  getItem('History', '3', <HistoryOutlined />),
+  getItem('Notifications', '4', <BellOutlined />, ),
+  // [
+  //   getItem('Option 5', '5'),
+  //   getItem('Option 6', '6'),
+  //   getItem('Option 7', '7'),
+  //   getItem('Option 8', '8'),
+  // ]),
   getItem('Navigation Two', 'sub2', <AppstoreOutlined />, [
     getItem('Option 9', '9'),
     getItem('Option 10', '10'),
