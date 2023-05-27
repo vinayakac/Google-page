@@ -7,7 +7,10 @@ import {
   HomeOutlined,
   HistoryOutlined,
   BellOutlined,
-  AppstoreOutlined,
+  ReconciliationOutlined,
+  PoweroffOutlined,
+  SettingOutlined
+  
 } from '@ant-design/icons';
 
 function getItem(label, key, icon, children, type) {
@@ -39,11 +42,15 @@ const items = [
   //   getItem('Option 7', '7'),
   //   getItem('Option 8', '8'),
   // ]),
-  getItem('Navigation Two', 'sub2', <AppstoreOutlined />, [
-    getItem('Option 9', '9'),
-    getItem('Option 10', '10'),
-    getItem('Submenu', 'sub3', null, [getItem('Option 11', '11'), getItem('Option 12', '12')]),
-  ]),
+  getItem('	Privacy policy', '5', <ReconciliationOutlined />,),
+  //  [
+  //   getItem('Option 9', '9'),
+  //   getItem('Option 10', '10'),
+  //   getItem('Submenu', 'sub3', null, [getItem('Option 11', '11'), getItem('Option 12', '12')]),
+  // ]),
+  getItem('Settings', '6', <SettingOutlined />,),
+  getItem('Logout', '7', <PoweroffOutlined />,),
+  // getItem('Testing', '7', <PoweroffOutlined />,)
 ];
 
 const SideMenu = () => {
