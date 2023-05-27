@@ -1,0 +1,27 @@
+@media screen and (max-width: 480px) {
+    .Main-Component-CardSet{
+        display: flex;
+        column-gap: 5px;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-top: 10px;
+
+    }    
+
+    .Auto-Booking-Card-Dashboard .Auto-Booking-Button{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-decoration: none;
+        color: peachpuff;
+        font-weight: 700;
+    }
+
+
+    .AutoStand-NearMe-Dashboard .Autostand-Button
+    {
+        font-family: monospace;
+        text-decoration: none;
+        color: black;
+        font-weight: 700;
+    }
+
+}

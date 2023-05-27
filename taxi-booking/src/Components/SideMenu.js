@@ -1,8 +1,7 @@
 import { useState } from 'react';
 import { Button, Menu } from 'antd';
 import {
-  MenuFoldOutlined,
-  MenuUnfoldOutlined,
+  MenuOutlined ,
   PieChartOutlined,
   DesktopOutlined,
   ContainerOutlined,
@@ -50,11 +49,12 @@ const SideMenu = () => {
   return (
     <div style={{ width: 256 }}>
       <Button
+        className="SideMenu-Hamburger-Button"
         type="primary"
         onClick={toggleCollapsed}
         style={{ marginBottom: 16 }}
       >
-        {handleButtonClick ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
+        {handleButtonClick ? <MenuOutlined />  : <MenuOutlined />}
       </Button>
       {collapsed ? null : (
         <Menu

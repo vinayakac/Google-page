@@ -1,29 +1,40 @@
-import { Button, Dropdown } from "antd";
+import { Card, Space} from "antd";
+
 import NavBar from "./Navigation";
+import "./Dashboard.css";
 
-export function ProfileComponent(){
-    return(
-        <>
-        <div>
-            <div className="Profile pic-button"></div>
-            {/* After clicking the profile the drop down must appear */}
-            <Dropdown></Dropdown>
-            </div></>
-    );
 
-}
 
 export function MainComponent(){
     return(
         <>
-        <div>
-            <Button placeholder="Book For an Auto">
-
-            </Button>
+        <div className="Main-Component-CardSet">
+            <div className="CardSet-1">
+                <Space direction="vertical" size={16}>
+                    <Card 
+                    // title="small card" 
+                    size="extra small"
+                    // extra={a href="/">Learn More</a>}
+                    className="Auto-Booking-Card-Dashboard"
+                    style={{width:200}}>
+                    
+                    <a className="Auto-Booking-Button" href="/">Auto Booking</a></Card>
+                    </Space>
+            </div>
+            <div className="CardSet-2">
+                <Space direction="vertical" size={16}>
+                    <Card 
+                    // title="Small card"
+                    size="extra small"
+                    // extra={<a href="/">Learn More</a>}
+                    className="AutoStand-NearMe-Dashboard"
+                    style={{width:200}}>
+                        <a className="Autostand-Button" href="/">Autostands Near Me</a></Card>
+                    </Space>
+           
+           </div>
         </div>
-        <div>
-            <Button placeholder="Search for an Auto Stand"></Button>
-        </div>
+        
         </>
     );
 }

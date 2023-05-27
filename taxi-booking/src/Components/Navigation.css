@@ -20,6 +20,12 @@
            background-color: blueviolet;
            color: aliceblue;
        }
+
+       .ant-col.ant-col-8.ant-col-offset-8.Navigation-profile-button.css-dev-only-do-not-override-w8mnev {
+        display: flex;
+        align-content: center;
+        justify-content: flex-end;
+        margin-left: 10em;}
        
        /* .Side_Menu-button{
        

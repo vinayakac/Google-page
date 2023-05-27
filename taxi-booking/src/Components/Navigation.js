@@ -1,6 +1,24 @@
 import "./Navigation.css" ;
-import  { Col, Row} from 'antd';
+import  { Col, Row, Space, Avatar} from 'antd';
+import { UserOutlined } from '@ant-design/icons';
 import SideMenu from './SideMenu';
+// import ProfileComponent from './Dashboard';
+
+export function ProfileComponent(){
+    return(
+    
+
+            <div className="Profile pic-button">
+                <Space direction="vertical" size={16}>
+                    <Avatar size="large" icon={<UserOutlined />} />
+                </Space>
+            </div>
+           
+            
+            
+    );
+
+}
 
 
 export default function NavBar(){
@@ -10,17 +28,10 @@ export default function NavBar(){
                     <Row>
             <Col className="Navigtion-side-menu" span={8}><SideMenu/></Col>
             <Col className="Navigation-profile-button" span={8} offset={8}>
-                Profile pic
+                <ProfileComponent/>
             </Col>
             </Row>
-                <div className="Side_Menu-button">
-                
-                
-                </div>
-
-                <div className="Profile-button">
-                   
-                </div>
+            
             </div>
         </>
     );
