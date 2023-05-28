@@ -9,7 +9,7 @@
     }    
 
     .Auto-Booking-Card-Dashboard .Auto-Booking-Button{
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family:  Verdana, sans-serif;
         text-decoration: none;
         color: peachpuff;
         font-weight: 700;
@@ -18,10 +18,15 @@
 
     .AutoStand-NearMe-Dashboard .Autostand-Button
     {
-        font-family: monospace;
+        font-family: 'Roboto';
         text-decoration: none;
         color: black;
         font-weight: 700;
+    }
+    .ant-card {
+            /* padding: 24px;
+            border-radius: 0 0 8px 8px; */
+            background-color: #303F9F;
     }
 
 }

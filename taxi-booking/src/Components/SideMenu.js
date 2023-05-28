@@ -40,7 +40,7 @@ function getItem(label, key, icon, children, type) {
 
 
 const items = [
-  getItem('User1', 'UwU', <Avatar  style={{backgroundColor: '#87d068',}}
+  getItem('User1', 'UwU', <Avatar  style={{backgroundColor: '#ffffff',}}
   icon={<UserOutlined />}/>),
   getItem('Home', '2', <HomeOutlined />),
   getItem('History', '3', <HistoryOutlined />),
@@ -87,7 +87,7 @@ const SideMenu = () => {
         <Menu
           defaultSelectedKeys={['1']}
           defaultOpenKeys={['sub1']}
-          mode="inline"
+          // mode="inline"
           theme="light"
           inlineCollapsed={collapsed}
           items={items}

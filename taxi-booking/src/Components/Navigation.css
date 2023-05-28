@@ -17,7 +17,7 @@
        }
        
        .Navigation-profile-button{
-           background-color: blueviolet;
+           background-color: #FF5722;
            color: aliceblue;
        }
 
@@ -25,7 +25,9 @@
         display: flex;
         align-content: center;
         justify-content: flex-end;
-        margin-left: 10em;}
+        margin-left: 10em;
+        padding-right: 10px;
+        padding-top: 10px;}
        
        /* .Side_Menu-button{
        
