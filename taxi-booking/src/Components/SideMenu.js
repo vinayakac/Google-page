@@ -29,6 +29,15 @@ function getItem(label, key, icon, children, type) {
 // }}
 // icon={<UserOutlined />}
 // />
+// export function User1 (){
+//   return(
+//     <>
+//     <a href="/"></a>
+//     </>
+//   );
+// }
+  
+
 
 const items = [
   getItem('User1', 'UwU', <Avatar  style={{backgroundColor: '#87d068',}}
@@ -69,7 +78,8 @@ const SideMenu = () => {
         className="SideMenu-Hamburger-Button"
         type="primary"
         onClick={toggleCollapsed}
-        style={{ marginBottom: 16 }}
+        style={{ marginBottom: 15, marginTop: 10,
+        marginLeft:-170 }}
       >
         {handleButtonClick ? <MenuOutlined />  : <MenuOutlined />}
       </Button>
@@ -78,7 +88,7 @@ const SideMenu = () => {
           defaultSelectedKeys={['1']}
           defaultOpenKeys={['sub1']}
           mode="inline"
-          theme="dark"
+          theme="light"
           inlineCollapsed={collapsed}
           items={items}
         />

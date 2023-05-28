@@ -1,6 +1,7 @@
 @media screen and (max-width: 480px) {
     .Profile-Section{
-        background-color: peachpuff;
+        /* background-color: peachpuff; */
+        font-family: monospace;
     }
 
 
@@ -21,6 +22,23 @@
         justify-content: space-between;
         column-gap: 10px;
         align-items: center;
+
+    }
+
+    .Profile-Section-Body-Layout{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+
+    }
+
+    .Profile-Section-Option-Lists-Subsection{
+        border-bottom: 1px solid black;
+
+    }
+
+    .Profile-Section-Option-Lists-Footersection{
+        border-top: 1px solid blueviolet;
 
     }
 }

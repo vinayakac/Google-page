@@ -21,33 +21,34 @@ export default function ProfilePage(){
                 </div>
             </div>
             <div className='Profile-Section-Body-Layout'>
-                <div className='{rofile-Section-Option-Lists'>
-                    <div>
+                <div className='Profile-Section-Option-Lists'>
+                    <div className="Profile-Section-Option-Lists-Subsection">
                         <ul>Email</ul>
                         <ul>somethingstupid@gmail.com</ul>
                     </div>
-                    <div>
+                    <div className="Profile-Section-Option-Lists-Subsection">
                         <ul>Phone number</ul>
                         <ul>+91 94838492832</ul>
                     </div>
-                    <div>
+                    <div className="Profile-Section-Option-Lists-Subsection">
                         <ul>Gender</ul>
                         <ul>Female</ul>
                     </div>
-                    <div>
+                    <div className="Profile-Section-Option-Lists-Subsection">
                         <ul>Dob</ul>
                         <ul>12 May 2004</ul>
                     </div>
-                    <div>
+                    <div className="Profile-Section-Option-Lists-Subsection">
                         <ul>Emergency Contact</ul>
                         <ul>Contact 1</ul>
                         <ul>Contact 2</ul>
                     </div>
-                    <div>
+                    
+                </div>
+                <div className="Profile-Section-Option-Lists-Footersection">
                         <ul>Members Since </ul>
                         <ul>1st May 2023</ul>
                     </div>
-                </div>
             </div>
 
 
