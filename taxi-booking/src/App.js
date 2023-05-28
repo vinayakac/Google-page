@@ -4,11 +4,13 @@
 import './App.css';
 import ProfilePage from './Components/Profilesection';
 import SettingPage from './Components/Settings';
+// import Apps from './Components/Sample';
 
 function App() {
   return (
     <div className="App">
       {/* <DashboardComponents/> */}
+      {/* <Apps/> */}
       <ProfilePage/>
       <SettingPage/>
     </div>
