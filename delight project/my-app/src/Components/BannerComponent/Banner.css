@@ -1,0 +1,126 @@
+/* .banner-container {
+    height: 602.45px;
+    width: 1536px;
+    background: #f1e9ea;
+
+}
+.banner,.banner-header {
+    height: 139px;
+    width: 616px;
+    background-color: aqua;
+    display: flex;
+    margin-left: 265px;
+    margin-right: 558px;
+    flex-direction: column;
+} */
+.banner-container {
+    /* background-image: url("./images/image.png"); */
+    height: 573px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: lavender; */
+    width: 1376px;
+    /* background-size: 100% 124%; */
+}
+/* img.banner-background {
+    height: 602.45px;
+    width: 1376px;
+} */
+.banner-text-container {
+    height: 139px;
+    /* background: antiquewhite; */
+    width: 616px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 48.45px;
+    margin-left: 251px;
+}
+span.banner-main-heading {
+    font-size: 40px;
+    margin-top: -2px;
+    font-weight: 500;
+}
+span.banner-heading {
+    color: #212325;
+    opacity: 0.8;
+    margin-top: 0px;
+    font-weight: 300;
+    font-size: 30px;
+}
+.banner-colored-text {
+    width: 284px;
+    margin-top: 8px;
+    height: 35px;
+    /* background: #ffcccc; */
+}
+span.find-text {
+    font-weight: 300;
+    color: #007FDB;
+    opacity: 0.8;
+    font-size: 30px;
+}
+span.tour {
+    font-weight: 300;
+    color: #FF334B;
+    font-size: 30px;
+}
+span.own {
+    font-weight: 300;
+    font-size: 30px;
+    color: #2EA32C;
+}
+.banner-searchbar {
+    height: 62px;
+    margin-top: 34px;
+    margin-left: 251px;
+    width: 863px;
+    display: flex;
+    flex-direction: row;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 11px rgba(27, 37, 64, 0.1);
+    border-radius: 4px;
+}
+.banner-searchbar-text {
+    height: 19px;
+    width: 298px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+span.banner-search-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(33, 35, 37, 0.7);
+}
+.banner-searchbar-button {
+    height: 43px;
+    margin-left: 416px;
+    width: 119px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 9px;
+    background: #212325;
+    border-radius: 4px;
+}
+img.search {
+    height: 16px;
+    margin-left: 19px;
+    margin-top: 13px;
+    width: 16px;
+}
+span.search-text {
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-left: 12px;
+    margin-top: 11px;
+}
+.banner-building-image {
+    height: 267px;
+    width: 1376px;
+    /* background: #ffc4e4; */
+    margin-top: 22px;
+}
+img.building-image {
+    height: 267px;
+    width: 1366px;
+}
