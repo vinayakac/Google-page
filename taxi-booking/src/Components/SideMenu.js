@@ -93,6 +93,14 @@ const SideMenu = () => {
       >
         {handleButtonClick ? <MenuOutlined />  : <MenuOutlined />}
       </Button>
+       <Button
+       className="SideMenu-Close-Button"
+       type="text"
+       onClick={handleButtonClick}
+       style={{ position: 'absolute', top: 10, right: 10, zIndex: 4 }}
+     >
+       Close
+     </Button>
       {collapsed ? null : (
         <Menu
           defaultSelectedKeys={['1']}
