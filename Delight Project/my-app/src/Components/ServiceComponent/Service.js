@@ -4,6 +4,9 @@ import './Service.css'
 import Slides_data from './Service.json'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+// import Slide1 from '../ServiceComponent/images/slide-image-1.png'
+// import Slide1 from '../ServiceComponent/images/slide-image-4.png'
+
 
 const Service = () => {
     const settings = {
@@ -11,36 +14,8 @@ const Service = () => {
         infinite: true,
         slidesToShow: 5,
         slidesToScroll: 5,
-        responsive: [
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: false,
-                },
-            },
-            {
-                breakpoint: 410,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: false,
-                },
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: false,
-                },
-            },
-        ],
-    };
+    }  
+    console.log(Slides_data) 
   return (
     <div className='delight-service-container'>
 
@@ -57,15 +32,40 @@ const Service = () => {
         </div>
 
         <div className='del-service-slider'>
-
         <Slider {...settings}>
+            
                 {Slides_data.map((slide) => (
                     <div key={slide.id}>
-                        <div className='s'></div>
+                         
+                            <div className='del-slider-cards'>
+                                <div className='slide-card-image'>
+                                 
+                                <img src={slide.image} alt="#" className='customer-slide-image'></img>
+
+                                {/* <div className='del-text'>
+                                <span className='slide-card-span-text'>{slide.title}</span>
+
+                                </div> */}
+                                </div>
+                               
+                                {/* <div className='slide-card-image'>
+                                
+                                <img src={Slide1} alt="#" className='customer-slide-image'></img>
+                                </div> */}
+
+                                {/* <div className='slide-card-text'>
+
+                                    
+                                        <span className='slide-card-span-text'>It really saves me time and effort. Chamer is exactly what our business has been lacking. business  business </span>
+                                        <span className='slide-card-span-text'>{slide.title}</span>
+
+                                    
+                                </div> */}
+                            </div>                       
+                        
                     </div>
                 ))}
             </Slider>
-
         </div>
         
 

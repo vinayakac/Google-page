@@ -4,16 +4,18 @@ import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Header from './Components/HeaderComponent/Header';
-// import Banner from './Components/BannerComponent/Banner';
-// import Service from './Components/ServiceComponent/Service';
+import Banner from './Components/BannerComponent/Banner';
+import Service from './Components/ServiceComponent/Service';
+import Ongoing from './Components/OngoingComponent/Ongoing';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
     <Header />
-    {/* <Banner /> */}
-    {/* <Service /> */}
+    <Banner />
+    <Service />
+    <Ongoing />
   </React.StrictMode>
 );
 

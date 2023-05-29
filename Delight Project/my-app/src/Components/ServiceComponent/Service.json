@@ -1,42 +1,53 @@
+
 [
     {
         "id": 1,
-        "image": ""
+        "image": "http://localhost:3000/static/media/slide-image-1.69309b5b349400b84e25.png",
+        "title": "Home Loan"
     },
     {
-        "id": 1,
-        "image": ""
+        "id": 2,
+        "image": "http://localhost:3000/static/media/slide-image-2.0b937f1256ec70f09e00.png",
+        "title": "Interiors"
     },
     {
-        "id": 1,
-        "image": ""
+        "id": 3,
+        "image": "http://localhost:3000/static/media/slide-image-3.430f3c8a25361671aa88.png",
+        "title": "Legal Advice"
     },
     {
-        "id": 1,
-        "image": ""
+        "id": 4,
+        "image": "http://localhost:3000/static/media/slide-image-4.c0408466a7e745133551.png",
+        "title": "Construction"
     },
     {
-        "id": 1,
-        "image": ""
+        "id": 5,
+        "image": "http://localhost:3000/static/media/slide-image-5.46bab8beb1625bf5564a.png",
+        "title": "Property Management"
     },
     {
-        "id": 1,
-        "image": ""
+        "id": 6,
+        "image": "http://localhost:3000/static/media/slide-image-1.69309b5b349400b84e25.png",
+        "title": "Home Loan"
     },
     {
-        "id": 1,
-        "image": ""
+        "id": 7,
+        "image": "http://localhost:3000/static/media/slide-image-2.0b937f1256ec70f09e00.png",
+        "title": "Interiors"
     },
     {
-        "id": 1,
-        "image": ""
+        "id": 8,
+        "image": "http://localhost:3000/static/media/slide-image-3.430f3c8a25361671aa88.png",
+        "title": "Legal Advice"
     },
     {
-        "id": 1,
-        "image": ""
+        "id": 9,
+        "image": "http://localhost:3000/static/media/slide-image-4.c0408466a7e745133551.png",
+        "title": "Construction"
     },
     {
-        "id": 1,
-        "image": ""
+        "id": 10,
+        "image": "http://localhost:3000/static/media/slide-image-5.46bab8beb1625bf5564a.png",
+        "title": "Property Management"
     }
 ]
