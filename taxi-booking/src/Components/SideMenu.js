@@ -73,13 +73,23 @@ const SideMenu = () => {
   };
 
   return (
-    <div style={{ width: 256 }}>
+    <div  style={{
+      position: 'absolute',
+      top: 0,
+      left: 0,
+      zIndex: 3,
+      width: 256 }}>
       <Button
         className="SideMenu-Hamburger-Button"
         type="primary"
         onClick={toggleCollapsed}
         style={{ marginBottom: 15, marginTop: 10,
-        marginLeft:-170 }}
+        marginLeft:-170 ,position: 'absolute',
+        top: 0,
+        left: 0,
+        zIndex: 3,
+        width: 256,}}
+    
       >
         {handleButtonClick ? <MenuOutlined />  : <MenuOutlined />}
       </Button>
