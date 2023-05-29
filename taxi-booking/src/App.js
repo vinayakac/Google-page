@@ -2,7 +2,7 @@
 // import NavBar from './Components/Navigation';
 import DashboardComponents from './Components/Dashboard';
 import './App.css';
-// import ProfilePage from './Components/Profilesection';
+import ProfilePage from './Components/Profilesection';
 // import SettingPage from './Components/Settings';
 // import Apps from './Components/Sample';
 
@@ -11,8 +11,8 @@ function App() {
     <div className="App">
       <DashboardComponents/>
       {/* <Apps/> */}
-      {/* <ProfilePage/>
-      <SettingPage/> */}
+      <ProfilePage/>
+      {/* <SettingPage/> */}
     </div>
   );
 }

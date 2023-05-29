@@ -1,4 +1,5 @@
 import { UserOutlined, ArrowLeftOutlined } from '@ant-design/icons';
+import { Avatar } from 'antd';
 import './Profilesection.css';
 
 
@@ -13,11 +14,11 @@ export default function ProfilePage(){
                 </div>
                 <div className='Profile-Section-Top-Layout-Subsection'>
                     <div className='Top-Layout-Subsection-UserName'>
-                        <p> User Name</p>
+                        <h2> User Name</h2>
                     </div>
                     <div className='Top-Layout-Subsection-UserImage'>
-                        <UserOutlined/>
-                    </div>
+                        <Avatar size="large" icon={<UserOutlined />} />
+                    </div> 
                 </div>
             </div>
             <div className='Profile-Section-Body-Layout'>

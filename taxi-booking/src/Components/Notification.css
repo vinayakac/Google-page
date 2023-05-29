@@ -1,10 +1,10 @@
 @media screen and (max-width: 480px) {
-    .Settings-Section{
+    .Notification-Section{
         background-color: peachpuff;
     }
 
 
-    .Settings-Section-Top-Layout{
+    .Notification-Section-Top-Layout{
         display: flex;
         flex-direction: column;
         align-content: flex-start;
@@ -12,11 +12,11 @@
         row-gap: 10px;
     }
 
-    .Settings-Section-Top-Layout-Exit{
+    .Notification-Section-Top-Layout-Exit{
         display: flex;
     }
 
-    .Settings-Section-Top-Layout-Subsection{
+    .Notification-Section-Top-Layout-Subsection{
         display: flex;
         justify-content: space-between;
         column-gap: 10px;

@@ -5,8 +5,10 @@
         justify-content: space-evenly;
         flex-wrap: wrap;
         margin-top: 10px;
+        position: fixed;
 
-    }    
+    }  
+      
 
     .Auto-Booking-Card-Dashboard .Auto-Booking-Button{
         font-family:  Verdana, sans-serif;

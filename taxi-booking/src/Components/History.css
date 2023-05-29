@@ -1,10 +1,10 @@
 @media screen and (max-width: 480px) {
-    .Settings-Section{
+    .History-Section{
         background-color: peachpuff;
     }
 
 
-    .Settings-Section-Top-Layout{
+    .History-Section-Top-Layout{
         display: flex;
         flex-direction: column;
         align-content: flex-start;
@@ -12,11 +12,11 @@
         row-gap: 10px;
     }
 
-    .Settings-Section-Top-Layout-Exit{
+    .History-Section-Top-Layout-Exit{
         display: flex;
     }
 
-    .Settings-Section-Top-Layout-Subsection{
+    .History-Section-Top-Layout-Subsection{
         display: flex;
         justify-content: space-between;
         column-gap: 10px;
