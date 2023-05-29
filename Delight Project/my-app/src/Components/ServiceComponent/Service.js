@@ -1,16 +1,16 @@
-import React from "react";
-import Slider from "react-slick";
+import React from 'react'
+import Slider from 'react-slick'
+import './Service.css'
+import Slides_data from './Service.json'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Slides_data from "./SlickCarousel.json";
-import './SlickCarousel.css'
 
-const SlickSlide = () => {
+const Service = () => {
     const settings = {
         dots: false,
         infinite: true,
-        slidesToShow: 4,
-        slidesToScroll: 4,
+        slidesToShow: 5,
+        slidesToScroll: 5,
         responsive: [
             {
                 breakpoint: 768,
@@ -41,24 +41,36 @@ const SlickSlide = () => {
             },
         ],
     };
+  return (
+    <div className='delight-service-container'>
 
-    return (
-        <div className="slider">
-            
-            <h2>Services</h2> 
-            <Slider {...settings}>
+        <div className='del-service-header'>
+
+            <div className='del-service-heading'>
+                <span className='del-heading-text'>Explore Our Services</span>
+            </div>
+
+            <div className='del-service-subheading'>
+                <span className='del-subheading-text'>Find our best services which are available to you</span>
+            </div>
+
+        </div>
+
+        <div className='del-service-slider'>
+
+        <Slider {...settings}>
                 {Slides_data.map((slide) => (
                     <div key={slide.id}>
-                        <div className='service_container'>
-                            <img src={slide.image} alt=" " />
-                            <span className="service-details-heading"> {slide.title}</span>
-                            <span className="service-details-subheading">{slide.description}</span>
-                        </div>
+                        <div className='s'></div>
                     </div>
                 ))}
             </Slider>
-        </div>
-    );
-};
 
-export default SlickSlide;
+        </div>
+        
+
+    </div>
+  )
+}
+
+export default Service

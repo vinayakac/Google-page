@@ -1,0 +1,206 @@
+@media only screen and (min-width: 1024px) and (max-width: 1950px) {
+.Header-container {
+    height: 84.55px;
+    width: 1376px;
+    display: flex;
+    flex-direction: row;
+    background: #FFFFFF;
+    box-shadow: 0px -2px 2px rgba(62, 83, 3, 0.3), 0px 1px 3px rgba(79, 107, 4, 0.2); 
+}
+.header-logo-container {
+    margin-top: 10px;
+    height: 69.55px;
+    margin-left: 66px;
+    margin-bottom: 10px;
+    width: 209.32px;
+}
+.header-link-container {
+    height: 39px;
+    width: 687.09px;
+    margin-top: 25.28px;
+    margin-bottom: 25.28px;
+    margin-left: 78px;
+    display: flex;
+    flex-direction: row;
+}
+.header-action-container {
+    width: 207.02px;
+    height: 37.5px;
+    margin-right: 70px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 26.03px;
+    margin-bottom: 26.03px;
+    margin-left: 57px;
+}
+img.header-logo {
+    height: 58.55px;
+    width: 196.32px;
+    margin-top: 3px;
+}
+.header-link-1 {
+    height: 39px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    width: 66px;
+}
+.header-link-2 {
+    height: 36px;
+    margin-left: 27px;
+    width: 65px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.header-link-3 {
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    width: 59px;
+    margin-left: 32px;
+}
+.header-link-4 {
+    height: 36px;
+    width: 77px;
+    margin-left: 29px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.header-link-5 {
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    width: 65px;
+    margin-left: 26px;
+}
+.header-link-6 {
+    height: 36px;
+    width: 68px;
+    margin-left: 33px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.header-link-7 {
+    margin-left: 25px;
+    height: 36px;
+    width: 83px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+span.link-contact {
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: -4px;
+    margin-left: -13    px;
+    color: #000000;
+}
+span.link-invest {
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: -4px;
+    margin-left: -8px;
+    color: #000000;
+}
+span.link-agent {
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: -4px;
+    margin-left: 1px;
+    color: #000000;
+}
+span.link-awards {
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: -5px;
+    margin-top: -4px;
+    color: #000000;
+}
+span.link-news {
+    font-weight: 400;
+    color: #000000;
+    margin-left: -1px;
+    font-size: 14px;
+    margin-top: -4px;
+}
+span.link-about {
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: -4px;
+}
+span.link-home {
+    font-weight: 700;
+    color: #6E9500;
+    font-size: 15px;
+    margin-top: -4px;
+}
+.header-action-1 {
+    height: 37.1px;
+    width: 38px;
+    margin-left: 2px;
+}
+.header-action-2 {
+    height: 37.5px;
+    margin-left: 15px;
+    width: 43px;
+}
+.header-action-3 {
+    height: 37px;
+    margin-left: 16px;
+    width: 37px;
+}
+.header-action-4 {
+    height: 36px;
+    width: 51px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+    flex-wrap: wrap;
+}
+img.cart-image {
+    height: 35px;
+    width: 36px;
+    margin-top: -1px;
+}
+img.fav-image {
+    height: 35.5px;
+    width: 41px;
+    margin-top: -1px;
+    margin-left: 1px;
+}
+img.contact-image {
+    height: 36px;
+    width: 35px;
+    margin-top: -1px;
+    margin-left: 1px;
+}
+span.login {
+    margin-right: 3px;
+    color: #212325;
+    margin-top: -4px;
+    font-weight: 500;
+    line-height: 16px;
+    font-size: 14px;
+}}
