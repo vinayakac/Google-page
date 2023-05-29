@@ -1,0 +1,118 @@
+.featured-container{
+    height: 850px;
+    width: 1536px;
+    background-color: #FFFFFF;
+}
+.featured-header {
+    height: 110px;
+    width: 1536px;
+    align-items: center;
+    margin-top: 80px;
+    flex-direction: column;
+    display: flex;
+    /* background: aliceblue; */
+}
+.featured-heading {
+    height: 67px;
+    width: 1536px;
+    /* background: antiquewhite; */
+}
+.featured-subheading {
+    height: 41px;
+    width: 1440px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+span.featured-subheading-text {
+    font-size: 18px;
+    margin-top: 2px;
+    font-weight: 400;
+}
+span.featured-heading-text {
+    font-size: 40px;
+    font-weight: 500;
+    display: flex;
+    margin-top: 3px;
+    justify-content: center;
+}
+.featured-image-container {
+    height: 524px;
+    margin-left: 30.5px;
+    width: 1472px;
+    /* background-color: cadetblue; */
+    margin-top: 56px;
+}
+.featured-row-section-1{
+    height: 256px;
+    width: 1472px;
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: row;
+}
+.featured-row-section-2 {
+    height: 256px;
+    width: 1472px;
+    margin-top: 12px;
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: row;
+}
+.featured-column-1 {
+    height: 256px;
+    width: 484px;
+    /* background: lavender; */
+}
+.featured-column-2 {
+    height: 256px;
+    width: 484px;
+    margin-left: 10px;
+    /* background: lavender; */
+}
+.featured-column-3 {
+    height: 256px;
+    width: 484px;
+    margin-left: 10px;
+    /* background: lavender; */
+}
+.featured-column-4 {
+    height: 256px;
+    width: 484px;
+    /* background: lavender; */
+}
+.featured-column-5 {
+    height: 256px;
+    width: 484px;
+    margin-left: 10px;
+    /* background: lavender; */
+}
+.featured-column-6 {
+    height: 256px;
+    width: 484px;
+    margin-left: 10px;
+    /* background: lavender; */
+}
+img.featured-image-1 {
+    height: 256px;
+    width: 484px;
+}
+img.featured-image-2 {
+    height: 256px;
+    width: 484px;
+}
+img.featured-image-3 {
+    height: 256px;
+    width: 484px;
+}
+img.featured-image-4 {
+    height: 256px;
+    width: 484px;
+}
+img.featured-image-5 {
+    height: 256px;
+    width: 484px;
+}
+img.featured-image-6 {
+    height: 256px;
+    width: 484px;
+}

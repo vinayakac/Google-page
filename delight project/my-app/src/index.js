@@ -3,14 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Banner from './Components/BannerComponent/Banner';
+// import Banner from './Components/BannerComponent/Banner';
+import Featured from './Components/FeaturedComponent/Featured';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <Banner />
+    {/* <Banner /> */}
+    <Featured />
   </React.StrictMode>
 );
 
