@@ -45,6 +45,10 @@
 
     }
 
+    .Emergency-Contact{
+        display: flex;
+    }
+
     .Top-Layout-Subsection-UserName {
         margin-left: 20px;
         color: #f5f5f5;
@@ -69,5 +73,13 @@
     .ul .Option-Buttonss-Heading{
         font-size: 20px;
         font-weight: 400;
+    }
+
+    .Profile-Section-Option-Lists-Subsection{
+        text-align: left;
+    }
+
+    .Profile-Section-Option-Lists-Footersection{
+        height: min-content;
     }
 }

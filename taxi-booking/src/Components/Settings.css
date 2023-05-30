@@ -36,11 +36,13 @@
     .Setting-Section-Option-Lists{
         display: flex;
         flex-direction: column;
+        text-align: start;
     }
 
     .Option-Buttons{
         border-radius: 0px;
         height: max-content;
+        text-align: left;
     }
 
     .ul .Option-Buttonss-Heading{
