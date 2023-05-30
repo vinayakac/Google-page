@@ -1,0 +1,24 @@
+
+@media screen and (max-width:425px) {
+    
+
+.Radio {
+   
+    width: 203px;
+    margin-left: 41px;
+    height: 77px;
+    margin-top: -190px;
+}
+.R-text {
+    font-size: 16px;
+    /* border: 2px solid green; */
+    margin-top: 14px;
+    
+}
+.R-radio {
+    margin-top: 21px;
+    margin-left: -30px;
+}
+
+
+}

@@ -1,0 +1,11 @@
+@media screen and (max-width:425px) {
+button.ant-btn.css-dev-only-do-not-override-w8mnev.ant-btn-primary.ant-btn-lg {
+    margin-top: -41px;
+    width: 123px;
+    /* margin-left: 44px; */
+    margin-left: 2px;
+}
+
+.ant-space.css-dev-only-do-not-override-w8mnev.ant-space-vertical {
+    margin-top: -21px;
+}}
