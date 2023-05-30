@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "image": "http://localhost:3000/static/media/location-image-1.520585de6f87b755135a.png"
+    },
+    {
+        "id": 2,
+        "image": "http://localhost:3000/static/media/location-image-2.3ad9b974ced8c63dd7d4.png"
+    },
+    {
+        "id": 3,
+        "image": "http://localhost:3000/static/media/location-image-3.54b7b79176c9d74c05a0.png"
+    },
+    {
+        "id": 4,
+        "image": "http://localhost:3000/static/media/location-image-1.520585de6f87b755135a.png"
+    },
+    {
+        "id": 5,
+        "image": "http://localhost:3000/static/media/location-image-2.3ad9b974ced8c63dd7d4.png"
+    },
+    {
+        "id": 6,
+        "image": "http://localhost:3000/static/media/location-image-3.54b7b79176c9d74c05a0.png"
+    }
+]

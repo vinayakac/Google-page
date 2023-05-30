@@ -4,8 +4,7 @@ import './Service.css'
 import Slides_data from './Service.json'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-// import Slide1 from '../ServiceComponent/images/slide-image-1.png'
-// import Slide1 from '../ServiceComponent/images/slide-image-4.png'
+// import Slide1 from '../ServiceComponent/images/slide-image-5.png'
 
 
 const Service = () => {
@@ -41,6 +40,7 @@ const Service = () => {
                                 <div className='slide-card-image'>
                                  
                                 <img src={slide.image} alt="#" className='customer-slide-image'></img>
+                                {/* <img src={Slide1} alt="#" className='customer-slide-image'></img> */}
 
                                 {/* <div className='del-text'>
                                 <span className='slide-card-span-text'>{slide.title}</span>
