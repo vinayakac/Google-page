@@ -1,6 +1,6 @@
 @media screen and (max-width: 480px) {
     body {
-      background-color: lightgreen;
+      background-color: #f5f5f5;
     }
 
     .Navigation{
@@ -17,7 +17,7 @@
        }
        
        .Navigation-profile-button{
-           background-color: #FF5722;
+           /* background-color: #FF5722; */
            color: aliceblue;
        }
 
@@ -46,18 +46,21 @@
 
  display: flex;
 column-gap: 50px;
+justify-content: space-around;
+background-color: #050505;
 
 }
 
 .Navigtion-side-menu{
-    background-color: cornflowerblue;
+    /* background-color: cornflowerblue; */
     color: beige
     ;
 }
 
 .Navigation-profile-button{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     color: aliceblue;
+    float: right;
 }
 
 /* .Side_Menu-button{

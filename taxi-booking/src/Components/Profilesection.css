@@ -13,6 +13,7 @@
         flex-wrap: wrap;
         row-gap: 10px;
         width: 100%;
+        background-color: #0f0f0f;
     }
 
     .Profile-Section-Top-Layout-Exit{
@@ -34,10 +35,10 @@
 
     }
 
-    .Profile-Section-Option-Lists-Subsection{
+    /* .Profile-Section-Option-Lists-Subsection{
         border-bottom: 1px solid grey;
         border-radius: 1px;
-    }
+    } */
 
     .Profile-Section-Option-Lists-Footersection{
         border-top: 1px solid blueviolet;
@@ -45,7 +46,28 @@
     }
 
     .Top-Layout-Subsection-UserName {
-        margin-left: 10px;
+        margin-left: 20px;
+        color: #f5f5f5;
+        font-family: 'Roboto';
         
+    }
+
+    .Top-Layout-Subsection-UserImage {
+        margin-right: 31px;
+    }
+
+    .Profile-Section-Option-Lists{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Option-Buttons{
+        border-radius: 0px;
+        height: max-content;
+    }
+
+    .ul .Option-Buttonss-Heading{
+        font-size: 20px;
+        font-weight: 400;
     }
 }
