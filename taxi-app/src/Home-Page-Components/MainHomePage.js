@@ -1,18 +1,18 @@
 import './App.css';
-// import logo from './logo.svg';
-// import NavBar from './Components/Navigation';
-// import DashboardComponents from './Components/Dashboard';
+
+// import NavBar from './Navigation';
+// import DashboardComponents from './Dashboard';
 // import SideMenu from './Cide';
 import React from 'react';
 // import { BrowserRouter as Router } from 'react-router-dom';
-// import Routes from './Components/Routes';
-// import SideMenu from './Components/SideMenu1';
-// import NotificationSection from './Components/Notification';
+// import Routes from './Routes';
+// import SideMenu from './SideMenu1';
+// import NotificationSection from './Notification';
 
-import ProfilePage from './Components/Profilesection';
+import ProfilePage from './Profilesection';
 
-import SettingPage from './Components/Settings';
-// import Apps from './Components/Sample';
+import SettingPage from './Settings';
+// import Apps from './Sample';
 
 function App() {
   return (
