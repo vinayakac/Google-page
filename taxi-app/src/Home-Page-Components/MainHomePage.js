@@ -11,10 +11,10 @@ import React from 'react';
 
 import ProfilePage from './Profilesection';
 
-import SettingPage from './Settings';
+// import SettingPage from './Settings';
 // import Apps from './Sample';
 
-function App() {
+function HomePage() {
   return (
     <div className="App">
       {/* <NotificationSection/> */}
@@ -27,10 +27,10 @@ function App() {
       {/* <Apps/> */}
       <ProfilePage/>
     
-      <SettingPage/>
+      {/* <SettingPage/> */}
 
     </div>
   );
 }
 
-export default App;
+export default HomePage;
