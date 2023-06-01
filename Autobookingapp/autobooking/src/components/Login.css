@@ -1,0 +1,145 @@
+/* @media screen and (max-width:425px) { */
+    
+    * {
+        margin: 0;
+        box-sizing: border-box;
+
+    }
+
+    .cover {
+        margin-top: 100px;
+        margin-left: 500px;
+        height: 500px;
+        width: 425px;
+        background-color: rgb(255, 255, 255);
+        position: relative;
+        display: flex;
+        border-radius: 1px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        box-shadow: 0 0.188em 1.550em rgb(156, 156, 156);
+
+    }
+
+.cover .signup .sign {
+    background-color: rgb(5, 118, 238);
+    height: 35px;
+    width: 70px;
+    border-radius: 5px;
+    border-color: rgb(5, 118, 238);
+    color: aliceblue;
+    margin-left: 200px;
+    margin-top: 50px;
+
+    }
+
+    .cover .email {
+        color: aliceblue;
+    }
+
+    .cover .email .mail {
+        background-color: rgb(196, 196, 196);
+        height: 30px;
+        width: 250px;
+        border-color: rgb(174, 173, 173);
+        background-color: rgb(179, 179, 179);
+        border-radius: 5px;
+    }
+
+    .email ::placeholder {
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+
+    .cover .phone {
+        display: flex;
+    }
+
+    .cover .phone .phone1 {
+        background-color: rgb(196, 196, 196);
+        height: 30px;
+        width: 250px;
+        border-color: rgb(174, 173, 173);
+        background-color: rgb(179, 179, 179);
+        border-radius: 5px;
+    }
+
+    .phone ::placeholder {
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+
+    .cover .password {
+        display: flex;
+    }
+
+    .cover .password .password1 {
+        background-color: rgb(196, 196, 196);
+        height: 30px;
+        width: 250px;
+        border-color: rgb(174, 173, 173);
+        background-color: rgb(179, 179, 179);
+        border-radius: 5px;
+    }
+
+    .password ::placeholder {
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+
+    .cover .forgot {
+        display: flex;
+    }
+
+    .cover .forgot .forgot1 {
+        background-color: rgb(196, 196, 196);
+        height: 30px;
+        width: 250px;
+        border-color: rgb(174, 173, 173);
+        background-color: rgb(179, 179, 179);
+        border-radius: 5px;
+    }
+
+    .forgot ::placeholder {
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+
+
+    .hide {
+        position: absolute;
+        transform: scale(0);
+    }
+
+    .cover .signup {
+        margin-top: -30px;
+    }
+
+    .Login-popup {
+        position: absolute;
+        height: 60px;
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.25px;
+        background-color: black;
+        color: aliceblue;
+        bottom: 0;
+        transform: scale(1);
+        transform: 1.5s;
+    }
+
+    .log .log1 {
+        background-color: rgb(5, 118, 238);
+        height: 35px;
+        width: 70px;
+        border-radius: 5px;
+        border-color: rgb(5, 118, 238);
+        color: aliceblue;
+
+    }
+
+/* } */
