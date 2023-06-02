@@ -11,9 +11,9 @@
       
 
     .Auto-Booking-Card-Dashboard .Auto-Booking-Button{
-        font-family:  Verdana, sans-serif;
+        font-family:  'Roboto';
         text-decoration: none;
-        color: peachpuff;
+        color: #373d3f;
         font-weight: 700;
     }
 
@@ -22,13 +22,13 @@
     {
         font-family: 'Roboto';
         text-decoration: none;
-        color: black;
+        color: #373d3f;
         font-weight: 700;
     }
     .ant-card {
             /* padding: 24px;
             border-radius: 0 0 8px 8px; */
-            background-color: #303F9F;
+            background-color: #C1C7C9;
     }
 
 }

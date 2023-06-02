@@ -4,7 +4,9 @@ import Modals from './Modaltest';
 import ModalMail from './ModalMail';
 import ModalNumber from './ModalNumber';
 import CalenderFunction from './ModalCalender';
+import { Link } from 'react-router-dom';
 import './Profilesection.css';
+import './logo.svg';
 
 
 
@@ -13,9 +15,9 @@ export default function ProfilePage(){
         <>
         <div className="Profile-Section">
             <div className="Profile-Section-Top-Layout">
-                <div className='Profile-Section-Top-Layout-Exit'>
-                    <ArrowLeftOutlined style={{fontSize: '44px', color: '#ffffff'}}/>
-                </div>
+            <Link to="/"><div className='Profile-Section-Top-Layout-Exit'>
+                    <a href="./logo.svg"><ArrowLeftOutlined style={{fontSize: '44px', color: '#ffffff'}}/></a>
+                </div></Link>
                 <div className='Profile-Section-Top-Layout-Subsection'>
                     <div className='Top-Layout-Subsection-UserName'>
                         <h2> Radha</h2>

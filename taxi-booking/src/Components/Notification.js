@@ -1,5 +1,6 @@
 import { Button } from "antd";
 import {  ArrowLeftOutlined, } from '@ant-design/icons';
+import { Link } from "react-router-dom";
 // import NavBar from "./Navigation";
 import './Notification.css';
 
@@ -10,9 +11,9 @@ export default function NotificationSection(){
         {/* <NavBar/> */}
             <div className="Notification-Section">
             <div className="Notification-Section-Top-Layout">
-                <div className='Notification-Section-Top-Layout-Exit'>
+            <Link to="/"><div className='Notification-Section-Top-Layout-Exit'>
                     <ArrowLeftOutlined style={{fontSize: '44px', color: '#ffffff'}}/>
-                </div>
+                </div></Link>
                 <div className='Notification-Section-Top-Layout-Subsection'>
                     <div className='Notification-Top-Layout-Subsection-Title'>
                         <h2>Notification</h2>

@@ -1,4 +1,5 @@
 import { Card, Space} from "antd";
+import { Link } from "react-router-dom";
 
 import NavBar from "./Navigation";
 import "./Dashboard.css";
@@ -9,6 +10,7 @@ export function MainComponent(){
     return(
         <>
         <div className="Main-Component-CardSet">
+            <Link to="/">
             <div className="CardSet-1">
                 <Space direction="vertical" size={16}>
                     <Card 
@@ -20,7 +22,8 @@ export function MainComponent(){
                     
                     <a className="Auto-Booking-Button" href="/">Auto Booking</a></Card>
                     </Space>
-            </div>
+            </div></Link>
+            <Link to="/">
             <div className="CardSet-2">
                 <Space direction="vertical" size={16}>
                     <Card 
@@ -32,7 +35,7 @@ export function MainComponent(){
                         <a className="Autostand-Button" href="/">Autostands Near Me</a></Card>
                     </Space>
            
-           </div>
+           </div></Link>
         </div>
         
         </>
@@ -43,8 +46,10 @@ export function MainComponent(){
 export default function DashboardComponents(){
     return(
         <>
+        <div className="Homie">
         <NavBar/>
         <MainComponent/>
+        </div>
 
         </>
     );

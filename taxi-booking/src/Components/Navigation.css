@@ -16,10 +16,7 @@
            ;
        }
        
-       .Navigation-profile-button{
-           /* background-color: #FF5722; */
-           color: aliceblue;
-       }
+    
 
        .ant-col.ant-col-8.ant-col-offset-8.Navigation-profile-button.css-dev-only-do-not-override-w8mnev {
         display: flex;
@@ -48,7 +45,14 @@
 column-gap: 50px;
 justify-content: space-around;
 background-color: #050505;
+height: 50px;
 
+}
+
+.Profile-Button{
+    background-color: #050505;
+    border-color: #050505;
+    
 }
 
 .Navigtion-side-menu{
@@ -59,7 +63,7 @@ background-color: #050505;
 
 .Navigation-profile-button{
     /* background-color: blueviolet; */
-    color: aliceblue;
+    /* color: aliceblue; */
     float: right;
 }
 
