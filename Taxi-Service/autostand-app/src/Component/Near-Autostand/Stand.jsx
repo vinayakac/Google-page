@@ -1,4 +1,7 @@
-import {  Table  } from 'antd';
+import { Table } from 'antd';
+import { Link } from 'react-router-dom'
+import { ArrowLeftOutlined } from '@ant-design/icons';
+
 const columns = [
   {
     title: 'SL.No',
@@ -12,9 +15,9 @@ const columns = [
     key: 'autostandname',
   },
   {
-    title: ' Near Address',
-    dataIndex: 'nearaddress',
-    key: 'nearaddress',
+    title: ' Near By Address',
+    dataIndex: 'nearbyaddress',
+    key: 'nearbyaddress',
   },
   // {
   //   title: 'Tags',
@@ -48,13 +51,13 @@ const columns = [
   // },
 ];
 const data = [
-  // {
-  //   key: '1',
-  //   slno: 'John Brown',
-  //   autostandname: 32,
-  //   nearaddress: 'New York No. 1 Lake Park',
-  //   // tags: ['nice', 'developer'],
-  // },
+  {
+    key: '1',
+    slno: '1',
+    autostandname: 'bargi auto stand',
+    nearbyaddress: 'near bargi bus stop',
+    // tags: ['nice', 'developer'],
+  },
   // {
   //   key: '2',
   //   slno: 'Jim Green',
@@ -70,5 +73,20 @@ const data = [
   //   // tags: ['cool', 'teacher'],
   // },
 ];
-const App = () => <Table columns={columns} dataSource={data} />;
-export default App;
+function AutostandTable() {
+  return (
+    <>
+      <div>
+        <Link to="/autostand"><div className='Notification-Section-Top-Layout-Exit'>
+          <ArrowLeftOutlined style={{ fontSize: '25px', color: 'black' , marginRight: '299px'}} />
+        </div></Link>
+        {/* <div className='Notification-Section-Top-Layout-Subsection'>
+          <div className='Notification-Top-Layout-Subsection-Title'>
+            <h2>Notification</h2>
+          </div>
+        </div> */}
+
+        <Table columns={columns} dataSource={data} /></div></>
+  );
+}
+export default AutostandTable;

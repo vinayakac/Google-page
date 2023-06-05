@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 // import { FaUserCircle } from 'react-icons/fa';
 import { FaBars } from 'react-icons/fa';
-import "../Component/Nav.css"
+import "../Near-Autostand/Nav.css"
+import {Link} from "react-router-dom";
 
 const Navbar = () => {
     const [isMenuOpen, setMenuOpen] = useState(false);
@@ -41,7 +42,7 @@ const Navbar = () => {
                         value={searchQuery}
                         onChange={handleSearchChange}
                     />
-                    <button type="submit">Search</button>
+                    <Link to='/autostand/table'> <button type="submit">Search</button></Link>
                 </form>
             {/* </div> */}
             {/* <div className="right-section">
