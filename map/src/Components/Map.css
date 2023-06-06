@@ -1,0 +1,89 @@
+
+@media screen and (max-width:425px) {
+  
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  width: 72%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-left: 22px;
+}
+
+.map-container {
+  margin-bottom: 20px;
+}
+
+.book-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.book-button:hover {
+  background-color: #0056b3;
+}
+
+div {
+  margin-top: 24px;
+}
+
+.New {
+  height: 47px;
+  margin-top: 51px;
+  width: 347px;
+  margin-left: 64px;
+}
+
+.ant-picker.css-dev-only-do-not-override-k7429z {
+  height: 36px;
+  margin-top: 24px;
+  margin-right: 12px;
+  border: 1px solid #ccc;
+}
+
+.ant-space-item {
+  margin-top: -47px;
+}
+
+.ant-picker-input {
+  margin-top: 0px;
+}
+
+.ant-space.css-dev-only-do-not-override-k7429z.ant-space-horizontal.ant-space-align-center {
+  margin-left: -22px;
+}
+
+button {
+  height: 31px;
+  width: 98px;
+  margin-top: 11px;
+}}
